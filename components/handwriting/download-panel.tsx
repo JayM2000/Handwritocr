@@ -10,7 +10,7 @@ import { Download, FileImage, FileText, Check } from "lucide-react";
 type ExportFormat = "pdf" | "png";
 
 function DownloadPanelInner() {
-  const { content, paperStyle, fontSize, lineSpacing } = useAppSelector(
+  const { content, paperStyle, penType, fontSize, lineSpacing } = useAppSelector(
     (state) => state.text
   );
   const { generationStatus, downloadUrl } = useAppSelector(
@@ -298,7 +298,11 @@ function DownloadPanelInner() {
       <GlassCard hoverable={false} padding="sm">
         <div className="flex items-center justify-between text-xs">
           <span className="text-white/40">Paper</span>
-          <span className="text-white/70 capitalize">{paperStyle}</span>
+          <span className="text-white/70 capitalize">{paperStyle.replace("_", " ")}</span>
+        </div>
+        <div className="flex items-center justify-between text-xs mt-2">
+          <span className="text-white/40">Pen Type</span>
+          <span className="text-white/70 capitalize">{penType.replace("_", " ")}</span>
         </div>
         <div className="flex items-center justify-between text-xs mt-2">
           <span className="text-white/40">Font Size</span>

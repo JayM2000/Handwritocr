@@ -19,6 +19,7 @@ interface GeneratePayload {
   sessionId: string;
   text: string;
   paperStyle: string;
+  penType: string;
   fontSize: number;
   lineSpacing: number;
 }
@@ -36,6 +37,7 @@ export const generateHandwriting = createAsyncThunk(
           session_id: payload.sessionId,
           text: payload.text,
           paper_style: payload.paperStyle,
+          pen_type: payload.penType,
           font_size: payload.fontSize,
           line_spacing: payload.lineSpacing,
           export_format: "pdf",

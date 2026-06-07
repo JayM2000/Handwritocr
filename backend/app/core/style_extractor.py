@@ -27,6 +27,8 @@ from .image_utils import (
     compute_stroke_width,
     compute_slant_angle,
     resize_char_to_height,
+    score_image_quality,
+    augment_glyph,
 )
 
 logger = logging.getLogger(__name__)
@@ -82,6 +84,17 @@ class StyleProfile:
         data = json.loads(path.read_text())
         return cls(**data)
 
+    @property
+    def consistency_score(self) -> float:
+        """How consistent the user's writing is (0–1, higher = more consistent)."""
+        if self.avg_char_height < 1:
+            return 0.5
+        h_cv = self.char_height_std / max(self.avg_char_height, 1)
+        w_cv = self.char_width_std / max(self.avg_char_width, 1)
+        s_cv = self.slant_angle_std / max(abs(self.avg_slant_angle) + 1, 1)
+        avg_cv = (h_cv + w_cv + s_cv) / 3
+        return max(0.0, min(1.0, 1.0 - avg_cv))
+
 
 # ─── Style Extractor ───────────────────────────────────
 class StyleExtractor:
@@ -117,6 +130,17 @@ class StyleExtractor:
         total_lines = 0
 
         for sample_path in sample_paths:
+            # Quality check — skip poor samples
+            quality = score_image_quality(sample_path)
+            if not quality["usable"]:
+                logger.warning(
+                    f"Skipping low-quality sample {sample_path}: {quality['feedback']}"
+                )
+                continue
+            logger.info(
+                f"Sample {sample_path}: quality={quality['overall']:.2f} — {quality['feedback']}"
+            )
+
             try:
                 binary = load_and_preprocess(sample_path)
                 binary, _skew = correct_skew(binary)
@@ -155,11 +179,18 @@ class StyleExtractor:
                     all_char_heights.append(float(h))
                     all_char_widths.append(float(w))
 
-                    # Save glyph
+                    # Save original glyph
                     resized = resize_char_to_height(char_img, self.target_char_height)
                     glyph_path = glyph_dir / f"glyph_{glyph_index:04d}.png"
                     cv2.imwrite(str(glyph_path), resized)
                     glyph_index += 1
+
+                    # Few-shot augmentation: create variants for richer library
+                    augmented = augment_glyph(resized, num_variants=4)
+                    for aug_img in augmented:
+                        aug_path = glyph_dir / f"glyph_{glyph_index:04d}.png"
+                        cv2.imwrite(str(aug_path), aug_img)
+                        glyph_index += 1
 
                     # Estimate spacing (crude: based on width gaps in contours)
                     if i > 0:

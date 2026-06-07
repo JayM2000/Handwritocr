@@ -99,12 +99,221 @@ def _draw_blank_paper(
     c.rect(0, 0, width, height, fill=True, stroke=False)
 
 
+def _draw_dotted_paper(
+    c: rl_canvas.Canvas,
+    width: float,
+    height: float,
+    dot_spacing_mm: float = 5.0,
+) -> None:
+    """Draw dot grid paper (dots at grid intersections)."""
+    c.setFillColor(PAPER_BG)
+    c.rect(0, 0, width, height, fill=True, stroke=False)
+
+    dot_color = Color(0.75, 0.78, 0.82, 0.6)
+    c.setFillColor(dot_color)
+    spacing = dot_spacing_mm * mm
+    margin = 15 * mm
+    dot_radius = 0.4 * mm
+
+    y = margin
+    while y < height - margin:
+        x = margin
+        while x < width - margin:
+            c.circle(x, y, dot_radius, fill=True, stroke=False)
+            x += spacing
+        y += spacing
+
+
+def _draw_cornell_paper(
+    c: rl_canvas.Canvas,
+    width: float,
+    height: float,
+) -> None:
+    """Draw Cornell note-taking style paper (cue column + summary row)."""
+    c.setFillColor(PAPER_BG)
+    c.rect(0, 0, width, height, fill=True, stroke=False)
+
+    # Cue column divider (left, ~62mm from left edge)
+    cue_x = 62 * mm
+    c.setStrokeColor(Color(0.85, 0.55, 0.55, 0.5))
+    c.setLineWidth(0.6)
+    c.line(cue_x, 20 * mm, cue_x, height - 15 * mm)
+
+    # Summary area divider (bottom, ~50mm from bottom)
+    summary_y = 50 * mm
+    c.line(15 * mm, summary_y, width - 15 * mm, summary_y)
+
+    # Horizontal ruled lines in the notes area
+    c.setStrokeColor(LINE_COLOR)
+    c.setLineWidth(0.25)
+    line_spacing = 7.5 * mm
+    y = height - 25 * mm
+    while y > summary_y + 5 * mm:
+        c.line(cue_x + 3 * mm, y, width - 15 * mm, y)
+        y -= line_spacing
+
+    # Lighter lines in cue column
+    c.setStrokeColor(Color(0.88, 0.90, 0.92, 0.3))
+    y = height - 25 * mm
+    while y > summary_y + 5 * mm:
+        c.line(15 * mm, y, cue_x - 3 * mm, y)
+        y -= line_spacing * 2  # Wider spacing in cue column
+
+    # Labels (very faint)
+    c.setFillColor(Color(0.8, 0.8, 0.8, 0.3))
+    c.setFont("Helvetica", 6)
+    c.drawString(20 * mm, height - 12 * mm, "Cue Column")
+    c.drawString(cue_x + 5 * mm, height - 12 * mm, "Notes")
+    c.drawString(20 * mm, summary_y - 8 * mm + 50 * mm, "Summary")
+
+
+def _draw_margin_ruled_paper(
+    c: rl_canvas.Canvas,
+    width: float,
+    height: float,
+    line_spacing_mm: float = 9.0,
+) -> None:
+    """Draw wide ruled paper with double margin lines."""
+    c.setFillColor(PAPER_BG)
+    c.rect(0, 0, width, height, fill=True, stroke=False)
+
+    # Horizontal ruled lines (wider spacing than standard)
+    c.setStrokeColor(Color(0.80, 0.83, 0.88, 0.45))
+    c.setLineWidth(0.25)
+    spacing = line_spacing_mm * mm
+    top_margin = height - 30 * mm
+    bottom_margin = 20 * mm
+
+    y = top_margin
+    while y > bottom_margin:
+        c.line(32 * mm, y, width - 15 * mm, y)
+        y -= spacing
+
+    # Double margin lines (red)
+    c.setStrokeColor(MARGIN_LINE_COLOR)
+    c.setLineWidth(0.4)
+    margin_x1 = 27 * mm
+    margin_x2 = 29 * mm
+    c.line(margin_x1, height - 10 * mm, margin_x1, 10 * mm)
+    c.line(margin_x2, height - 10 * mm, margin_x2, 10 * mm)
+
+    # Header line
+    c.setStrokeColor(Color(0.75, 0.78, 0.82, 0.5))
+    c.setLineWidth(0.5)
+    c.line(15 * mm, height - 25 * mm, width - 15 * mm, height - 25 * mm)
+
+
+def _draw_engineering_paper(
+    c: rl_canvas.Canvas,
+    width: float,
+    height: float,
+    grid_spacing_mm: float = 5.0,
+) -> None:
+    """Draw engineering pad style paper (green-tint with 5×5 grid)."""
+    # Light green-tinted background
+    eng_bg = Color(0.96, 0.99, 0.96)
+    c.setFillColor(eng_bg)
+    c.rect(0, 0, width, height, fill=True, stroke=False)
+
+    margin = 15 * mm
+    spacing = grid_spacing_mm * mm
+
+    # Minor grid lines (every 1 unit)
+    c.setStrokeColor(Color(0.78, 0.90, 0.80, 0.3))
+    c.setLineWidth(0.15)
+
+    y = margin
+    while y < height - margin:
+        c.line(margin, y, width - margin, y)
+        y += spacing
+
+    x = margin
+    while x < width - margin:
+        c.line(x, margin, x, height - margin)
+        x += spacing
+
+    # Major grid lines (every 5 units)
+    c.setStrokeColor(Color(0.55, 0.78, 0.60, 0.5))
+    c.setLineWidth(0.35)
+    major_spacing = spacing * 5
+
+    y = margin
+    while y < height - margin:
+        c.line(margin, y, width - margin, y)
+        y += major_spacing
+
+    x = margin
+    while x < width - margin:
+        c.line(x, margin, x, height - margin)
+        x += major_spacing
+
+
+def _draw_vintage_paper(
+    c: rl_canvas.Canvas,
+    width: float,
+    height: float,
+) -> None:
+    """Draw aged/yellowed vintage paper with subtle stain effects."""
+    import random as _rng
+
+    # Warm aged paper background
+    vintage_bg = Color(0.97, 0.94, 0.87)
+    c.setFillColor(vintage_bg)
+    c.rect(0, 0, width, height, fill=True, stroke=False)
+
+    # Subtle edge darkening (vignette effect)
+    vignette = Color(0.85, 0.80, 0.70, 0.15)
+    c.setFillColor(vignette)
+    # Top strip
+    c.rect(0, height - 12 * mm, width, 12 * mm, fill=True, stroke=False)
+    # Bottom strip
+    c.rect(0, 0, width, 12 * mm, fill=True, stroke=False)
+    # Left strip
+    c.rect(0, 0, 8 * mm, height, fill=True, stroke=False)
+    # Right strip
+    c.rect(width - 8 * mm, 0, 8 * mm, height, fill=True, stroke=False)
+
+    # Subtle coffee-stain-like circles (2–4 random spots)
+    _rng.seed(42)  # Deterministic for consistency
+    for _ in range(3):
+        cx = _rng.uniform(30, float(width / mm) - 30) * mm
+        cy = _rng.uniform(30, float(height / mm) - 30) * mm
+        r = _rng.uniform(12, 28) * mm
+        stain_color = Color(
+            0.88 + _rng.uniform(-0.03, 0.03),
+            0.82 + _rng.uniform(-0.03, 0.03),
+            0.72 + _rng.uniform(-0.03, 0.03),
+            _rng.uniform(0.04, 0.10),
+        )
+        c.setFillColor(stain_color)
+        c.setStrokeColor(stain_color)
+        c.setLineWidth(0)
+        c.circle(cx, cy, r, fill=True, stroke=False)
+
+    # Faint ruled lines (as if faded with age)
+    c.setStrokeColor(Color(0.80, 0.75, 0.65, 0.25))
+    c.setLineWidth(0.2)
+    spacing = 8 * mm
+    y = height - 30 * mm
+    while y > 25 * mm:
+        c.line(20 * mm, y, width - 20 * mm, y)
+        y -= spacing
+
+    _rng.seed()  # Reset seed
+
+
 # ─── Paper drawers lookup ──────────────────────────────
 PAPER_DRAWERS = {
     "lined": _draw_lined_paper,
     "blank": _draw_blank_paper,
     "grid": _draw_grid_paper,
+    "dotted": _draw_dotted_paper,
+    "cornell": _draw_cornell_paper,
+    "margin_ruled": _draw_margin_ruled_paper,
+    "engineering": _draw_engineering_paper,
+    "vintage": _draw_vintage_paper,
 }
+
 
 
 # ─── PDF Generator ─────────────────────────────────────

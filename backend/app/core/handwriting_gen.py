@@ -21,6 +21,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
 from .style_extractor import StyleProfile
+from .pen_profiles import PenProfile, get_pen_profile
 
 logger = logging.getLogger(__name__)
 
@@ -98,8 +99,9 @@ class HandwritingGenerator:
         margin_bottom: int = DEFAULT_MARGIN_BOTTOM,
         font_size: int = 36,
         line_spacing: int = 60,
-        ink_color: tuple[int, int, int] = (20, 20, 50),
+        ink_color: tuple[int, int, int] | None = None,
         session_id: str | None = None,
+        pen_type: str = "ballpoint",
     ):
         self.profile = profile
         self.page_width = page_width
@@ -110,8 +112,11 @@ class HandwritingGenerator:
         self.margin_bottom = margin_bottom
         self.font_size = font_size
         self.line_spacing = line_spacing
-        self.ink_color = ink_color
         self.session_id = session_id
+
+        # Pen profile drives ink appearance
+        self.pen_profile: PenProfile = get_pen_profile(pen_type)
+        self.ink_color = ink_color or self.pen_profile.color
 
         self.content_width = page_width - margin_left - margin_right
         self.content_height = page_height - margin_top - margin_bottom
@@ -167,6 +172,10 @@ class HandwritingGenerator:
             margin_top=self.margin_top,
             margin_bottom=self.margin_bottom,
             ink_color=self.ink_color,
+            base_stroke_width=(
+                self.pen_profile.stroke_width_min +
+                self.pen_profile.stroke_width_max
+            ) / 2,
             line_spacing=self.line_spacing,
         )
 
@@ -228,8 +237,17 @@ class HandwritingGenerator:
                     dy = random.gauss(0, 1.5)        # Baseline wobble
                     size_var = random.gauss(1.0, 0.03)  # Size variation ±3%
 
-                    # Slight ink opacity variation
-                    alpha = max(150, min(255, int(random.gauss(220, 15))))
+                    # Ink opacity from pen profile
+                    alpha = max(
+                        self.pen_profile.opacity_min,
+                        min(
+                            self.pen_profile.opacity_max,
+                            int(random.gauss(
+                                (self.pen_profile.opacity_min + self.pen_profile.opacity_max) / 2,
+                                15 * self.pen_profile.pressure_sensitivity,
+                            )),
+                        ),
+                    )
                     color = (*self.ink_color, alpha)
 
                     char_font = font
@@ -326,7 +344,16 @@ class HandwritingGenerator:
 
             # Convert glyph to RGBA and composite onto page
             glyph_pil = Image.fromarray(glyph_resized).convert("L")
-            alpha = max(160, min(255, int(random.gauss(210, 20))))
+            alpha = max(
+                self.pen_profile.opacity_min,
+                min(
+                    self.pen_profile.opacity_max,
+                    int(random.gauss(
+                        (self.pen_profile.opacity_min + self.pen_profile.opacity_max) / 2,
+                        20 * self.pen_profile.pressure_sensitivity,
+                    )),
+                ),
+            )
             ink_layer = Image.new("RGBA", glyph_pil.size, (*self.ink_color, 0))
             mask = glyph_pil.point(lambda p: min(p, alpha))
             ink_layer.putalpha(mask)

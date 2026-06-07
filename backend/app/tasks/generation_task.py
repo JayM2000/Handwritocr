@@ -52,7 +52,8 @@ def run_generation_sync(task_id: str, params: dict) -> Path:
 
     Args:
         task_id: Unique task identifier.
-        params: Dict with session_id, text, paper_style, font_size, line_spacing, export_format.
+        params: Dict with session_id, text, paper_style, font_size, line_spacing,
+            export_format, pen_type.
 
     Returns:
         Path to the generated output file.
@@ -71,6 +72,7 @@ def run_generation_sync(task_id: str, params: dict) -> Path:
     font_size = params.get("font_size", 18)
     line_spacing = params.get("line_spacing", 32)
     export_format = params.get("export_format", "pdf")
+    pen_type = params.get("pen_type", "ballpoint")
 
     output_dir = create_task_output_dir(task_id)
 
@@ -124,15 +126,31 @@ def run_generation_sync(task_id: str, params: dict) -> Path:
         font_size=int(font_size * dpi_scale),
         line_spacing=int(line_spacing * dpi_scale),
         session_id=session_id,
+        pen_type=pen_type,
     )
 
     pages = gen.generate_pages(text)
     _update_progress(
-        task_id, "processing", 70,
+        task_id, "processing", 65,
         f"Generated {len(pages)} page(s)",
     )
 
-    # ── Step 3: Create output (70–95%) ─────────────
+    # ── Step 3.5: Apply natural imperfections (65–75%) ──
+    _update_progress(task_id, "processing", 68, "Applying natural imperfections...")
+    try:
+        from app.core.imperfections import create_imperfection_engine
+
+        imperfection_engine = create_imperfection_engine(
+            pen_type=pen_type,
+            intensity=0.5,
+        )
+        pages = [imperfection_engine.apply(page) for page in pages]
+        _update_progress(task_id, "processing", 75, "Imperfections applied")
+    except Exception as e:
+        logger.warning(f"Imperfection engine skipped: {e}")
+        _update_progress(task_id, "processing", 75, "Continuing without imperfections")
+
+    # ── Step 4: Create output (75–95%) ─────────────
     if export_format == "png":
         _update_progress(task_id, "processing", 80, "Saving PNG...")
         # Save first page as PNG (or all pages)

@@ -11,6 +11,11 @@ class PaperStyle(str, Enum):
     LINED = "lined"
     BLANK = "blank"
     GRID = "grid"
+    DOTTED = "dotted"
+    CORNELL = "cornell"
+    MARGIN_RULED = "margin_ruled"
+    ENGINEERING = "engineering"
+    VINTAGE = "vintage"
 
 
 class TaskStatus(str, Enum):
@@ -25,6 +30,14 @@ class ExportFormat(str, Enum):
     PNG = "png"
 
 
+class PenType(str, Enum):
+    BALLPOINT = "ballpoint"
+    FOUNTAIN = "fountain"
+    GEL = "gel"
+    PENCIL = "pencil"
+    FELT_TIP = "felt_tip"
+
+
 # ─── Request Models ────────────────────────────────────
 class GenerateRequest(BaseModel):
     """Request body for POST /api/generate."""
@@ -35,6 +48,7 @@ class GenerateRequest(BaseModel):
     font_size: int = Field(default=18, ge=10, le=36)
     line_spacing: int = Field(default=32, ge=20, le=60)
     export_format: ExportFormat = Field(default=ExportFormat.PDF)
+    pen_type: PenType = Field(default=PenType.BALLPOINT)
 
 
 # ─── Response Models ───────────────────────────────────

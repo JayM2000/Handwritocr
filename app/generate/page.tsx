@@ -4,6 +4,7 @@ import React, { lazy, Suspense, useCallback, useMemo } from "react";
 import { cn } from "@/lib/utils";
 import { useAppSelector, useAppDispatch } from "@/store/hooks";
 import { nextStep, prevStep } from "@/store/slices/uiSlice";
+import { uploadSamplesToServer } from "@/store/slices/samplesSlice";
 import { AnimatedBackground } from "@/components/ui/animated-background";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
@@ -61,7 +62,10 @@ const STEP_CONFIG = [
 export default function GeneratePage() {
   const dispatch = useAppDispatch();
   const currentStep = useAppSelector((state) => state.ui.currentStep);
-  const samplesCount = useAppSelector((state) => state.samples.samples.length);
+  const samples = useAppSelector((state) => state.samples.samples);
+  const samplesCount = samples.length;
+  const uploadStatus = useAppSelector((state) => state.samples.uploadStatus);
+  const sessionId = useAppSelector((state) => state.samples.sessionId);
   const textContent = useAppSelector((state) => state.text.content);
   const generationStatus = useAppSelector(
     (state) => state.generation.generationStatus
@@ -84,8 +88,20 @@ export default function GeneratePage() {
   }, [currentStep, samplesCount, textContent, generationStatus]);
 
   const handleNext = useCallback(() => {
-    if (canProceed) dispatch(nextStep());
-  }, [dispatch, canProceed]);
+    if (!canProceed) return;
+
+    // When leaving step 0: upload samples to backend to get sessionId
+    if (currentStep === 0 && !sessionId) {
+      dispatch(uploadSamplesToServer(samples)).then((result) => {
+        if (uploadSamplesToServer.fulfilled.match(result)) {
+          dispatch(nextStep());
+        }
+      });
+      return;
+    }
+
+    dispatch(nextStep());
+  }, [dispatch, canProceed, currentStep, sessionId, samples]);
 
   const handlePrev = useCallback(() => {
     dispatch(prevStep());
@@ -157,10 +173,17 @@ export default function GeneratePage() {
                 variant="primary"
                 size="md"
                 onClick={handleNext}
-                disabled={!canProceed}
+                disabled={!canProceed || uploadStatus === "loading"}
+                isLoading={uploadStatus === "loading"}
               >
-                {currentStep === 2 ? "Continue to Download" : "Next"}
-                <ArrowRight className="h-4 w-4 ml-1" />
+                {uploadStatus === "loading"
+                  ? "Uploading samples..."
+                  : currentStep === 2
+                  ? "Continue to Download"
+                  : "Next"}
+                {uploadStatus !== "loading" && (
+                  <ArrowRight className="h-4 w-4 ml-1" />
+                )}
               </GlassButton>
             )}
 

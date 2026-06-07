@@ -11,42 +11,59 @@ import { Sparkles, RefreshCw, ZoomIn, ZoomOut } from "lucide-react";
 function PreviewPanelInner() {
   const dispatch = useAppDispatch();
   const sessionId = useAppSelector((state) => state.samples.sessionId);
-  const { content, paperStyle, fontSize, lineSpacing } = useAppSelector(
+  const { content, paperStyle, penType, fontSize, lineSpacing } = useAppSelector(
     (state) => state.text
   );
-  const { generationStatus, progress, progressStep } = useAppSelector(
+  const { generationStatus, progress, progressStep, error } = useAppSelector(
     (state) => state.generation
   );
   const [zoom, setZoom] = React.useState(1);
+  const [isClientPreview, setIsClientPreview] = React.useState(false);
 
   const handleGenerate = useCallback(() => {
-    if (!sessionId) return;
-    dispatch(
-      generateHandwriting({
-        sessionId,
-        text: content,
-        paperStyle,
-        fontSize,
-        lineSpacing,
-      })
-    );
-  }, [dispatch, sessionId, content, paperStyle, fontSize, lineSpacing]);
-
-  const handleRegenerate = useCallback(() => {
-    if (!sessionId) return;
-    dispatch(resetGeneration());
-    setTimeout(() => {
+    if (sessionId) {
+      // Backend generation (real handwriting synthesis)
+      setIsClientPreview(false);
       dispatch(
         generateHandwriting({
           sessionId,
           text: content,
           paperStyle,
+          penType,
           fontSize,
           lineSpacing,
         })
       );
-    }, 100);
-  }, [dispatch, sessionId, content, paperStyle, fontSize, lineSpacing]);
+    } else {
+      // Client-side preview fallback (font-based)
+      setIsClientPreview(true);
+      dispatch({
+        type: "generation/generateHandwriting/pending",
+      });
+      // Simulate quick progress
+      setTimeout(() => {
+        dispatch({
+          type: "generation/generateHandwriting/fulfilled",
+          payload: "client-preview",
+        });
+      }, 500);
+    }
+  }, [dispatch, sessionId, content, paperStyle, penType, fontSize, lineSpacing]);
+
+  // Pen ink colour for client-side preview
+  const penColorMap: Record<string, string> = {
+    ballpoint: "rgba(15, 15, 80, 0.85)",
+    fountain: "rgba(10, 10, 45, 0.88)",
+    gel: "rgba(20, 20, 60, 0.9)",
+    pencil: "rgba(60, 60, 60, 0.65)",
+    felt_tip: "rgba(25, 25, 25, 0.92)",
+  };
+  const previewInkColor = penColorMap[penType] || penColorMap.ballpoint;
+
+  const handleRegenerate = useCallback(() => {
+    dispatch(resetGeneration());
+    setTimeout(() => handleGenerate(), 100);
+  }, [dispatch, handleGenerate]);
 
   // Split text into lines based on line spacing
   const textLines = useMemo(() => {
@@ -57,6 +74,7 @@ function PreviewPanelInner() {
   const isReady = content.trim().length > 0;
   const isGenerated = generationStatus === "succeeded";
   const isGenerating = generationStatus === "generating";
+  const hasFailed = generationStatus === "failed";
 
   return (
     <div className="space-y-6 animate-fade-in">
@@ -92,16 +110,34 @@ function PreviewPanelInner() {
 
       {/* Generate button */}
       {!isGenerated && !isGenerating && (
-        <div className="flex justify-center">
-          <GlassButton
-            variant="primary"
-            size="lg"
-            icon={<Sparkles className="h-4 w-4" />}
-            onClick={handleGenerate}
-            disabled={!isReady}
-          >
-            {isReady ? "Generate Preview" : "Enter text first"}
-          </GlassButton>
+        <div className="space-y-3">
+          <div className="flex justify-center">
+            <GlassButton
+              variant="primary"
+              size="lg"
+              icon={<Sparkles className="h-4 w-4" />}
+              onClick={handleGenerate}
+              disabled={!isReady}
+            >
+              {isReady ? "Generate Preview" : "Enter text first"}
+            </GlassButton>
+          </div>
+
+          {/* Error message */}
+          {hasFailed && error && (
+            <div className="text-center">
+              <p className="text-xs text-red-400/70 bg-red-400/[0.06] rounded-lg px-3 py-2">
+                {error}
+              </p>
+            </div>
+          )}
+
+          {/* Client mode info */}
+          {!sessionId && isReady && (
+            <p className="text-center text-[10px] text-white/25">
+              Client-side preview mode • Upload samples for AI-powered generation
+            </p>
+          )}
         </div>
       )}
 
@@ -149,8 +185,8 @@ function PreviewPanelInner() {
               {textLines.map((line, i) => (
                 <p
                   key={i}
-                  className="text-white/80"
                   style={{
+                    color: previewInkColor,
                     // Add natural variation
                     transform: `translateX(${Math.sin(i * 1.3) * 2}px) rotate(${Math.sin(i * 0.7) * 0.3}deg)`,
                     letterSpacing: `${0.5 + Math.sin(i * 2.1) * 0.3}px`,
