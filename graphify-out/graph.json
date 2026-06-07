@@ -1,0 +1,442 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "eslint.config.mjs",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\eslint.config.mjs",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_eslint_config_mjs",
+      "community": 9,
+      "norm_label": "eslint.config.mjs"
+    },
+    {
+      "label": "next-env.d.ts",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\next-env.d.ts",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_next_env_d_ts",
+      "community": 10,
+      "norm_label": "next-env.d.ts"
+    },
+    {
+      "label": "next.config.ts",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\next.config.ts",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_next_config_ts",
+      "community": 11,
+      "norm_label": "next.config.ts"
+    },
+    {
+      "label": "postcss.config.mjs",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\postcss.config.mjs",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_postcss_config_mjs",
+      "community": 12,
+      "norm_label": "postcss.config.mjs"
+    },
+    {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\app\\layout.tsx",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_app_layout_tsx",
+      "community": 0,
+      "norm_label": "layout.tsx"
+    },
+    {
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\app\\layout.tsx",
+      "source_location": "L44",
+      "id": "layout_rootlayout",
+      "community": 0,
+      "norm_label": "rootlayout()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\app\\page.tsx",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_app_page_tsx",
+      "community": 1,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "Home()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\app\\page.tsx",
+      "source_location": "L15",
+      "id": "page_home",
+      "community": 1,
+      "norm_label": "home()"
+    },
+    {
+      "label": "download-panel.tsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\handwriting\\download-panel.tsx",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_components_handwriting_download_panel_tsx",
+      "community": 13,
+      "norm_label": "download-panel.tsx"
+    },
+    {
+      "label": "drawing-canvas.tsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\handwriting\\drawing-canvas.tsx",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_components_handwriting_drawing_canvas_tsx",
+      "community": 14,
+      "norm_label": "drawing-canvas.tsx"
+    },
+    {
+      "label": "preview-panel.tsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\handwriting\\preview-panel.tsx",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_components_handwriting_preview_panel_tsx",
+      "community": 15,
+      "norm_label": "preview-panel.tsx"
+    },
+    {
+      "label": "sample-uploader.tsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\handwriting\\sample-uploader.tsx",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_components_handwriting_sample_uploader_tsx",
+      "community": 2,
+      "norm_label": "sample-uploader.tsx"
+    },
+    {
+      "label": "resizeImage()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\handwriting\\sample-uploader.tsx",
+      "source_location": "L15",
+      "id": "sample_uploader_resizeimage",
+      "community": 2,
+      "norm_label": "resizeimage()"
+    },
+    {
+      "label": "text-input.tsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\handwriting\\text-input.tsx",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_components_handwriting_text_input_tsx",
+      "community": 16,
+      "norm_label": "text-input.tsx"
+    },
+    {
+      "label": "footer.tsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\layout\\footer.tsx",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_components_layout_footer_tsx",
+      "community": 3,
+      "norm_label": "footer.tsx"
+    },
+    {
+      "label": "FooterInner()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\layout\\footer.tsx",
+      "source_location": "L4",
+      "id": "footer_footerinner",
+      "community": 3,
+      "norm_label": "footerinner()"
+    },
+    {
+      "label": "navbar.tsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\layout\\navbar.tsx",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_components_layout_navbar_tsx",
+      "community": 17,
+      "norm_label": "navbar.tsx"
+    },
+    {
+      "label": "animated-background.tsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\ui\\animated-background.tsx",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_components_ui_animated_background_tsx",
+      "community": 18,
+      "norm_label": "animated-background.tsx"
+    },
+    {
+      "label": "button.tsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\ui\\button.tsx",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_components_ui_button_tsx",
+      "community": 4,
+      "norm_label": "button.tsx"
+    },
+    {
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\ui\\button.tsx",
+      "source_location": "L61",
+      "id": "button_cn",
+      "community": 4,
+      "norm_label": "cn()"
+    },
+    {
+      "label": "glass-button.tsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\ui\\glass-button.tsx",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_components_ui_glass_button_tsx",
+      "community": 19,
+      "norm_label": "glass-button.tsx"
+    },
+    {
+      "label": "glass-card.tsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\ui\\glass-card.tsx",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_components_ui_glass_card_tsx",
+      "community": 5,
+      "norm_label": "glass-card.tsx"
+    },
+    {
+      "label": "GlassCardInner()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\ui\\glass-card.tsx",
+      "source_location": "L19",
+      "id": "glass_card_glasscardinner",
+      "community": 5,
+      "norm_label": "glasscardinner()"
+    },
+    {
+      "label": "input.tsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\ui\\input.tsx",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_components_ui_input_tsx",
+      "community": 6,
+      "norm_label": "input.tsx"
+    },
+    {
+      "label": "Input()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\ui\\input.tsx",
+      "source_location": "L5",
+      "id": "input_input",
+      "community": 6,
+      "norm_label": "input()"
+    },
+    {
+      "label": "step-indicator.tsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\ui\\step-indicator.tsx",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_components_ui_step_indicator_tsx",
+      "community": 20,
+      "norm_label": "step-indicator.tsx"
+    },
+    {
+      "label": "utils.ts",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\lib\\utils.ts",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_lib_utils_ts",
+      "community": 7,
+      "norm_label": "utils.ts"
+    },
+    {
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\lib\\utils.ts",
+      "source_location": "L4",
+      "id": "utils_cn",
+      "community": 7,
+      "norm_label": "cn()"
+    },
+    {
+      "label": "hooks.ts",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\store\\hooks.ts",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_store_hooks_ts",
+      "community": 21,
+      "norm_label": "hooks.ts"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\store\\index.ts",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_store_index_ts",
+      "community": 22,
+      "norm_label": "index.ts"
+    },
+    {
+      "label": "provider.tsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\store\\provider.tsx",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_store_provider_tsx",
+      "community": 8,
+      "norm_label": "provider.tsx"
+    },
+    {
+      "label": "StoreProvider()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\store\\provider.tsx",
+      "source_location": "L6",
+      "id": "provider_storeprovider",
+      "community": 8,
+      "norm_label": "storeprovider()"
+    },
+    {
+      "label": "generationSlice.ts",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\store\\slices\\generationSlice.ts",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_store_slices_generationslice_ts",
+      "community": 23,
+      "norm_label": "generationslice.ts"
+    },
+    {
+      "label": "samplesSlice.ts",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\store\\slices\\samplesSlice.ts",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_store_slices_samplesslice_ts",
+      "community": 24,
+      "norm_label": "samplesslice.ts"
+    },
+    {
+      "label": "textSlice.ts",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\store\\slices\\textSlice.ts",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_store_slices_textslice_ts",
+      "community": 25,
+      "norm_label": "textslice.ts"
+    },
+    {
+      "label": "uiSlice.ts",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\store\\slices\\uiSlice.ts",
+      "source_location": "L1",
+      "id": "c_users_misal_onedrive_documents_handwritocr_store_slices_uislice_ts",
+      "community": 26,
+      "norm_label": "uislice.ts"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\app\\layout.tsx",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_src": "c_users_misal_onedrive_documents_handwritocr_app_layout_tsx",
+      "_tgt": "layout_rootlayout",
+      "source": "c_users_misal_onedrive_documents_handwritocr_app_layout_tsx",
+      "target": "layout_rootlayout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\app\\page.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_src": "c_users_misal_onedrive_documents_handwritocr_app_page_tsx",
+      "_tgt": "page_home",
+      "source": "c_users_misal_onedrive_documents_handwritocr_app_page_tsx",
+      "target": "page_home",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\handwriting\\sample-uploader.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_src": "c_users_misal_onedrive_documents_handwritocr_components_handwriting_sample_uploader_tsx",
+      "_tgt": "sample_uploader_resizeimage",
+      "source": "c_users_misal_onedrive_documents_handwritocr_components_handwriting_sample_uploader_tsx",
+      "target": "sample_uploader_resizeimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\layout\\footer.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "c_users_misal_onedrive_documents_handwritocr_components_layout_footer_tsx",
+      "_tgt": "footer_footerinner",
+      "source": "c_users_misal_onedrive_documents_handwritocr_components_layout_footer_tsx",
+      "target": "footer_footerinner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\ui\\button.tsx",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_src": "c_users_misal_onedrive_documents_handwritocr_components_ui_button_tsx",
+      "_tgt": "button_cn",
+      "source": "c_users_misal_onedrive_documents_handwritocr_components_ui_button_tsx",
+      "target": "button_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\ui\\glass-card.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_src": "c_users_misal_onedrive_documents_handwritocr_components_ui_glass_card_tsx",
+      "_tgt": "glass_card_glasscardinner",
+      "source": "c_users_misal_onedrive_documents_handwritocr_components_ui_glass_card_tsx",
+      "target": "glass_card_glasscardinner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\ui\\input.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "c_users_misal_onedrive_documents_handwritocr_components_ui_input_tsx",
+      "_tgt": "input_input",
+      "source": "c_users_misal_onedrive_documents_handwritocr_components_ui_input_tsx",
+      "target": "input_input",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\lib\\utils.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "c_users_misal_onedrive_documents_handwritocr_lib_utils_ts",
+      "_tgt": "utils_cn",
+      "source": "c_users_misal_onedrive_documents_handwritocr_lib_utils_ts",
+      "target": "utils_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\store\\provider.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "c_users_misal_onedrive_documents_handwritocr_store_provider_tsx",
+      "_tgt": "provider_storeprovider",
+      "source": "c_users_misal_onedrive_documents_handwritocr_store_provider_tsx",
+      "target": "provider_storeprovider",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
