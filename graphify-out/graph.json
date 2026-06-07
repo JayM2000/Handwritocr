@@ -9,7 +9,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\eslint.config.mjs",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_eslint_config_mjs",
-      "community": 25,
+      "community": 26,
       "norm_label": "eslint.config.mjs"
     },
     {
@@ -18,7 +18,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\next-env.d.ts",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_next_env_d_ts",
-      "community": 26,
+      "community": 27,
       "norm_label": "next-env.d.ts"
     },
     {
@@ -27,7 +27,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\next.config.ts",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_next_config_ts",
-      "community": 27,
+      "community": 28,
       "norm_label": "next.config.ts"
     },
     {
@@ -36,7 +36,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\postcss.config.mjs",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_postcss_config_mjs",
-      "community": 28,
+      "community": 29,
       "norm_label": "postcss.config.mjs"
     },
     {
@@ -45,7 +45,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\app\\layout.tsx",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_app_layout_tsx",
-      "community": 12,
+      "community": 13,
       "norm_label": "layout.tsx"
     },
     {
@@ -54,7 +54,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\app\\layout.tsx",
       "source_location": "L44",
       "id": "layout_rootlayout",
-      "community": 12,
+      "community": 13,
       "norm_label": "rootlayout()"
     },
     {
@@ -63,7 +63,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\app\\page.tsx",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_app_page_tsx",
-      "community": 13,
+      "community": 14,
       "norm_label": "page.tsx"
     },
     {
@@ -72,7 +72,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\app\\page.tsx",
       "source_location": "L15",
       "id": "page_home",
-      "community": 13,
+      "community": 14,
       "norm_label": "home()"
     },
     {
@@ -81,7 +81,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\app\\generate\\page.tsx",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_app_generate_page_tsx",
-      "community": 14,
+      "community": 15,
       "norm_label": "page.tsx"
     },
     {
@@ -90,7 +90,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\app\\generate\\page.tsx",
       "source_location": "L43",
       "id": "page_stepskeleton",
-      "community": 14,
+      "community": 15,
       "norm_label": "stepskeleton()"
     },
     {
@@ -188,7 +188,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\config.py",
       "source_location": "L40",
-      "community": 29,
+      "community": 30,
       "norm_label": "parse comma-separated cors origins.",
       "id": "config_rationale_40"
     },
@@ -197,7 +197,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\config.py",
       "source_location": "L45",
-      "community": 30,
+      "community": 31,
       "norm_label": "resolved storage directory path.",
       "id": "config_rationale_45"
     },
@@ -206,7 +206,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\config.py",
       "source_location": "L52",
-      "community": 31,
+      "community": 32,
       "norm_label": "directory for uploaded samples.",
       "id": "config_rationale_52"
     },
@@ -215,7 +215,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\config.py",
       "source_location": "L59",
-      "community": 32,
+      "community": 33,
       "norm_label": "directory for generated outputs.",
       "id": "config_rationale_59"
     },
@@ -279,7 +279,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\__init__.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_init_py",
-      "community": 33,
+      "community": 34,
       "norm_label": "__init__.py"
     },
     {
@@ -288,7 +288,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\router.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_api_router_py",
-      "community": 15,
+      "community": 16,
       "norm_label": "router.py"
     },
     {
@@ -296,7 +296,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\router.py",
       "source_location": "L1",
-      "community": 15,
+      "community": 16,
       "norm_label": "main api router \u2014 aggregates all endpoint routers.",
       "id": "router_rationale_1"
     },
@@ -306,7 +306,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\websocket.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_api_websocket_py",
-      "community": 4,
+      "community": 5,
       "norm_label": "websocket.py"
     },
     {
@@ -315,7 +315,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\websocket.py",
       "source_location": "L16",
       "id": "websocket_progress_websocket",
-      "community": 4,
+      "community": 5,
       "norm_label": "progress_websocket()"
     },
     {
@@ -323,7 +323,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\websocket.py",
       "source_location": "L1",
-      "community": 4,
+      "community": 5,
       "norm_label": "websocket endpoint for real-time generation progress updates.",
       "id": "websocket_rationale_1"
     },
@@ -332,7 +332,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\websocket.py",
       "source_location": "L17",
-      "community": 4,
+      "community": 5,
       "norm_label": "stream generation progress updates to the client.      reads task progress from",
       "id": "websocket_rationale_17"
     },
@@ -342,7 +342,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\__init__.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_api_init_py",
-      "community": 34,
+      "community": 35,
       "norm_label": "__init__.py"
     },
     {
@@ -351,7 +351,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\download.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_api_endpoints_download_py",
-      "community": 4,
+      "community": 5,
       "norm_label": "download.py"
     },
     {
@@ -360,7 +360,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\download.py",
       "source_location": "L17",
       "id": "download_download_file",
-      "community": 4,
+      "community": 5,
       "norm_label": "download_file()"
     },
     {
@@ -368,7 +368,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\download.py",
       "source_location": "L1",
-      "community": 4,
+      "community": 5,
       "norm_label": "download generated files endpoint.",
       "id": "download_rationale_1"
     },
@@ -377,7 +377,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\download.py",
       "source_location": "L18",
-      "community": 4,
+      "community": 5,
       "norm_label": "download the generated handwriting file.      args:         task_id: the generat",
       "id": "download_rationale_18"
     },
@@ -387,7 +387,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\generate.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_api_endpoints_generate_py",
-      "community": 2,
+      "community": 3,
       "norm_label": "generate.py"
     },
     {
@@ -396,7 +396,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\generate.py",
       "source_location": "L24",
       "id": "generate_try_celery_dispatch",
-      "community": 2,
+      "community": 3,
       "norm_label": "_try_celery_dispatch()"
     },
     {
@@ -405,7 +405,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\generate.py",
       "source_location": "L39",
       "id": "generate_run_sync",
-      "community": 2,
+      "community": 3,
       "norm_label": "_run_sync()"
     },
     {
@@ -414,7 +414,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\generate.py",
       "source_location": "L47",
       "id": "generate_generate_handwriting",
-      "community": 2,
+      "community": 3,
       "norm_label": "generate_handwriting()"
     },
     {
@@ -423,7 +423,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\generate.py",
       "source_location": "L92",
       "id": "generate_get_task_status",
-      "community": 2,
+      "community": 3,
       "norm_label": "get_task_status()"
     },
     {
@@ -431,7 +431,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\generate.py",
       "source_location": "L1",
-      "community": 2,
+      "community": 3,
       "norm_label": "generate handwriting endpoint.",
       "id": "generate_rationale_1"
     },
@@ -440,7 +440,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\generate.py",
       "source_location": "L25",
-      "community": 2,
+      "community": 3,
       "norm_label": "try to dispatch generation to celery. returns false if celery unavailable.",
       "id": "generate_rationale_25"
     },
@@ -449,7 +449,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\generate.py",
       "source_location": "L40",
-      "community": 2,
+      "community": 3,
       "norm_label": "run generation synchronously when celery is unavailable.",
       "id": "generate_rationale_40"
     },
@@ -458,7 +458,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\generate.py",
       "source_location": "L48",
-      "community": 2,
+      "community": 3,
       "norm_label": "start handwriting generation.      submits a celery task for async processing. i",
       "id": "generate_rationale_48"
     },
@@ -467,7 +467,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\generate.py",
       "source_location": "L93",
-      "community": 2,
+      "community": 3,
       "norm_label": "check the status of a generation task.",
       "id": "generate_rationale_93"
     },
@@ -477,7 +477,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\health.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_api_endpoints_health_py",
-      "community": 2,
+      "community": 3,
       "norm_label": "health.py"
     },
     {
@@ -486,7 +486,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\health.py",
       "source_location": "L10",
       "id": "health_health_check",
-      "community": 2,
+      "community": 3,
       "norm_label": "health_check()"
     },
     {
@@ -494,7 +494,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\health.py",
       "source_location": "L1",
-      "community": 2,
+      "community": 3,
       "norm_label": "health check endpoint.",
       "id": "health_rationale_1"
     },
@@ -503,7 +503,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\health.py",
       "source_location": "L11",
-      "community": 2,
+      "community": 3,
       "norm_label": "check the health of the api and its dependencies.",
       "id": "health_rationale_11"
     },
@@ -513,7 +513,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\samples.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_api_endpoints_samples_py",
-      "community": 2,
+      "community": 3,
       "norm_label": "samples.py"
     },
     {
@@ -522,7 +522,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\samples.py",
       "source_location": "L19",
       "id": "samples_upload_samples",
-      "community": 2,
+      "community": 3,
       "norm_label": "upload_samples()"
     },
     {
@@ -530,7 +530,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\samples.py",
       "source_location": "L1",
-      "community": 2,
+      "community": 3,
       "norm_label": "sample upload endpoint.",
       "id": "samples_rationale_1"
     },
@@ -539,7 +539,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\samples.py",
       "source_location": "L22",
-      "community": 2,
+      "community": 3,
       "norm_label": "upload handwriting sample images for style extraction.      accepts png, jpg, we",
       "id": "samples_rationale_22"
     },
@@ -549,7 +549,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\__init__.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_api_endpoints_init_py",
-      "community": 35,
+      "community": 36,
       "norm_label": "__init__.py"
     },
     {
@@ -558,7 +558,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_core_handwriting_gen_py",
-      "community": 0,
+      "community": 2,
       "norm_label": "handwriting_gen.py"
     },
     {
@@ -567,7 +567,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L39",
       "id": "handwriting_gen_get_fallback_font",
-      "community": 0,
+      "community": 2,
       "norm_label": "_get_fallback_font()"
     },
     {
@@ -576,7 +576,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L57",
       "id": "handwriting_gen_glyphrenderer",
-      "community": 0,
+      "community": 2,
       "norm_label": "glyphrenderer"
     },
     {
@@ -585,7 +585,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L60",
       "id": "handwriting_gen_glyphrenderer_init",
-      "community": 0,
+      "community": 2,
       "norm_label": ".__init__()"
     },
     {
@@ -594,7 +594,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L65",
       "id": "handwriting_gen_glyphrenderer_load_glyphs",
-      "community": 0,
+      "community": 2,
       "norm_label": "._load_glyphs()"
     },
     {
@@ -603,7 +603,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L78",
       "id": "handwriting_gen_glyphrenderer_has_glyphs",
-      "community": 0,
+      "community": 2,
       "norm_label": ".has_glyphs()"
     },
     {
@@ -612,7 +612,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L81",
       "id": "handwriting_gen_glyphrenderer_get_random_glyph",
-      "community": 0,
+      "community": 2,
       "norm_label": ".get_random_glyph()"
     },
     {
@@ -630,7 +630,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L90",
       "id": "handwriting_gen_handwritinggenerator_init",
-      "community": 0,
+      "community": 2,
       "norm_label": ".__init__()"
     },
     {
@@ -639,7 +639,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L121",
       "id": "handwriting_gen_handwritinggenerator_has_ml_model",
-      "community": 0,
+      "community": 2,
       "norm_label": "._has_ml_model()"
     },
     {
@@ -648,7 +648,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L132",
       "id": "handwriting_gen_handwritinggenerator_get_ml_checkpoint",
-      "community": 0,
+      "community": 2,
       "norm_label": "._get_ml_checkpoint()"
     },
     {
@@ -657,7 +657,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L142",
       "id": "handwriting_gen_handwritinggenerator_generate_pages",
-      "community": 0,
+      "community": 2,
       "norm_label": ".generate_pages()"
     },
     {
@@ -666,7 +666,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L156",
       "id": "handwriting_gen_handwritinggenerator_generate_with_ml",
-      "community": 0,
+      "community": 2,
       "norm_label": "._generate_with_ml()"
     },
     {
@@ -675,7 +675,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L186",
       "id": "handwriting_gen_handwritinggenerator_generate_with_font",
-      "community": 0,
+      "community": 2,
       "norm_label": "._generate_with_font()"
     },
     {
@@ -684,7 +684,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L270",
       "id": "handwriting_gen_handwritinggenerator_generate_with_glyphs",
-      "community": 0,
+      "community": 2,
       "norm_label": "._generate_with_glyphs()"
     },
     {
@@ -692,7 +692,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L1",
-      "community": 0,
+      "community": 2,
       "norm_label": "handwriting generation engine.  takes a style profile and input text, then gener",
       "id": "handwriting_gen_rationale_1"
     },
@@ -701,7 +701,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L40",
-      "community": 0,
+      "community": 2,
       "norm_label": "load a handwriting-style font for fallback rendering.",
       "id": "handwriting_gen_rationale_40"
     },
@@ -710,7 +710,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L58",
-      "community": 0,
+      "community": 2,
       "norm_label": "renders text using extracted glyph images with natural variation.",
       "id": "handwriting_gen_rationale_58"
     },
@@ -719,7 +719,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L66",
-      "community": 0,
+      "community": 2,
       "norm_label": "load extracted glyph images from the style profile directory.",
       "id": "handwriting_gen_rationale_66"
     },
@@ -728,7 +728,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L82",
-      "community": 0,
+      "community": 2,
       "norm_label": "return a random glyph image.",
       "id": "handwriting_gen_rationale_82"
     },
@@ -737,7 +737,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L88",
-      "community": 0,
+      "community": 2,
       "norm_label": "generates handwriting images from text + style profile.",
       "id": "handwriting_gen_rationale_88"
     },
@@ -746,54 +746,54 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L122",
-      "id": "handwriting_gen_rationale_122",
-      "community": 0,
-      "norm_label": "check if an ml model checkpoint is available."
+      "community": 2,
+      "norm_label": "check if an ml model checkpoint is available.",
+      "id": "handwriting_gen_rationale_122"
     },
     {
       "label": "Get the ML checkpoint path for this session.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L133",
-      "id": "handwriting_gen_rationale_133",
-      "community": 0,
-      "norm_label": "get the ml checkpoint path for this session."
+      "community": 2,
+      "norm_label": "get the ml checkpoint path for this session.",
+      "id": "handwriting_gen_rationale_133"
     },
     {
       "label": "Generate handwriting pages from input text.          Priority: ML model > glyph-",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L143",
-      "id": "handwriting_gen_rationale_143",
-      "community": 0,
-      "norm_label": "generate handwriting pages from input text.          priority: ml model > glyph-"
+      "community": 2,
+      "norm_label": "generate handwriting pages from input text.          priority: ml model > glyph-",
+      "id": "handwriting_gen_rationale_143"
     },
     {
       "label": "Render text using the trained LSTM handwriting model.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L157",
-      "id": "handwriting_gen_rationale_157",
-      "community": 0,
-      "norm_label": "render text using the trained lstm handwriting model."
+      "community": 2,
+      "norm_label": "render text using the trained lstm handwriting model.",
+      "id": "handwriting_gen_rationale_157"
     },
     {
       "label": "Render text using a handwriting font with procedural randomness.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L187",
-      "id": "handwriting_gen_rationale_187",
-      "community": 0,
-      "norm_label": "render text using a handwriting font with procedural randomness."
+      "community": 2,
+      "norm_label": "render text using a handwriting font with procedural randomness.",
+      "id": "handwriting_gen_rationale_187"
     },
     {
       "label": "Render text using extracted glyph images with natural placement.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L271",
-      "id": "handwriting_gen_rationale_271",
-      "community": 0,
-      "norm_label": "render text using extracted glyph images with natural placement."
+      "community": 2,
+      "norm_label": "render text using extracted glyph images with natural placement.",
+      "id": "handwriting_gen_rationale_271"
     },
     {
       "label": "image_utils.py",
@@ -801,7 +801,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_core_image_utils_py",
-      "community": 6,
+      "community": 0,
       "norm_label": "image_utils.py"
     },
     {
@@ -810,7 +810,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L15",
       "id": "image_utils_load_and_preprocess",
-      "community": 6,
+      "community": 0,
       "norm_label": "load_and_preprocess()"
     },
     {
@@ -819,7 +819,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L39",
       "id": "image_utils_correct_skew",
-      "community": 6,
+      "community": 0,
       "norm_label": "correct_skew()"
     },
     {
@@ -828,7 +828,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L71",
       "id": "image_utils_segment_lines",
-      "community": 6,
+      "community": 0,
       "norm_label": "segment_lines()"
     },
     {
@@ -837,7 +837,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L98",
       "id": "image_utils_segment_characters",
-      "community": 6,
+      "community": 0,
       "norm_label": "segment_characters()"
     },
     {
@@ -846,7 +846,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L124",
       "id": "image_utils_compute_stroke_width",
-      "community": 6,
+      "community": 0,
       "norm_label": "compute_stroke_width()"
     },
     {
@@ -855,7 +855,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L133",
       "id": "image_utils_compute_slant_angle",
-      "community": 6,
+      "community": 0,
       "norm_label": "compute_slant_angle()"
     },
     {
@@ -864,7 +864,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L153",
       "id": "image_utils_resize_char_to_height",
-      "community": 6,
+      "community": 0,
       "norm_label": "resize_char_to_height()"
     },
     {
@@ -873,7 +873,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L163",
       "id": "image_utils_pil_to_cv2",
-      "community": 6,
+      "community": 0,
       "norm_label": "pil_to_cv2()"
     },
     {
@@ -882,7 +882,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L168",
       "id": "image_utils_cv2_to_pil",
-      "community": 6,
+      "community": 0,
       "norm_label": "cv2_to_pil()"
     },
     {
@@ -890,7 +890,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L1",
-      "community": 6,
+      "community": 0,
       "norm_label": "low-level image processing utilities using opencv and pillow.  all heavy image o",
       "id": "image_utils_rationale_1"
     },
@@ -899,7 +899,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L16",
-      "community": 6,
+      "community": 0,
       "norm_label": "load an image and preprocess for handwriting analysis.      returns a clean bina",
       "id": "image_utils_rationale_16"
     },
@@ -908,7 +908,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L40",
-      "community": 6,
+      "community": 0,
       "norm_label": "detect and correct page skew.      returns the deskewed image and the detected a",
       "id": "image_utils_rationale_40"
     },
@@ -917,7 +917,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L72",
-      "community": 6,
+      "community": 0,
       "norm_label": "segment text lines using horizontal projection.      returns list of (y_start, y",
       "id": "image_utils_rationale_72"
     },
@@ -926,7 +926,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L101",
-      "community": 6,
+      "community": 0,
       "norm_label": "extract individual characters from a text line using connected components.",
       "id": "image_utils_rationale_101"
     },
@@ -935,7 +935,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L125",
-      "community": 6,
+      "community": 0,
       "norm_label": "estimate average stroke width using distance transform.",
       "id": "image_utils_rationale_125"
     },
@@ -944,7 +944,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L134",
-      "community": 6,
+      "community": 0,
       "norm_label": "estimate the slant angle of handwriting in degrees.      positive = right slant,",
       "id": "image_utils_rationale_134"
     },
@@ -953,7 +953,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L154",
-      "community": 6,
+      "community": 0,
       "norm_label": "resize a character image to a target height, preserving aspect ratio.",
       "id": "image_utils_rationale_154"
     },
@@ -962,7 +962,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L164",
-      "community": 6,
+      "community": 0,
       "norm_label": "convert pil image to opencv numpy array.",
       "id": "image_utils_rationale_164"
     },
@@ -971,7 +971,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L169",
-      "community": 6,
+      "community": 0,
       "norm_label": "convert opencv numpy array to pil image.",
       "id": "image_utils_rationale_169"
     },
@@ -1098,7 +1098,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\style_extractor.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_core_style_extractor_py",
-      "community": 0,
+      "community": 12,
       "norm_label": "style_extractor.py"
     },
     {
@@ -1107,7 +1107,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\style_extractor.py",
       "source_location": "L36",
       "id": "style_extractor_charactermetrics",
-      "community": 0,
+      "community": 12,
       "norm_label": "charactermetrics"
     },
     {
@@ -1116,7 +1116,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\style_extractor.py",
       "source_location": "L46",
       "id": "style_extractor_styleprofile",
-      "community": 0,
+      "community": 2,
       "norm_label": "styleprofile"
     },
     {
@@ -1125,7 +1125,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\style_extractor.py",
       "source_location": "L74",
       "id": "style_extractor_styleprofile_to_dict",
-      "community": 0,
+      "community": 2,
       "norm_label": ".to_dict()"
     },
     {
@@ -1143,7 +1143,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\style_extractor.py",
       "source_location": "L81",
       "id": "style_extractor_load",
-      "community": 1,
+      "community": 12,
       "norm_label": "load()"
     },
     {
@@ -1170,7 +1170,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\style_extractor.py",
       "source_location": "L93",
       "id": "style_extractor_styleextractor_extract",
-      "community": 6,
+      "community": 0,
       "norm_label": ".extract()"
     },
     {
@@ -1178,7 +1178,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\style_extractor.py",
       "source_location": "L1",
-      "community": 0,
+      "community": 12,
       "norm_label": "handwriting style extraction from sample images.  analyses uploaded handwriting",
       "id": "style_extractor_rationale_1"
     },
@@ -1187,7 +1187,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\style_extractor.py",
       "source_location": "L37",
-      "community": 0,
+      "community": 12,
       "norm_label": "metrics for a single extracted character.",
       "id": "style_extractor_rationale_37"
     },
@@ -1196,7 +1196,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\style_extractor.py",
       "source_location": "L47",
-      "community": 0,
+      "community": 2,
       "norm_label": "complete handwriting style profile extracted from samples.",
       "id": "style_extractor_rationale_47"
     },
@@ -1214,7 +1214,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\style_extractor.py",
       "source_location": "L98",
-      "community": 6,
+      "community": 0,
       "norm_label": "analyse multiple handwriting samples and build a style profile.          args:",
       "id": "style_extractor_rationale_98"
     },
@@ -1224,7 +1224,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\__init__.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_core_init_py",
-      "community": 36,
+      "community": 37,
       "norm_label": "__init__.py"
     },
     {
@@ -1242,7 +1242,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\dataset.py",
       "source_location": "L32",
       "id": "dataset_parse_iam_stroke_xml",
-      "community": 3,
+      "community": 4,
       "norm_label": "parse_iam_stroke_xml()"
     },
     {
@@ -1251,7 +1251,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\dataset.py",
       "source_location": "L58",
       "id": "dataset_raw_strokes_to_offsets",
-      "community": 3,
+      "community": 4,
       "norm_label": "raw_strokes_to_offsets()"
     },
     {
@@ -1305,7 +1305,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\dataset.py",
       "source_location": "L167",
       "id": "dataset_iamdataset_getitem",
-      "community": 3,
+      "community": 4,
       "norm_label": ".__getitem__()"
     },
     {
@@ -1314,7 +1314,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\dataset.py",
       "source_location": "L203",
       "id": "dataset_iamdataset_dummy_sample",
-      "community": 3,
+      "community": 4,
       "norm_label": "._dummy_sample()"
     },
     {
@@ -1350,7 +1350,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\dataset.py",
       "source_location": "L234",
       "id": "dataset_syntheticstrokedataset_getitem",
-      "community": 3,
+      "community": 4,
       "norm_label": ".__getitem__()"
     },
     {
@@ -1367,72 +1367,72 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\dataset.py",
       "source_location": "L1",
-      "id": "dataset_rationale_1",
       "community": 1,
-      "norm_label": "iam on-line handwriting dataset loader.  handles loading and preprocessing of th"
+      "norm_label": "iam on-line handwriting dataset loader.  handles loading and preprocessing of th",
+      "id": "dataset_rationale_1"
     },
     {
       "label": "Parse an IAM Online stroke XML file.      Returns list of strokes, each a numpy",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\dataset.py",
       "source_location": "L33",
-      "id": "dataset_rationale_33",
-      "community": 3,
-      "norm_label": "parse an iam online stroke xml file.      returns list of strokes, each a numpy"
+      "community": 4,
+      "norm_label": "parse an iam online stroke xml file.      returns list of strokes, each a numpy",
+      "id": "dataset_rationale_33"
     },
     {
       "label": "Convert absolute stroke points to offset format (dx, dy, pen_up).      Args:",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\dataset.py",
       "source_location": "L59",
-      "id": "dataset_rationale_59",
-      "community": 3,
-      "norm_label": "convert absolute stroke points to offset format (dx, dy, pen_up).      args:"
+      "community": 4,
+      "norm_label": "convert absolute stroke points to offset format (dx, dy, pen_up).      args:",
+      "id": "dataset_rationale_59"
     },
     {
       "label": "PyTorch dataset for IAM On-Line Handwriting Database.      Expected directory st",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\dataset.py",
       "source_location": "L94",
-      "id": "dataset_rationale_94",
       "community": 1,
-      "norm_label": "pytorch dataset for iam on-line handwriting database.      expected directory st"
+      "norm_label": "pytorch dataset for iam on-line handwriting database.      expected directory st",
+      "id": "dataset_rationale_94"
     },
     {
       "label": "Scan the data directory and pair stroke XMLs with transcriptions.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\dataset.py",
       "source_location": "L122",
-      "id": "dataset_rationale_122",
       "community": 1,
-      "norm_label": "scan the data directory and pair stroke xmls with transcriptions."
+      "norm_label": "scan the data directory and pair stroke xmls with transcriptions.",
+      "id": "dataset_rationale_122"
     },
     {
       "label": "Return a dummy sample for error cases.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\dataset.py",
       "source_location": "L204",
-      "id": "dataset_rationale_204",
-      "community": 3,
-      "norm_label": "return a dummy sample for error cases."
+      "community": 4,
+      "norm_label": "return a dummy sample for error cases.",
+      "id": "dataset_rationale_204"
     },
     {
       "label": "Generates synthetic stroke data for testing the model pipeline.      Creates sim",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\dataset.py",
       "source_location": "L216",
-      "id": "dataset_rationale_216",
       "community": 1,
-      "norm_label": "generates synthetic stroke data for testing the model pipeline.      creates sim"
+      "norm_label": "generates synthetic stroke data for testing the model pipeline.      creates sim",
+      "id": "dataset_rationale_216"
     },
     {
       "label": "Create a DataLoader with appropriate settings.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\dataset.py",
       "source_location": "L274",
-      "id": "dataset_rationale_274",
       "community": 1,
-      "norm_label": "create a dataloader with appropriate settings."
+      "norm_label": "create a dataloader with appropriate settings.",
+      "id": "dataset_rationale_274"
     },
     {
       "label": "fine_tune.py",
@@ -1467,7 +1467,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\fine_tune.py",
       "source_location": "L130",
       "id": "fine_tune_finetuner",
-      "community": 1,
+      "community": 0,
       "norm_label": "finetuner"
     },
     {
@@ -1476,7 +1476,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\fine_tune.py",
       "source_location": "L133",
       "id": "fine_tune_finetuner_init",
-      "community": 1,
+      "community": 12,
       "norm_label": ".__init__()"
     },
     {
@@ -1485,7 +1485,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\fine_tune.py",
       "source_location": "L167",
       "id": "fine_tune_finetuner_fine_tune",
-      "community": 1,
+      "community": 0,
       "norm_label": ".fine_tune()"
     },
     {
@@ -1493,45 +1493,45 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\fine_tune.py",
       "source_location": "L1",
-      "id": "fine_tune_rationale_1",
       "community": 1,
-      "norm_label": "user-specific fine-tuning of the handwriting model.  takes a pre-trained model a"
+      "norm_label": "user-specific fine-tuning of the handwriting model.  takes a pre-trained model a",
+      "id": "fine_tune_rationale_1"
     },
     {
       "label": "Extract approximate stroke data from a handwriting image.      Uses morphologica",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\fine_tune.py",
       "source_location": "L36",
-      "id": "fine_tune_rationale_36",
       "community": 1,
-      "norm_label": "extract approximate stroke data from a handwriting image.      uses morphologica"
+      "norm_label": "extract approximate stroke data from a handwriting image.      uses morphologica",
+      "id": "fine_tune_rationale_36"
     },
     {
       "label": "Simple skeletonization fallback when cv2.ximgproc is unavailable.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\fine_tune.py",
       "source_location": "L112",
-      "id": "fine_tune_rationale_112",
       "community": 1,
-      "norm_label": "simple skeletonization fallback when cv2.ximgproc is unavailable."
+      "norm_label": "simple skeletonization fallback when cv2.ximgproc is unavailable.",
+      "id": "fine_tune_rationale_112"
     },
     {
       "label": "Fine-tune a pre-trained model on user's handwriting samples.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\fine_tune.py",
       "source_location": "L131",
-      "id": "fine_tune_rationale_131",
-      "community": 1,
-      "norm_label": "fine-tune a pre-trained model on user's handwriting samples."
+      "community": 0,
+      "norm_label": "fine-tune a pre-trained model on user's handwriting samples.",
+      "id": "fine_tune_rationale_131"
     },
     {
       "label": "Fine-tune the model on user's handwriting samples.          Args:             sa",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\fine_tune.py",
       "source_location": "L175",
-      "id": "fine_tune_rationale_175",
-      "community": 1,
-      "norm_label": "fine-tune the model on user's handwriting samples.          args:             sa"
+      "community": 0,
+      "norm_label": "fine-tune the model on user's handwriting samples.          args:             sa",
+      "id": "fine_tune_rationale_175"
     },
     {
       "label": "inference.py",
@@ -1539,7 +1539,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\inference.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_ml_inference_py",
-      "community": 5,
+      "community": 6,
       "norm_label": "inference.py"
     },
     {
@@ -1548,7 +1548,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\inference.py",
       "source_location": "L24",
       "id": "inference_handwritinginference",
-      "community": 5,
+      "community": 6,
       "norm_label": "handwritinginference"
     },
     {
@@ -1557,7 +1557,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\inference.py",
       "source_location": "L27",
       "id": "inference_handwritinginference_init",
-      "community": 5,
+      "community": 6,
       "norm_label": ".__init__()"
     },
     {
@@ -1566,7 +1566,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\inference.py",
       "source_location": "L57",
       "id": "inference_handwritinginference_load_checkpoint",
-      "community": 5,
+      "community": 6,
       "norm_label": "._load_checkpoint()"
     },
     {
@@ -1575,7 +1575,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\inference.py",
       "source_location": "L66",
       "id": "inference_generate",
-      "community": 5,
+      "community": 6,
       "norm_label": "generate()"
     },
     {
@@ -1584,7 +1584,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\inference.py",
       "source_location": "L128",
       "id": "inference_handwritinginference_sample_mdn",
-      "community": 5,
+      "community": 6,
       "norm_label": "._sample_mdn()"
     },
     {
@@ -1593,7 +1593,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\inference.py",
       "source_location": "L178",
       "id": "inference_handwritinginference_is_loaded",
-      "community": 5,
+      "community": 6,
       "norm_label": ".is_loaded()"
     },
     {
@@ -1602,7 +1602,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\inference.py",
       "source_location": "L188",
       "id": "inference_get_inference_engine",
-      "community": 5,
+      "community": 6,
       "norm_label": "get_inference_engine()"
     },
     {
@@ -1610,63 +1610,63 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\inference.py",
       "source_location": "L1",
-      "id": "inference_rationale_1",
-      "community": 5,
-      "norm_label": "inference engine for handwriting generation.  takes input text and generates str"
+      "community": 6,
+      "norm_label": "inference engine for handwriting generation.  takes input text and generates str",
+      "id": "inference_rationale_1"
     },
     {
       "label": "Generate handwriting strokes from text using a trained model.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\inference.py",
       "source_location": "L25",
-      "id": "inference_rationale_25",
-      "community": 5,
-      "norm_label": "generate handwriting strokes from text using a trained model."
+      "community": 6,
+      "norm_label": "generate handwriting strokes from text using a trained model.",
+      "id": "inference_rationale_25"
     },
     {
       "label": "Load model weights from checkpoint.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\inference.py",
       "source_location": "L58",
-      "id": "inference_rationale_58",
-      "community": 5,
-      "norm_label": "load model weights from checkpoint."
+      "community": 6,
+      "norm_label": "load model weights from checkpoint.",
+      "id": "inference_rationale_58"
     },
     {
       "label": "Generate handwriting strokes for given text.          Args:             text: In",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\inference.py",
       "source_location": "L74",
-      "id": "inference_rationale_74",
-      "community": 5,
-      "norm_label": "generate handwriting strokes for given text.          args:             text: in"
+      "community": 6,
+      "norm_label": "generate handwriting strokes for given text.          args:             text: in",
+      "id": "inference_rationale_74"
     },
     {
       "label": "Sample a point from the MDN output.          Args:             params: MDN param",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\inference.py",
       "source_location": "L131",
-      "id": "inference_rationale_131",
-      "community": 5,
-      "norm_label": "sample a point from the mdn output.          args:             params: mdn param"
+      "community": 6,
+      "norm_label": "sample a point from the mdn output.          args:             params: mdn param",
+      "id": "inference_rationale_131"
     },
     {
       "label": "Check if model has loaded weights (not random).",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\inference.py",
       "source_location": "L179",
-      "id": "inference_rationale_179",
-      "community": 5,
-      "norm_label": "check if model has loaded weights (not random)."
+      "community": 6,
+      "norm_label": "check if model has loaded weights (not random).",
+      "id": "inference_rationale_179"
     },
     {
       "label": "Get or create a cached inference engine.      Reuses the same model instance for",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\inference.py",
       "source_location": "L191",
-      "id": "inference_rationale_191",
-      "community": 5,
-      "norm_label": "get or create a cached inference engine.      reuses the same model instance for"
+      "community": 6,
+      "norm_label": "get or create a cached inference engine.      reuses the same model instance for",
+      "id": "inference_rationale_191"
     },
     {
       "label": "model.py",
@@ -1683,7 +1683,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\model.py",
       "source_location": "L30",
       "id": "model_mdnparams",
-      "community": 5,
+      "community": 6,
       "norm_label": "mdnparams"
     },
     {
@@ -1692,7 +1692,7 @@
       "source_file": "",
       "source_location": "",
       "id": "namedtuple",
-      "community": 5,
+      "community": 6,
       "norm_label": "namedtuple"
     },
     {
@@ -1773,7 +1773,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\model.py",
       "source_location": "L196",
       "id": "model_handwritingmodel_get_initial_state",
-      "community": 5,
+      "community": 6,
       "norm_label": ".get_initial_state()"
     },
     {
@@ -1782,7 +1782,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\model.py",
       "source_location": "L209",
       "id": "model_handwritingmodel_forward_step",
-      "community": 5,
+      "community": 6,
       "norm_label": ".forward_step()"
     },
     {
@@ -1791,7 +1791,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\model.py",
       "source_location": "L254",
       "id": "model_handwritingmodel_forward",
-      "community": 5,
+      "community": 6,
       "norm_label": ".forward()"
     },
     {
@@ -1808,99 +1808,99 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\model.py",
       "source_location": "L1",
-      "id": "model_rationale_1",
       "community": 1,
-      "norm_label": "graves handwriting synthesis network.  implements a 3-layer lstm with:   - soft"
+      "norm_label": "graves handwriting synthesis network.  implements a 3-layer lstm with:   - soft",
+      "id": "model_rationale_1"
     },
     {
       "label": "Parameters of the Mixture Density Network output.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\model.py",
       "source_location": "L31",
-      "id": "model_rationale_31",
-      "community": 5,
-      "norm_label": "parameters of the mixture density network output."
+      "community": 6,
+      "norm_label": "parameters of the mixture density network output.",
+      "id": "model_rationale_31"
     },
     {
       "label": "Soft attention window over the character sequence.      Uses K Gaussian attentio",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\model.py",
       "source_location": "L43",
-      "id": "model_rationale_43",
       "community": 8,
-      "norm_label": "soft attention window over the character sequence.      uses k gaussian attentio"
+      "norm_label": "soft attention window over the character sequence.      uses k gaussian attentio",
+      "id": "model_rationale_43"
     },
     {
       "label": "Compute attention window.          Args:             lstm_out: Output from first",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\model.py",
       "source_location": "L62",
-      "id": "model_rationale_62",
       "community": 8,
-      "norm_label": "compute attention window.          args:             lstm_out: output from first"
+      "norm_label": "compute attention window.          args:             lstm_out: output from first",
+      "id": "model_rationale_62"
     },
     {
       "label": "Mixture Density Network head.      Outputs parameters for a mixture of bivariate",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\model.py",
       "source_location": "L103",
-      "id": "model_rationale_103",
       "community": 8,
-      "norm_label": "mixture density network head.      outputs parameters for a mixture of bivariate"
+      "norm_label": "mixture density network head.      outputs parameters for a mixture of bivariate",
+      "id": "model_rationale_103"
     },
     {
       "label": "Compute MDN parameters from LSTM output.          Args:             x: Combined",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\model.py",
       "source_location": "L117",
-      "id": "model_rationale_117",
       "community": 8,
-      "norm_label": "compute mdn parameters from lstm output.          args:             x: combined"
+      "norm_label": "compute mdn parameters from lstm output.          args:             x: combined",
+      "id": "model_rationale_117"
     },
     {
       "label": "Graves Handwriting Synthesis Network.      Architecture:         Input (3: dx, d",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\model.py",
       "source_location": "L149",
-      "id": "model_rationale_149",
       "community": 1,
-      "norm_label": "graves handwriting synthesis network.      architecture:         input (3: dx, d"
+      "norm_label": "graves handwriting synthesis network.      architecture:         input (3: dx, d",
+      "id": "model_rationale_149"
     },
     {
       "label": "Create zero initial hidden states.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\model.py",
       "source_location": "L199",
-      "id": "model_rationale_199",
-      "community": 5,
-      "norm_label": "create zero initial hidden states."
+      "community": 6,
+      "norm_label": "create zero initial hidden states.",
+      "id": "model_rationale_199"
     },
     {
       "label": "Single timestep forward pass.          Args:             x: Input stroke, shape",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\model.py",
       "source_location": "L215",
-      "id": "model_rationale_215",
-      "community": 5,
-      "norm_label": "single timestep forward pass.          args:             x: input stroke, shape"
+      "community": 6,
+      "norm_label": "single timestep forward pass.          args:             x: input stroke, shape",
+      "id": "model_rationale_215"
     },
     {
       "label": "Full sequence forward pass.          Args:             strokes: Input strokes, s",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\model.py",
       "source_location": "L260",
-      "id": "model_rationale_260",
-      "community": 5,
-      "norm_label": "full sequence forward pass.          args:             strokes: input strokes, s"
+      "community": 6,
+      "norm_label": "full sequence forward pass.          args:             strokes: input strokes, s",
+      "id": "model_rationale_260"
     },
     {
       "label": "Compute negative log-likelihood of the MDN.      Args:         mdn_params: MDN o",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\model.py",
       "source_location": "L292",
-      "id": "model_rationale_292",
       "community": 1,
-      "norm_label": "compute negative log-likelihood of the mdn.      args:         mdn_params: mdn o"
+      "norm_label": "compute negative log-likelihood of the mdn.      args:         mdn_params: mdn o",
+      "id": "model_rationale_292"
     },
     {
       "label": "stroke_renderer.py",
@@ -1908,7 +1908,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\stroke_renderer.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_ml_stroke_renderer_py",
-      "community": 3,
+      "community": 4,
       "norm_label": "stroke_renderer.py"
     },
     {
@@ -1917,7 +1917,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\stroke_renderer.py",
       "source_location": "L20",
       "id": "stroke_renderer_strokerenderer",
-      "community": 0,
+      "community": 2,
       "norm_label": "strokerenderer"
     },
     {
@@ -1926,7 +1926,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\stroke_renderer.py",
       "source_location": "L23",
       "id": "stroke_renderer_strokerenderer_init",
-      "community": 0,
+      "community": 2,
       "norm_label": ".__init__()"
     },
     {
@@ -1935,7 +1935,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\stroke_renderer.py",
       "source_location": "L45",
       "id": "stroke_renderer_strokerenderer_render",
-      "community": 0,
+      "community": 2,
       "norm_label": ".render()"
     },
     {
@@ -1944,7 +1944,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\stroke_renderer.py",
       "source_location": "L128",
       "id": "stroke_renderer_strokerenderer_render_multiline",
-      "community": 0,
+      "community": 2,
       "norm_label": ".render_multiline()"
     },
     {
@@ -1952,36 +1952,36 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\stroke_renderer.py",
       "source_location": "L1",
-      "id": "stroke_renderer_rationale_1",
-      "community": 3,
-      "norm_label": "stroke-to-image renderer.  converts stroke sequences (dx, dy, pen_up) to pil ima"
+      "community": 4,
+      "norm_label": "stroke-to-image renderer.  converts stroke sequences (dx, dy, pen_up) to pil ima",
+      "id": "stroke_renderer_rationale_1"
     },
     {
       "label": "Renders stroke data as PIL Images.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\stroke_renderer.py",
       "source_location": "L21",
-      "id": "stroke_renderer_rationale_21",
-      "community": 0,
-      "norm_label": "renders stroke data as pil images."
+      "community": 2,
+      "norm_label": "renders stroke data as pil images.",
+      "id": "stroke_renderer_rationale_21"
     },
     {
       "label": "Render stroke data to a PIL RGBA Image.          Args:             strokes: Arra",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\stroke_renderer.py",
       "source_location": "L52",
-      "id": "stroke_renderer_rationale_52",
-      "community": 0,
-      "norm_label": "render stroke data to a pil rgba image.          args:             strokes: arra"
+      "community": 2,
+      "norm_label": "render stroke data to a pil rgba image.          args:             strokes: arra",
+      "id": "stroke_renderer_rationale_52"
     },
     {
       "label": "Render multiple lines of strokes across pages.          Args:             line_s",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\stroke_renderer.py",
       "source_location": "L133",
-      "id": "stroke_renderer_rationale_133",
-      "community": 0,
-      "norm_label": "render multiple lines of strokes across pages.          args:             line_s"
+      "community": 2,
+      "norm_label": "render multiple lines of strokes across pages.          args:             line_s",
+      "id": "stroke_renderer_rationale_133"
     },
     {
       "label": "training.py",
@@ -2069,63 +2069,63 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L1",
-      "id": "training_rationale_1",
       "community": 1,
-      "norm_label": "training pipeline for the handwriting synthesis model.  provides:   - handwritin"
+      "norm_label": "training pipeline for the handwriting synthesis model.  provides:   - handwritin",
+      "id": "training_rationale_1"
     },
     {
       "label": "Training manager for the handwriting synthesis model.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L44",
-      "id": "training_rationale_44",
       "community": 1,
-      "norm_label": "training manager for the handwriting synthesis model."
+      "norm_label": "training manager for the handwriting synthesis model.",
+      "id": "training_rationale_44"
     },
     {
       "label": "Run the full training loop.          Args:             train_dataset: Training d",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L84",
-      "id": "training_rationale_84",
       "community": 1,
-      "norm_label": "run the full training loop.          args:             train_dataset: training d"
+      "norm_label": "run the full training loop.          args:             train_dataset: training d",
+      "id": "training_rationale_84"
     },
     {
       "label": "Run one training epoch.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L159",
-      "id": "training_rationale_159",
       "community": 1,
-      "norm_label": "run one training epoch."
+      "norm_label": "run one training epoch.",
+      "id": "training_rationale_159"
     },
     {
       "label": "Save model checkpoint.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L223",
-      "id": "training_rationale_223",
       "community": 1,
-      "norm_label": "save model checkpoint."
+      "norm_label": "save model checkpoint.",
+      "id": "training_rationale_223"
     },
     {
       "label": "Load model checkpoint.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L236",
-      "id": "training_rationale_236",
       "community": 1,
-      "norm_label": "load model checkpoint."
+      "norm_label": "load model checkpoint.",
+      "id": "training_rationale_236"
     },
     {
       "label": "CLI-callable training function.      Args:         data_dir: Path to IAM dataset",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L254",
-      "id": "training_rationale_254",
       "community": 1,
-      "norm_label": "cli-callable training function.      args:         data_dir: path to iam dataset"
+      "norm_label": "cli-callable training function.      args:         data_dir: path to iam dataset",
+      "id": "training_rationale_254"
     },
     {
       "label": "utils.py",
@@ -2133,7 +2133,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\utils.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_ml_utils_py",
-      "community": 3,
+      "community": 4,
       "norm_label": "utils.py"
     },
     {
@@ -2142,7 +2142,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\utils.py",
       "source_location": "L25",
       "id": "utils_text_to_indices",
-      "community": 3,
+      "community": 4,
       "norm_label": "text_to_indices()"
     },
     {
@@ -2151,7 +2151,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\utils.py",
       "source_location": "L30",
       "id": "utils_indices_to_text",
-      "community": 3,
+      "community": 4,
       "norm_label": "indices_to_text()"
     },
     {
@@ -2160,7 +2160,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\utils.py",
       "source_location": "L35",
       "id": "utils_text_to_one_hot",
-      "community": 3,
+      "community": 4,
       "norm_label": "text_to_one_hot()"
     },
     {
@@ -2169,7 +2169,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\utils.py",
       "source_location": "L49",
       "id": "utils_normalize_strokes",
-      "community": 3,
+      "community": 4,
       "norm_label": "normalize_strokes()"
     },
     {
@@ -2178,7 +2178,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\utils.py",
       "source_location": "L84",
       "id": "utils_denormalize_strokes",
-      "community": 3,
+      "community": 4,
       "norm_label": "denormalize_strokes()"
     },
     {
@@ -2187,7 +2187,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\utils.py",
       "source_location": "L97",
       "id": "utils_strokes_to_points",
-      "community": 3,
+      "community": 4,
       "norm_label": "strokes_to_points()"
     },
     {
@@ -2196,7 +2196,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\utils.py",
       "source_location": "L123",
       "id": "utils_pad_stroke_sequence",
-      "community": 3,
+      "community": 4,
       "norm_label": "pad_stroke_sequence()"
     },
     {
@@ -2205,7 +2205,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\utils.py",
       "source_location": "L141",
       "id": "utils_pad_text_sequence",
-      "community": 3,
+      "community": 4,
       "norm_label": "pad_text_sequence()"
     },
     {
@@ -2213,7 +2213,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\utils.py",
       "source_location": "L1",
-      "community": 3,
+      "community": 4,
       "norm_label": "utility functions for handwriting synthesis ml pipeline.  provides:   - characte",
       "id": "utils_rationale_1"
     },
@@ -2222,7 +2222,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\utils.py",
       "source_location": "L26",
-      "community": 3,
+      "community": 4,
       "norm_label": "convert a text string to a list of character indices.",
       "id": "utils_rationale_26"
     },
@@ -2231,7 +2231,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\utils.py",
       "source_location": "L31",
-      "community": 3,
+      "community": 4,
       "norm_label": "convert character indices back to text.",
       "id": "utils_rationale_31"
     },
@@ -2240,7 +2240,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\utils.py",
       "source_location": "L36",
-      "community": 3,
+      "community": 4,
       "norm_label": "convert text to one-hot encoded matrix.      returns:         array of shape (le",
       "id": "utils_rationale_36"
     },
@@ -2249,7 +2249,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\utils.py",
       "source_location": "L53",
-      "community": 3,
+      "community": 4,
       "norm_label": "normalize stroke data to zero mean, unit variance.      args:         strokes: a",
       "id": "utils_rationale_53"
     },
@@ -2258,7 +2258,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\utils.py",
       "source_location": "L90",
-      "community": 3,
+      "community": 4,
       "norm_label": "reverse normalization of strokes.",
       "id": "utils_rationale_90"
     },
@@ -2267,7 +2267,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\utils.py",
       "source_location": "L98",
-      "community": 3,
+      "community": 4,
       "norm_label": "convert stroke offsets (dx, dy, pen_up) to absolute point sequences.      return",
       "id": "utils_rationale_98"
     },
@@ -2276,7 +2276,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\utils.py",
       "source_location": "L126",
-      "community": 3,
+      "community": 4,
       "norm_label": "pad stroke sequence to max_len.      returns (padded_array, original_length).",
       "id": "utils_rationale_126"
     },
@@ -2285,7 +2285,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\utils.py",
       "source_location": "L144",
-      "community": 3,
+      "community": 4,
       "norm_label": "pad text index sequence to max_len.",
       "id": "utils_rationale_144"
     },
@@ -2295,7 +2295,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\__init__.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_ml_init_py",
-      "community": 37,
+      "community": 38,
       "norm_label": "__init__.py"
     },
     {
@@ -2304,7 +2304,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\models\\schemas.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_models_schemas_py",
-      "community": 2,
+      "community": 3,
       "norm_label": "schemas.py"
     },
     {
@@ -2313,7 +2313,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\models\\schemas.py",
       "source_location": "L10",
       "id": "schemas_paperstyle",
-      "community": 2,
+      "community": 3,
       "norm_label": "paperstyle"
     },
     {
@@ -2322,7 +2322,7 @@
       "source_file": "",
       "source_location": "",
       "id": "str",
-      "community": 2,
+      "community": 3,
       "norm_label": "str"
     },
     {
@@ -2331,7 +2331,7 @@
       "source_file": "",
       "source_location": "",
       "id": "enum",
-      "community": 2,
+      "community": 3,
       "norm_label": "enum"
     },
     {
@@ -2340,7 +2340,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\models\\schemas.py",
       "source_location": "L16",
       "id": "schemas_taskstatus",
-      "community": 2,
+      "community": 3,
       "norm_label": "taskstatus"
     },
     {
@@ -2349,7 +2349,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\models\\schemas.py",
       "source_location": "L23",
       "id": "schemas_exportformat",
-      "community": 2,
+      "community": 3,
       "norm_label": "exportformat"
     },
     {
@@ -2358,7 +2358,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\models\\schemas.py",
       "source_location": "L29",
       "id": "schemas_generaterequest",
-      "community": 2,
+      "community": 3,
       "norm_label": "generaterequest"
     },
     {
@@ -2367,7 +2367,7 @@
       "source_file": "",
       "source_location": "",
       "id": "basemodel",
-      "community": 2,
+      "community": 3,
       "norm_label": "basemodel"
     },
     {
@@ -2376,7 +2376,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\models\\schemas.py",
       "source_location": "L41",
       "id": "schemas_healthresponse",
-      "community": 2,
+      "community": 3,
       "norm_label": "healthresponse"
     },
     {
@@ -2385,7 +2385,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\models\\schemas.py",
       "source_location": "L48",
       "id": "schemas_sampleinfo",
-      "community": 2,
+      "community": 3,
       "norm_label": "sampleinfo"
     },
     {
@@ -2394,7 +2394,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\models\\schemas.py",
       "source_location": "L55",
       "id": "schemas_uploadresponse",
-      "community": 2,
+      "community": 3,
       "norm_label": "uploadresponse"
     },
     {
@@ -2403,7 +2403,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\models\\schemas.py",
       "source_location": "L62",
       "id": "schemas_generateresponse",
-      "community": 2,
+      "community": 3,
       "norm_label": "generateresponse"
     },
     {
@@ -2412,7 +2412,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\models\\schemas.py",
       "source_location": "L68",
       "id": "schemas_taskstatusresponse",
-      "community": 2,
+      "community": 3,
       "norm_label": "taskstatusresponse"
     },
     {
@@ -2421,7 +2421,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\models\\schemas.py",
       "source_location": "L77",
       "id": "schemas_progressmessage",
-      "community": 2,
+      "community": 3,
       "norm_label": "progressmessage"
     },
     {
@@ -2429,7 +2429,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\models\\schemas.py",
       "source_location": "L1",
-      "community": 2,
+      "community": 3,
       "norm_label": "pydantic schemas for api request/response models.",
       "id": "schemas_rationale_1"
     },
@@ -2438,7 +2438,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\models\\schemas.py",
       "source_location": "L30",
-      "community": 2,
+      "community": 3,
       "norm_label": "request body for post /api/generate.",
       "id": "schemas_rationale_30"
     },
@@ -2447,7 +2447,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\models\\schemas.py",
       "source_location": "L78",
-      "community": 2,
+      "community": 3,
       "norm_label": "websocket progress message format.",
       "id": "schemas_rationale_78"
     },
@@ -2457,7 +2457,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\models\\__init__.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_models_init_py",
-      "community": 38,
+      "community": 39,
       "norm_label": "__init__.py"
     },
     {
@@ -2466,7 +2466,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_storage_file_storage_py",
-      "community": 4,
+      "community": 5,
       "norm_label": "file_storage.py"
     },
     {
@@ -2475,7 +2475,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L12",
       "id": "file_storage_create_session",
-      "community": 4,
+      "community": 5,
       "norm_label": "create_session()"
     },
     {
@@ -2484,7 +2484,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L20",
       "id": "file_storage_get_session_dir",
-      "community": 4,
+      "community": 5,
       "norm_label": "get_session_dir()"
     },
     {
@@ -2493,7 +2493,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L28",
       "id": "file_storage_get_session_sample_paths",
-      "community": 4,
+      "community": 5,
       "norm_label": "get_session_sample_paths()"
     },
     {
@@ -2502,7 +2502,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L38",
       "id": "file_storage_create_task_output_dir",
-      "community": 4,
+      "community": 5,
       "norm_label": "create_task_output_dir()"
     },
     {
@@ -2511,7 +2511,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L45",
       "id": "file_storage_get_task_output_dir",
-      "community": 4,
+      "community": 5,
       "norm_label": "get_task_output_dir()"
     },
     {
@@ -2520,7 +2520,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L53",
       "id": "file_storage_get_output_file",
-      "community": 4,
+      "community": 5,
       "norm_label": "get_output_file()"
     },
     {
@@ -2529,7 +2529,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L61",
       "id": "file_storage_cleanup_session",
-      "community": 4,
+      "community": 5,
       "norm_label": "cleanup_session()"
     },
     {
@@ -2538,7 +2538,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L68",
       "id": "file_storage_cleanup_task",
-      "community": 4,
+      "community": 5,
       "norm_label": "cleanup_task()"
     },
     {
@@ -2547,7 +2547,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L75",
       "id": "file_storage_generate_task_id",
-      "community": 2,
+      "community": 3,
       "norm_label": "generate_task_id()"
     },
     {
@@ -2555,7 +2555,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L1",
-      "community": 4,
+      "community": 5,
       "norm_label": "file storage management for uploads and generated outputs.",
       "id": "file_storage_rationale_1"
     },
@@ -2564,7 +2564,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L13",
-      "community": 4,
+      "community": 5,
       "norm_label": "create a new upload session and return its id.",
       "id": "file_storage_rationale_13"
     },
@@ -2573,7 +2573,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L21",
-      "community": 4,
+      "community": 5,
       "norm_label": "get the upload directory for a session.",
       "id": "file_storage_rationale_21"
     },
@@ -2582,7 +2582,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L29",
-      "community": 4,
+      "community": 5,
       "norm_label": "list all sample image paths in a session.",
       "id": "file_storage_rationale_29"
     },
@@ -2591,7 +2591,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L39",
-      "community": 4,
+      "community": 5,
       "norm_label": "create an output directory for a generation task.",
       "id": "file_storage_rationale_39"
     },
@@ -2600,7 +2600,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L46",
-      "community": 4,
+      "community": 5,
       "norm_label": "get the output directory for a task.",
       "id": "file_storage_rationale_46"
     },
@@ -2609,7 +2609,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L54",
-      "community": 4,
+      "community": 5,
       "norm_label": "get a specific output file for a task.",
       "id": "file_storage_rationale_54"
     },
@@ -2618,7 +2618,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L62",
-      "community": 4,
+      "community": 5,
       "norm_label": "remove a session's uploaded files.",
       "id": "file_storage_rationale_62"
     },
@@ -2627,7 +2627,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L69",
-      "community": 4,
+      "community": 5,
       "norm_label": "remove a task's output files.",
       "id": "file_storage_rationale_69"
     },
@@ -2636,7 +2636,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L76",
-      "community": 2,
+      "community": 3,
       "norm_label": "generate a unique task id.",
       "id": "file_storage_rationale_76"
     },
@@ -2646,7 +2646,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\__init__.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_storage_init_py",
-      "community": 39,
+      "community": 40,
       "norm_label": "__init__.py"
     },
     {
@@ -2655,7 +2655,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\celery_app.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_tasks_celery_app_py",
-      "community": 16,
+      "community": 17,
       "norm_label": "celery_app.py"
     },
     {
@@ -2663,7 +2663,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\celery_app.py",
       "source_location": "L1",
-      "community": 16,
+      "community": 17,
       "norm_label": "celery application configuration.",
       "id": "celery_app_rationale_1"
     },
@@ -2680,7 +2680,7 @@
       "label": "_update_progress()",
       "file_type": "code",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
-      "source_location": "L20",
+      "source_location": "L21",
       "id": "generation_task_update_progress",
       "community": 0,
       "norm_label": "_update_progress()"
@@ -2689,7 +2689,7 @@
       "label": "run_generation_sync()",
       "file_type": "code",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
-      "source_location": "L47",
+      "source_location": "L48",
       "id": "generation_task_run_generation_sync",
       "community": 0,
       "norm_label": "run_generation_sync()"
@@ -2698,7 +2698,7 @@
       "label": "generate_handwriting_task()",
       "file_type": "code",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
-      "source_location": "L156",
+      "source_location": "L185",
       "id": "generation_task_generate_handwriting_task",
       "community": 0,
       "norm_label": "generate_handwriting_task()"
@@ -2716,28 +2716,28 @@
       "label": "Store task progress in Redis for WebSocket to read.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
-      "source_location": "L28",
+      "source_location": "L29",
       "community": 0,
       "norm_label": "store task progress in redis for websocket to read.",
-      "id": "generation_task_rationale_28"
+      "id": "generation_task_rationale_29"
     },
     {
       "label": "Run the full generation pipeline synchronously.      This is used both by the Ce",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
-      "source_location": "L48",
+      "source_location": "L49",
       "community": 0,
       "norm_label": "run the full generation pipeline synchronously.      this is used both by the ce",
-      "id": "generation_task_rationale_48"
+      "id": "generation_task_rationale_49"
     },
     {
       "label": "Celery task wrapper for handwriting generation.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
-      "source_location": "L157",
+      "source_location": "L186",
       "community": 0,
       "norm_label": "celery task wrapper for handwriting generation.",
-      "id": "generation_task_rationale_157"
+      "id": "generation_task_rationale_186"
     },
     {
       "label": "__init__.py",
@@ -2745,7 +2745,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\__init__.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_tasks_init_py",
-      "community": 40,
+      "community": 41,
       "norm_label": "__init__.py"
     },
     {
@@ -2862,7 +2862,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\tests\\__init__.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_tests_init_py",
-      "community": 41,
+      "community": 42,
       "norm_label": "__init__.py"
     },
     {
@@ -2871,7 +2871,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\handwriting\\download-panel.tsx",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_components_handwriting_download_panel_tsx",
-      "community": 42,
+      "community": 43,
       "norm_label": "download-panel.tsx"
     },
     {
@@ -2880,7 +2880,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\handwriting\\drawing-canvas.tsx",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_components_handwriting_drawing_canvas_tsx",
-      "community": 43,
+      "community": 44,
       "norm_label": "drawing-canvas.tsx"
     },
     {
@@ -2889,7 +2889,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\handwriting\\preview-panel.tsx",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_components_handwriting_preview_panel_tsx",
-      "community": 44,
+      "community": 45,
       "norm_label": "preview-panel.tsx"
     },
     {
@@ -2898,7 +2898,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\handwriting\\sample-uploader.tsx",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_components_handwriting_sample_uploader_tsx",
-      "community": 17,
+      "community": 18,
       "norm_label": "sample-uploader.tsx"
     },
     {
@@ -2907,7 +2907,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\handwriting\\sample-uploader.tsx",
       "source_location": "L15",
       "id": "sample_uploader_resizeimage",
-      "community": 17,
+      "community": 18,
       "norm_label": "resizeimage()"
     },
     {
@@ -2916,7 +2916,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\handwriting\\text-input.tsx",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_components_handwriting_text_input_tsx",
-      "community": 45,
+      "community": 46,
       "norm_label": "text-input.tsx"
     },
     {
@@ -2925,7 +2925,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\layout\\footer.tsx",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_components_layout_footer_tsx",
-      "community": 18,
+      "community": 19,
       "norm_label": "footer.tsx"
     },
     {
@@ -2934,7 +2934,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\layout\\footer.tsx",
       "source_location": "L4",
       "id": "footer_footerinner",
-      "community": 18,
+      "community": 19,
       "norm_label": "footerinner()"
     },
     {
@@ -2943,7 +2943,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\layout\\navbar.tsx",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_components_layout_navbar_tsx",
-      "community": 46,
+      "community": 47,
       "norm_label": "navbar.tsx"
     },
     {
@@ -2952,7 +2952,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\ui\\animated-background.tsx",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_components_ui_animated_background_tsx",
-      "community": 47,
+      "community": 48,
       "norm_label": "animated-background.tsx"
     },
     {
@@ -2961,7 +2961,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\ui\\button.tsx",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_components_ui_button_tsx",
-      "community": 19,
+      "community": 20,
       "norm_label": "button.tsx"
     },
     {
@@ -2970,7 +2970,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\ui\\button.tsx",
       "source_location": "L61",
       "id": "button_cn",
-      "community": 19,
+      "community": 20,
       "norm_label": "cn()"
     },
     {
@@ -2979,7 +2979,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\ui\\glass-button.tsx",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_components_ui_glass_button_tsx",
-      "community": 48,
+      "community": 49,
       "norm_label": "glass-button.tsx"
     },
     {
@@ -2988,7 +2988,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\ui\\glass-card.tsx",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_components_ui_glass_card_tsx",
-      "community": 20,
+      "community": 21,
       "norm_label": "glass-card.tsx"
     },
     {
@@ -2997,7 +2997,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\ui\\glass-card.tsx",
       "source_location": "L19",
       "id": "glass_card_glasscardinner",
-      "community": 20,
+      "community": 21,
       "norm_label": "glasscardinner()"
     },
     {
@@ -3006,7 +3006,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\ui\\input.tsx",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_components_ui_input_tsx",
-      "community": 21,
+      "community": 22,
       "norm_label": "input.tsx"
     },
     {
@@ -3015,7 +3015,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\ui\\input.tsx",
       "source_location": "L5",
       "id": "input_input",
-      "community": 21,
+      "community": 22,
       "norm_label": "input()"
     },
     {
@@ -3024,7 +3024,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\ui\\step-indicator.tsx",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_components_ui_step_indicator_tsx",
-      "community": 49,
+      "community": 50,
       "norm_label": "step-indicator.tsx"
     },
     {
@@ -3033,7 +3033,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\lib\\utils.ts",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_lib_utils_ts",
-      "community": 22,
+      "community": 23,
       "norm_label": "utils.ts"
     },
     {
@@ -3042,7 +3042,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\lib\\utils.ts",
       "source_location": "L4",
       "id": "utils_cn",
-      "community": 22,
+      "community": 23,
       "norm_label": "cn()"
     },
     {
@@ -3051,7 +3051,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\store\\hooks.ts",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_store_hooks_ts",
-      "community": 50,
+      "community": 51,
       "norm_label": "hooks.ts"
     },
     {
@@ -3060,7 +3060,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\store\\index.ts",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_store_index_ts",
-      "community": 51,
+      "community": 52,
       "norm_label": "index.ts"
     },
     {
@@ -3069,7 +3069,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\store\\provider.tsx",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_store_provider_tsx",
-      "community": 23,
+      "community": 24,
       "norm_label": "provider.tsx"
     },
     {
@@ -3078,7 +3078,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\store\\provider.tsx",
       "source_location": "L6",
       "id": "provider_storeprovider",
-      "community": 23,
+      "community": 24,
       "norm_label": "storeprovider()"
     },
     {
@@ -3087,7 +3087,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\store\\slices\\generationSlice.ts",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_store_slices_generationslice_ts",
-      "community": 24,
+      "community": 25,
       "norm_label": "generationslice.ts"
     },
     {
@@ -3096,7 +3096,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\store\\slices\\generationSlice.ts",
       "source_location": "L120",
       "id": "generationslice_pollforcompletion",
-      "community": 24,
+      "community": 25,
       "norm_label": "pollforcompletion()"
     },
     {
@@ -3105,7 +3105,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\store\\slices\\samplesSlice.ts",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_store_slices_samplesslice_ts",
-      "community": 52,
+      "community": 53,
       "norm_label": "samplesslice.ts"
     },
     {
@@ -3114,7 +3114,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\store\\slices\\textSlice.ts",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_store_slices_textslice_ts",
-      "community": 53,
+      "community": 54,
       "norm_label": "textslice.ts"
     },
     {
@@ -3123,15 +3123,42 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\store\\slices\\uiSlice.ts",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_store_slices_uislice_ts",
-      "community": 54,
+      "community": 55,
       "norm_label": "uislice.ts"
+    },
+    {
+      "label": "Store task progress in Redis for WebSocket to read.",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
+      "source_location": "L28",
+      "community": 0,
+      "norm_label": "store task progress in redis for websocket to read.",
+      "id": "generation_task_rationale_28"
+    },
+    {
+      "label": "Run the full generation pipeline synchronously.      This is used both by the Ce",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
+      "source_location": "L48",
+      "community": 0,
+      "norm_label": "run the full generation pipeline synchronously.      this is used both by the ce",
+      "id": "generation_task_rationale_48"
+    },
+    {
+      "label": "Celery task wrapper for handwriting generation.",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
+      "source_location": "L157",
+      "community": 0,
+      "norm_label": "celery task wrapper for handwriting generation.",
+      "id": "generation_task_rationale_157"
     },
     {
       "label": "Generate handwriting pages from input text.          Returns list of PIL Images,",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L120",
-      "community": 0,
+      "community": 2,
       "norm_label": "generate handwriting pages from input text.          returns list of pil images,",
       "id": "handwriting_gen_rationale_120"
     },
@@ -3140,7 +3167,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L131",
-      "community": 0,
+      "community": 2,
       "norm_label": "render text using a handwriting font with procedural randomness.",
       "id": "handwriting_gen_rationale_131"
     },
@@ -3149,7 +3176,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L215",
-      "community": 0,
+      "community": 2,
       "norm_label": "render text using extracted glyph images with natural placement.",
       "id": "handwriting_gen_rationale_215"
     }
@@ -4351,9 +4378,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_glyphrenderer",
       "_tgt": "stroke_renderer_strokerenderer",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_glyphrenderer",
-      "target": "stroke_renderer_strokerenderer",
-      "confidence_score": 0.5
+      "target": "stroke_renderer_strokerenderer"
     },
     {
       "relation": "calls",
@@ -4543,9 +4570,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_handwritinggenerator",
       "_tgt": "stroke_renderer_strokerenderer",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_handwritinggenerator",
-      "target": "stroke_renderer_strokerenderer",
-      "confidence_score": 0.5
+      "target": "stroke_renderer_strokerenderer"
     },
     {
       "relation": "uses",
@@ -4558,6 +4585,54 @@
       "confidence_score": 0.5,
       "source": "handwriting_gen_handwritinggenerator",
       "target": "generation_task_rationale_1"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
+      "source_location": "L61",
+      "weight": 0.8,
+      "_src": "handwriting_gen_handwritinggenerator",
+      "_tgt": "generation_task_rationale_29",
+      "confidence_score": 0.5,
+      "source": "handwriting_gen_handwritinggenerator",
+      "target": "generation_task_rationale_29"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
+      "source_location": "L61",
+      "weight": 0.8,
+      "_src": "handwriting_gen_handwritinggenerator",
+      "_tgt": "generation_task_rationale_49",
+      "confidence_score": 0.5,
+      "source": "handwriting_gen_handwritinggenerator",
+      "target": "generation_task_rationale_49"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
+      "source_location": "L61",
+      "weight": 0.8,
+      "_src": "handwriting_gen_handwritinggenerator",
+      "_tgt": "generation_task_rationale_186",
+      "confidence_score": 0.5,
+      "source": "handwriting_gen_handwritinggenerator",
+      "target": "generation_task_rationale_186"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
+      "source_location": "L94",
+      "weight": 1.0,
+      "_src": "handwriting_gen_handwritinggenerator",
+      "_tgt": "generation_task_run_generation_sync",
+      "source": "handwriting_gen_handwritinggenerator",
+      "target": "generation_task_run_generation_sync"
     },
     {
       "relation": "uses",
@@ -4594,18 +4669,6 @@
       "confidence_score": 0.5,
       "source": "handwriting_gen_handwritinggenerator",
       "target": "generation_task_rationale_157"
-    },
-    {
-      "relation": "calls",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
-      "source_location": "L94",
-      "weight": 1.0,
-      "_src": "handwriting_gen_handwritinggenerator",
-      "_tgt": "generation_task_run_generation_sync",
-      "source": "handwriting_gen_handwritinggenerator",
-      "target": "generation_task_run_generation_sync"
     },
     {
       "relation": "calls",
@@ -4855,9 +4918,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_1",
       "_tgt": "stroke_renderer_strokerenderer",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_1",
-      "target": "stroke_renderer_strokerenderer",
-      "confidence_score": 0.5
+      "target": "stroke_renderer_strokerenderer"
     },
     {
       "relation": "uses",
@@ -4879,9 +4942,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_40",
       "_tgt": "stroke_renderer_strokerenderer",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_40",
-      "target": "stroke_renderer_strokerenderer",
-      "confidence_score": 0.5
+      "target": "stroke_renderer_strokerenderer"
     },
     {
       "relation": "uses",
@@ -4903,9 +4966,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_58",
       "_tgt": "stroke_renderer_strokerenderer",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_58",
-      "target": "stroke_renderer_strokerenderer",
-      "confidence_score": 0.5
+      "target": "stroke_renderer_strokerenderer"
     },
     {
       "relation": "uses",
@@ -4927,9 +4990,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_66",
       "_tgt": "stroke_renderer_strokerenderer",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_66",
-      "target": "stroke_renderer_strokerenderer",
-      "confidence_score": 0.5
+      "target": "stroke_renderer_strokerenderer"
     },
     {
       "relation": "uses",
@@ -4951,9 +5014,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_82",
       "_tgt": "stroke_renderer_strokerenderer",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_82",
-      "target": "stroke_renderer_strokerenderer",
-      "confidence_score": 0.5
+      "target": "stroke_renderer_strokerenderer"
     },
     {
       "relation": "uses",
@@ -4975,9 +5038,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_88",
       "_tgt": "stroke_renderer_strokerenderer",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_88",
-      "target": "stroke_renderer_strokerenderer",
-      "confidence_score": 0.5
+      "target": "stroke_renderer_strokerenderer"
     },
     {
       "relation": "uses",
@@ -4987,9 +5050,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_122",
       "_tgt": "style_extractor_styleprofile",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_122",
-      "target": "style_extractor_styleprofile",
-      "confidence_score": 0.5
+      "target": "style_extractor_styleprofile"
     },
     {
       "relation": "uses",
@@ -4999,9 +5062,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_122",
       "_tgt": "stroke_renderer_strokerenderer",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_122",
-      "target": "stroke_renderer_strokerenderer",
-      "confidence_score": 0.5
+      "target": "stroke_renderer_strokerenderer"
     },
     {
       "relation": "uses",
@@ -5011,9 +5074,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_133",
       "_tgt": "style_extractor_styleprofile",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_133",
-      "target": "style_extractor_styleprofile",
-      "confidence_score": 0.5
+      "target": "style_extractor_styleprofile"
     },
     {
       "relation": "uses",
@@ -5023,9 +5086,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_133",
       "_tgt": "stroke_renderer_strokerenderer",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_133",
-      "target": "stroke_renderer_strokerenderer",
-      "confidence_score": 0.5
+      "target": "stroke_renderer_strokerenderer"
     },
     {
       "relation": "uses",
@@ -5035,9 +5098,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_143",
       "_tgt": "style_extractor_styleprofile",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_143",
-      "target": "style_extractor_styleprofile",
-      "confidence_score": 0.5
+      "target": "style_extractor_styleprofile"
     },
     {
       "relation": "uses",
@@ -5047,9 +5110,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_143",
       "_tgt": "stroke_renderer_strokerenderer",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_143",
-      "target": "stroke_renderer_strokerenderer",
-      "confidence_score": 0.5
+      "target": "stroke_renderer_strokerenderer"
     },
     {
       "relation": "uses",
@@ -5059,9 +5122,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_157",
       "_tgt": "style_extractor_styleprofile",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_157",
-      "target": "style_extractor_styleprofile",
-      "confidence_score": 0.5
+      "target": "style_extractor_styleprofile"
     },
     {
       "relation": "uses",
@@ -5071,9 +5134,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_157",
       "_tgt": "stroke_renderer_strokerenderer",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_157",
-      "target": "stroke_renderer_strokerenderer",
-      "confidence_score": 0.5
+      "target": "stroke_renderer_strokerenderer"
     },
     {
       "relation": "uses",
@@ -5083,9 +5146,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_187",
       "_tgt": "style_extractor_styleprofile",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_187",
-      "target": "style_extractor_styleprofile",
-      "confidence_score": 0.5
+      "target": "style_extractor_styleprofile"
     },
     {
       "relation": "uses",
@@ -5095,9 +5158,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_187",
       "_tgt": "stroke_renderer_strokerenderer",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_187",
-      "target": "stroke_renderer_strokerenderer",
-      "confidence_score": 0.5
+      "target": "stroke_renderer_strokerenderer"
     },
     {
       "relation": "uses",
@@ -5107,9 +5170,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_271",
       "_tgt": "style_extractor_styleprofile",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_271",
-      "target": "style_extractor_styleprofile",
-      "confidence_score": 0.5
+      "target": "style_extractor_styleprofile"
     },
     {
       "relation": "uses",
@@ -5119,9 +5182,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_271",
       "_tgt": "stroke_renderer_strokerenderer",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_271",
-      "target": "stroke_renderer_strokerenderer",
-      "confidence_score": 0.5
+      "target": "stroke_renderer_strokerenderer"
     },
     {
       "relation": "contains",
@@ -5595,6 +5658,54 @@
       "relation": "uses",
       "confidence": "INFERRED",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
+      "source_location": "L62",
+      "weight": 0.8,
+      "_src": "pdf_generator_pdfgenerator",
+      "_tgt": "generation_task_rationale_29",
+      "confidence_score": 0.5,
+      "source": "pdf_generator_pdfgenerator",
+      "target": "generation_task_rationale_29"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
+      "source_location": "L62",
+      "weight": 0.8,
+      "_src": "pdf_generator_pdfgenerator",
+      "_tgt": "generation_task_rationale_49",
+      "confidence_score": 0.5,
+      "source": "pdf_generator_pdfgenerator",
+      "target": "generation_task_rationale_49"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
+      "source_location": "L62",
+      "weight": 0.8,
+      "_src": "pdf_generator_pdfgenerator",
+      "_tgt": "generation_task_rationale_186",
+      "confidence_score": 0.5,
+      "source": "pdf_generator_pdfgenerator",
+      "target": "generation_task_rationale_186"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
+      "source_location": "L130",
+      "weight": 1.0,
+      "_src": "pdf_generator_pdfgenerator",
+      "_tgt": "generation_task_run_generation_sync",
+      "source": "pdf_generator_pdfgenerator",
+      "target": "generation_task_run_generation_sync"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L61",
       "weight": 0.8,
       "_src": "pdf_generator_pdfgenerator",
@@ -5626,18 +5737,6 @@
       "confidence_score": 0.5,
       "source": "pdf_generator_pdfgenerator",
       "target": "generation_task_rationale_157"
-    },
-    {
-      "relation": "calls",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
-      "source_location": "L130",
-      "weight": 1.0,
-      "_src": "pdf_generator_pdfgenerator",
-      "_tgt": "generation_task_run_generation_sync",
-      "source": "pdf_generator_pdfgenerator",
-      "target": "generation_task_run_generation_sync"
     },
     {
       "relation": "rationale_for",
@@ -5813,8 +5912,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L23",
       "weight": 0.8,
-      "_src": "handwriting_gen_rationale_120",
-      "_tgt": "style_extractor_styleprofile",
+      "_src": "style_extractor_styleprofile",
+      "_tgt": "handwriting_gen_rationale_120",
       "confidence_score": 0.5,
       "source": "style_extractor_styleprofile",
       "target": "handwriting_gen_rationale_120"
@@ -5825,8 +5924,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L23",
       "weight": 0.8,
-      "_src": "handwriting_gen_rationale_131",
-      "_tgt": "style_extractor_styleprofile",
+      "_src": "style_extractor_styleprofile",
+      "_tgt": "handwriting_gen_rationale_131",
       "confidence_score": 0.5,
       "source": "style_extractor_styleprofile",
       "target": "handwriting_gen_rationale_131"
@@ -5837,8 +5936,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L23",
       "weight": 0.8,
-      "_src": "handwriting_gen_rationale_215",
-      "_tgt": "style_extractor_styleprofile",
+      "_src": "style_extractor_styleprofile",
+      "_tgt": "handwriting_gen_rationale_215",
       "confidence_score": 0.5,
       "source": "style_extractor_styleprofile",
       "target": "handwriting_gen_rationale_215"
@@ -5874,8 +5973,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\fine_tune.py",
       "source_location": "L199",
       "weight": 1.0,
-      "_src": "fine_tune_finetuner_fine_tune",
-      "_tgt": "style_extractor_styleprofile_save",
+      "_src": "style_extractor_styleprofile_save",
+      "_tgt": "fine_tune_finetuner_fine_tune",
       "source": "style_extractor_styleprofile_save",
       "target": "fine_tune_finetuner_fine_tune"
     },
@@ -5886,8 +5985,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L225",
       "weight": 1.0,
-      "_src": "training_handwritingtrainer_save_checkpoint",
-      "_tgt": "style_extractor_styleprofile_save",
+      "_src": "style_extractor_styleprofile_save",
+      "_tgt": "training_handwritingtrainer_save_checkpoint",
       "source": "style_extractor_styleprofile_save",
       "target": "training_handwritingtrainer_save_checkpoint"
     },
@@ -5910,8 +6009,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\fine_tune.py",
       "source_location": "L146",
       "weight": 1.0,
-      "_src": "fine_tune_finetuner_init",
-      "_tgt": "style_extractor_load",
+      "_src": "style_extractor_load",
+      "_tgt": "fine_tune_finetuner_init",
       "source": "style_extractor_load",
       "target": "fine_tune_finetuner_init"
     },
@@ -5922,8 +6021,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\inference.py",
       "source_location": "L59",
       "weight": 1.0,
-      "_src": "inference_handwritinginference_load_checkpoint",
-      "_tgt": "style_extractor_load",
+      "_src": "style_extractor_load",
+      "_tgt": "inference_handwritinginference_load_checkpoint",
       "source": "style_extractor_load",
       "target": "inference_handwritinginference_load_checkpoint"
     },
@@ -5934,8 +6033,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L237",
       "weight": 1.0,
-      "_src": "training_handwritingtrainer_load_checkpoint",
-      "_tgt": "style_extractor_load",
+      "_src": "style_extractor_load",
+      "_tgt": "training_handwritingtrainer_load_checkpoint",
       "source": "style_extractor_load",
       "target": "training_handwritingtrainer_load_checkpoint"
     },
@@ -5991,6 +6090,54 @@
       "relation": "uses",
       "confidence": "INFERRED",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
+      "source_location": "L60",
+      "weight": 0.8,
+      "_src": "style_extractor_styleextractor",
+      "_tgt": "generation_task_rationale_29",
+      "confidence_score": 0.5,
+      "source": "style_extractor_styleextractor",
+      "target": "generation_task_rationale_29"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
+      "source_location": "L60",
+      "weight": 0.8,
+      "_src": "style_extractor_styleextractor",
+      "_tgt": "generation_task_rationale_49",
+      "confidence_score": 0.5,
+      "source": "style_extractor_styleextractor",
+      "target": "generation_task_rationale_49"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
+      "source_location": "L60",
+      "weight": 0.8,
+      "_src": "style_extractor_styleextractor",
+      "_tgt": "generation_task_rationale_186",
+      "confidence_score": 0.5,
+      "source": "style_extractor_styleextractor",
+      "target": "generation_task_rationale_186"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
+      "source_location": "L81",
+      "weight": 1.0,
+      "_src": "style_extractor_styleextractor",
+      "_tgt": "generation_task_run_generation_sync",
+      "source": "style_extractor_styleextractor",
+      "target": "generation_task_run_generation_sync"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L59",
       "weight": 0.8,
       "_src": "style_extractor_styleextractor",
@@ -6022,18 +6169,6 @@
       "confidence_score": 0.5,
       "source": "style_extractor_styleextractor",
       "target": "generation_task_rationale_157"
-    },
-    {
-      "relation": "calls",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
-      "source_location": "L81",
-      "weight": 1.0,
-      "_src": "style_extractor_styleextractor",
-      "_tgt": "generation_task_run_generation_sync",
-      "source": "style_extractor_styleextractor",
-      "target": "generation_task_run_generation_sync"
     },
     {
       "relation": "rationale_for",
@@ -6305,11 +6440,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L20",
       "weight": 0.8,
-      "_src": "training_handwritingtrainer",
-      "_tgt": "dataset_iamdataset",
+      "_src": "dataset_iamdataset",
+      "_tgt": "training_handwritingtrainer",
+      "confidence_score": 0.5,
       "source": "dataset_iamdataset",
-      "target": "training_handwritingtrainer",
-      "confidence_score": 0.5
+      "target": "training_handwritingtrainer"
     },
     {
       "relation": "uses",
@@ -6317,11 +6452,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L20",
       "weight": 0.8,
-      "_src": "training_rationale_1",
-      "_tgt": "dataset_iamdataset",
+      "_src": "dataset_iamdataset",
+      "_tgt": "training_rationale_1",
+      "confidence_score": 0.5,
       "source": "dataset_iamdataset",
-      "target": "training_rationale_1",
-      "confidence_score": 0.5
+      "target": "training_rationale_1"
     },
     {
       "relation": "uses",
@@ -6329,11 +6464,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L20",
       "weight": 0.8,
-      "_src": "training_rationale_44",
-      "_tgt": "dataset_iamdataset",
+      "_src": "dataset_iamdataset",
+      "_tgt": "training_rationale_44",
+      "confidence_score": 0.5,
       "source": "dataset_iamdataset",
-      "target": "training_rationale_44",
-      "confidence_score": 0.5
+      "target": "training_rationale_44"
     },
     {
       "relation": "uses",
@@ -6341,11 +6476,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L20",
       "weight": 0.8,
-      "_src": "training_rationale_84",
-      "_tgt": "dataset_iamdataset",
+      "_src": "dataset_iamdataset",
+      "_tgt": "training_rationale_84",
+      "confidence_score": 0.5,
       "source": "dataset_iamdataset",
-      "target": "training_rationale_84",
-      "confidence_score": 0.5
+      "target": "training_rationale_84"
     },
     {
       "relation": "uses",
@@ -6353,11 +6488,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L20",
       "weight": 0.8,
-      "_src": "training_rationale_159",
-      "_tgt": "dataset_iamdataset",
+      "_src": "dataset_iamdataset",
+      "_tgt": "training_rationale_159",
+      "confidence_score": 0.5,
       "source": "dataset_iamdataset",
-      "target": "training_rationale_159",
-      "confidence_score": 0.5
+      "target": "training_rationale_159"
     },
     {
       "relation": "uses",
@@ -6365,11 +6500,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L20",
       "weight": 0.8,
-      "_src": "training_rationale_223",
-      "_tgt": "dataset_iamdataset",
+      "_src": "dataset_iamdataset",
+      "_tgt": "training_rationale_223",
+      "confidence_score": 0.5,
       "source": "dataset_iamdataset",
-      "target": "training_rationale_223",
-      "confidence_score": 0.5
+      "target": "training_rationale_223"
     },
     {
       "relation": "uses",
@@ -6377,11 +6512,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L20",
       "weight": 0.8,
-      "_src": "training_rationale_236",
-      "_tgt": "dataset_iamdataset",
+      "_src": "dataset_iamdataset",
+      "_tgt": "training_rationale_236",
+      "confidence_score": 0.5,
       "source": "dataset_iamdataset",
-      "target": "training_rationale_236",
-      "confidence_score": 0.5
+      "target": "training_rationale_236"
     },
     {
       "relation": "uses",
@@ -6389,11 +6524,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L20",
       "weight": 0.8,
-      "_src": "training_rationale_254",
-      "_tgt": "dataset_iamdataset",
+      "_src": "dataset_iamdataset",
+      "_tgt": "training_rationale_254",
+      "confidence_score": 0.5,
       "source": "dataset_iamdataset",
-      "target": "training_rationale_254",
-      "confidence_score": 0.5
+      "target": "training_rationale_254"
     },
     {
       "relation": "calls",
@@ -6402,8 +6537,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L275",
       "weight": 1.0,
-      "_src": "training_train_cli",
-      "_tgt": "dataset_iamdataset",
+      "_src": "dataset_iamdataset",
+      "_tgt": "training_train_cli",
       "source": "dataset_iamdataset",
       "target": "training_train_cli"
     },
@@ -6581,11 +6716,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L20",
       "weight": 0.8,
-      "_src": "training_handwritingtrainer",
-      "_tgt": "dataset_syntheticstrokedataset",
+      "_src": "dataset_syntheticstrokedataset",
+      "_tgt": "training_handwritingtrainer",
+      "confidence_score": 0.5,
       "source": "dataset_syntheticstrokedataset",
-      "target": "training_handwritingtrainer",
-      "confidence_score": 0.5
+      "target": "training_handwritingtrainer"
     },
     {
       "relation": "uses",
@@ -6593,11 +6728,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L20",
       "weight": 0.8,
-      "_src": "training_rationale_1",
-      "_tgt": "dataset_syntheticstrokedataset",
+      "_src": "dataset_syntheticstrokedataset",
+      "_tgt": "training_rationale_1",
+      "confidence_score": 0.5,
       "source": "dataset_syntheticstrokedataset",
-      "target": "training_rationale_1",
-      "confidence_score": 0.5
+      "target": "training_rationale_1"
     },
     {
       "relation": "uses",
@@ -6605,11 +6740,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L20",
       "weight": 0.8,
-      "_src": "training_rationale_44",
-      "_tgt": "dataset_syntheticstrokedataset",
+      "_src": "dataset_syntheticstrokedataset",
+      "_tgt": "training_rationale_44",
+      "confidence_score": 0.5,
       "source": "dataset_syntheticstrokedataset",
-      "target": "training_rationale_44",
-      "confidence_score": 0.5
+      "target": "training_rationale_44"
     },
     {
       "relation": "uses",
@@ -6617,11 +6752,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L20",
       "weight": 0.8,
-      "_src": "training_rationale_84",
-      "_tgt": "dataset_syntheticstrokedataset",
+      "_src": "dataset_syntheticstrokedataset",
+      "_tgt": "training_rationale_84",
+      "confidence_score": 0.5,
       "source": "dataset_syntheticstrokedataset",
-      "target": "training_rationale_84",
-      "confidence_score": 0.5
+      "target": "training_rationale_84"
     },
     {
       "relation": "uses",
@@ -6629,11 +6764,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L20",
       "weight": 0.8,
-      "_src": "training_rationale_159",
-      "_tgt": "dataset_syntheticstrokedataset",
+      "_src": "dataset_syntheticstrokedataset",
+      "_tgt": "training_rationale_159",
+      "confidence_score": 0.5,
       "source": "dataset_syntheticstrokedataset",
-      "target": "training_rationale_159",
-      "confidence_score": 0.5
+      "target": "training_rationale_159"
     },
     {
       "relation": "uses",
@@ -6641,11 +6776,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L20",
       "weight": 0.8,
-      "_src": "training_rationale_223",
-      "_tgt": "dataset_syntheticstrokedataset",
+      "_src": "dataset_syntheticstrokedataset",
+      "_tgt": "training_rationale_223",
+      "confidence_score": 0.5,
       "source": "dataset_syntheticstrokedataset",
-      "target": "training_rationale_223",
-      "confidence_score": 0.5
+      "target": "training_rationale_223"
     },
     {
       "relation": "uses",
@@ -6653,11 +6788,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L20",
       "weight": 0.8,
-      "_src": "training_rationale_236",
-      "_tgt": "dataset_syntheticstrokedataset",
+      "_src": "dataset_syntheticstrokedataset",
+      "_tgt": "training_rationale_236",
+      "confidence_score": 0.5,
       "source": "dataset_syntheticstrokedataset",
-      "target": "training_rationale_236",
-      "confidence_score": 0.5
+      "target": "training_rationale_236"
     },
     {
       "relation": "uses",
@@ -6665,11 +6800,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L20",
       "weight": 0.8,
-      "_src": "training_rationale_254",
-      "_tgt": "dataset_syntheticstrokedataset",
+      "_src": "dataset_syntheticstrokedataset",
+      "_tgt": "training_rationale_254",
+      "confidence_score": 0.5,
       "source": "dataset_syntheticstrokedataset",
-      "target": "training_rationale_254",
-      "confidence_score": 0.5
+      "target": "training_rationale_254"
     },
     {
       "relation": "calls",
@@ -6678,8 +6813,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L272",
       "weight": 1.0,
-      "_src": "training_train_cli",
-      "_tgt": "dataset_syntheticstrokedataset",
+      "_src": "dataset_syntheticstrokedataset",
+      "_tgt": "training_train_cli",
       "source": "dataset_syntheticstrokedataset",
       "target": "training_train_cli"
     },
@@ -6738,8 +6873,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L93",
       "weight": 1.0,
-      "_src": "training_handwritingtrainer_train",
-      "_tgt": "dataset_create_dataloader",
+      "_src": "dataset_create_dataloader",
+      "_tgt": "training_handwritingtrainer_train",
       "source": "dataset_create_dataloader",
       "target": "training_handwritingtrainer_train"
     },
@@ -6907,9 +7042,69 @@
       "weight": 0.8,
       "_src": "fine_tune_finetuner",
       "_tgt": "model_handwritingmodel",
+      "confidence_score": 0.5,
       "source": "fine_tune_finetuner",
-      "target": "model_handwritingmodel",
-      "confidence_score": 0.5
+      "target": "model_handwritingmodel"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
+      "source_location": "L97",
+      "weight": 0.8,
+      "_src": "fine_tune_finetuner",
+      "_tgt": "generation_task_rationale_1",
+      "confidence_score": 0.5,
+      "source": "fine_tune_finetuner",
+      "target": "generation_task_rationale_1"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
+      "source_location": "L97",
+      "weight": 0.8,
+      "_src": "fine_tune_finetuner",
+      "_tgt": "generation_task_rationale_29",
+      "confidence_score": 0.5,
+      "source": "fine_tune_finetuner",
+      "target": "generation_task_rationale_29"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
+      "source_location": "L97",
+      "weight": 0.8,
+      "_src": "fine_tune_finetuner",
+      "_tgt": "generation_task_rationale_49",
+      "confidence_score": 0.5,
+      "source": "fine_tune_finetuner",
+      "target": "generation_task_rationale_49"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
+      "source_location": "L97",
+      "weight": 0.8,
+      "_src": "fine_tune_finetuner",
+      "_tgt": "generation_task_rationale_186",
+      "confidence_score": 0.5,
+      "source": "fine_tune_finetuner",
+      "target": "generation_task_rationale_186"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
+      "source_location": "L103",
+      "weight": 1.0,
+      "_src": "fine_tune_finetuner",
+      "_tgt": "generation_task_run_generation_sync",
+      "source": "fine_tune_finetuner",
+      "target": "generation_task_run_generation_sync"
     },
     {
       "relation": "calls",
@@ -6996,6 +7191,18 @@
       "target": "model_mdn_loss"
     },
     {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
+      "source_location": "L104",
+      "weight": 1.0,
+      "_src": "fine_tune_finetuner_fine_tune",
+      "_tgt": "generation_task_run_generation_sync",
+      "source": "fine_tune_finetuner_fine_tune",
+      "target": "generation_task_run_generation_sync"
+    },
+    {
       "relation": "uses",
       "confidence": "INFERRED",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\fine_tune.py",
@@ -7003,9 +7210,9 @@
       "weight": 0.8,
       "_src": "fine_tune_rationale_1",
       "_tgt": "model_handwritingmodel",
+      "confidence_score": 0.5,
       "source": "fine_tune_rationale_1",
-      "target": "model_handwritingmodel",
-      "confidence_score": 0.5
+      "target": "model_handwritingmodel"
     },
     {
       "relation": "uses",
@@ -7015,9 +7222,9 @@
       "weight": 0.8,
       "_src": "fine_tune_rationale_36",
       "_tgt": "model_handwritingmodel",
+      "confidence_score": 0.5,
       "source": "fine_tune_rationale_36",
-      "target": "model_handwritingmodel",
-      "confidence_score": 0.5
+      "target": "model_handwritingmodel"
     },
     {
       "relation": "uses",
@@ -7027,9 +7234,9 @@
       "weight": 0.8,
       "_src": "fine_tune_rationale_112",
       "_tgt": "model_handwritingmodel",
+      "confidence_score": 0.5,
       "source": "fine_tune_rationale_112",
-      "target": "model_handwritingmodel",
-      "confidence_score": 0.5
+      "target": "model_handwritingmodel"
     },
     {
       "relation": "uses",
@@ -7039,9 +7246,9 @@
       "weight": 0.8,
       "_src": "fine_tune_rationale_131",
       "_tgt": "model_handwritingmodel",
+      "confidence_score": 0.5,
       "source": "fine_tune_rationale_131",
-      "target": "model_handwritingmodel",
-      "confidence_score": 0.5
+      "target": "model_handwritingmodel"
     },
     {
       "relation": "uses",
@@ -7051,9 +7258,9 @@
       "weight": 0.8,
       "_src": "fine_tune_rationale_175",
       "_tgt": "model_handwritingmodel",
+      "confidence_score": 0.5,
       "source": "fine_tune_rationale_175",
-      "target": "model_handwritingmodel",
-      "confidence_score": 0.5
+      "target": "model_handwritingmodel"
     },
     {
       "relation": "imports_from",
@@ -7207,9 +7414,9 @@
       "weight": 0.8,
       "_src": "inference_handwritinginference",
       "_tgt": "model_handwritingmodel",
+      "confidence_score": 0.5,
       "source": "inference_handwritinginference",
-      "target": "model_handwritingmodel",
-      "confidence_score": 0.5
+      "target": "model_handwritingmodel"
     },
     {
       "relation": "uses",
@@ -7219,9 +7426,9 @@
       "weight": 0.8,
       "_src": "inference_handwritinginference",
       "_tgt": "model_mdnparams",
+      "confidence_score": 0.5,
       "source": "inference_handwritinginference",
-      "target": "model_mdnparams",
-      "confidence_score": 0.5
+      "target": "model_mdnparams"
     },
     {
       "relation": "calls",
@@ -7314,8 +7521,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L135",
       "weight": 1.0,
-      "_src": "generation_task_run_generation_sync",
-      "_tgt": "inference_generate",
+      "_src": "inference_generate",
+      "_tgt": "generation_task_run_generation_sync",
       "source": "inference_generate",
       "target": "generation_task_run_generation_sync"
     },
@@ -7375,9 +7582,9 @@
       "weight": 0.8,
       "_src": "inference_rationale_1",
       "_tgt": "model_handwritingmodel",
+      "confidence_score": 0.5,
       "source": "inference_rationale_1",
-      "target": "model_handwritingmodel",
-      "confidence_score": 0.5
+      "target": "model_handwritingmodel"
     },
     {
       "relation": "uses",
@@ -7387,9 +7594,9 @@
       "weight": 0.8,
       "_src": "inference_rationale_1",
       "_tgt": "model_mdnparams",
+      "confidence_score": 0.5,
       "source": "inference_rationale_1",
-      "target": "model_mdnparams",
-      "confidence_score": 0.5
+      "target": "model_mdnparams"
     },
     {
       "relation": "uses",
@@ -7399,9 +7606,9 @@
       "weight": 0.8,
       "_src": "inference_rationale_25",
       "_tgt": "model_handwritingmodel",
+      "confidence_score": 0.5,
       "source": "inference_rationale_25",
-      "target": "model_handwritingmodel",
-      "confidence_score": 0.5
+      "target": "model_handwritingmodel"
     },
     {
       "relation": "uses",
@@ -7411,9 +7618,9 @@
       "weight": 0.8,
       "_src": "inference_rationale_25",
       "_tgt": "model_mdnparams",
+      "confidence_score": 0.5,
       "source": "inference_rationale_25",
-      "target": "model_mdnparams",
-      "confidence_score": 0.5
+      "target": "model_mdnparams"
     },
     {
       "relation": "uses",
@@ -7423,9 +7630,9 @@
       "weight": 0.8,
       "_src": "inference_rationale_58",
       "_tgt": "model_handwritingmodel",
+      "confidence_score": 0.5,
       "source": "inference_rationale_58",
-      "target": "model_handwritingmodel",
-      "confidence_score": 0.5
+      "target": "model_handwritingmodel"
     },
     {
       "relation": "uses",
@@ -7435,9 +7642,9 @@
       "weight": 0.8,
       "_src": "inference_rationale_58",
       "_tgt": "model_mdnparams",
+      "confidence_score": 0.5,
       "source": "inference_rationale_58",
-      "target": "model_mdnparams",
-      "confidence_score": 0.5
+      "target": "model_mdnparams"
     },
     {
       "relation": "uses",
@@ -7447,9 +7654,9 @@
       "weight": 0.8,
       "_src": "inference_rationale_74",
       "_tgt": "model_handwritingmodel",
+      "confidence_score": 0.5,
       "source": "inference_rationale_74",
-      "target": "model_handwritingmodel",
-      "confidence_score": 0.5
+      "target": "model_handwritingmodel"
     },
     {
       "relation": "uses",
@@ -7459,9 +7666,9 @@
       "weight": 0.8,
       "_src": "inference_rationale_74",
       "_tgt": "model_mdnparams",
+      "confidence_score": 0.5,
       "source": "inference_rationale_74",
-      "target": "model_mdnparams",
-      "confidence_score": 0.5
+      "target": "model_mdnparams"
     },
     {
       "relation": "uses",
@@ -7471,9 +7678,9 @@
       "weight": 0.8,
       "_src": "inference_rationale_131",
       "_tgt": "model_handwritingmodel",
+      "confidence_score": 0.5,
       "source": "inference_rationale_131",
-      "target": "model_handwritingmodel",
-      "confidence_score": 0.5
+      "target": "model_handwritingmodel"
     },
     {
       "relation": "uses",
@@ -7483,9 +7690,9 @@
       "weight": 0.8,
       "_src": "inference_rationale_131",
       "_tgt": "model_mdnparams",
+      "confidence_score": 0.5,
       "source": "inference_rationale_131",
-      "target": "model_mdnparams",
-      "confidence_score": 0.5
+      "target": "model_mdnparams"
     },
     {
       "relation": "uses",
@@ -7495,9 +7702,9 @@
       "weight": 0.8,
       "_src": "inference_rationale_179",
       "_tgt": "model_handwritingmodel",
+      "confidence_score": 0.5,
       "source": "inference_rationale_179",
-      "target": "model_handwritingmodel",
-      "confidence_score": 0.5
+      "target": "model_handwritingmodel"
     },
     {
       "relation": "uses",
@@ -7507,9 +7714,9 @@
       "weight": 0.8,
       "_src": "inference_rationale_179",
       "_tgt": "model_mdnparams",
+      "confidence_score": 0.5,
       "source": "inference_rationale_179",
-      "target": "model_mdnparams",
-      "confidence_score": 0.5
+      "target": "model_mdnparams"
     },
     {
       "relation": "uses",
@@ -7519,9 +7726,9 @@
       "weight": 0.8,
       "_src": "inference_rationale_191",
       "_tgt": "model_handwritingmodel",
+      "confidence_score": 0.5,
       "source": "inference_rationale_191",
-      "target": "model_handwritingmodel",
-      "confidence_score": 0.5
+      "target": "model_handwritingmodel"
     },
     {
       "relation": "uses",
@@ -7531,9 +7738,9 @@
       "weight": 0.8,
       "_src": "inference_rationale_191",
       "_tgt": "model_mdnparams",
+      "confidence_score": 0.5,
       "source": "inference_rationale_191",
-      "target": "model_mdnparams",
-      "confidence_score": 0.5
+      "target": "model_mdnparams"
     },
     {
       "relation": "imports_from",
@@ -7877,11 +8084,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L19",
       "weight": 0.8,
-      "_src": "training_handwritingtrainer",
-      "_tgt": "model_handwritingmodel",
+      "_src": "model_handwritingmodel",
+      "_tgt": "training_handwritingtrainer",
+      "confidence_score": 0.5,
       "source": "model_handwritingmodel",
-      "target": "training_handwritingtrainer",
-      "confidence_score": 0.5
+      "target": "training_handwritingtrainer"
     },
     {
       "relation": "uses",
@@ -7889,11 +8096,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L19",
       "weight": 0.8,
-      "_src": "training_rationale_1",
-      "_tgt": "model_handwritingmodel",
+      "_src": "model_handwritingmodel",
+      "_tgt": "training_rationale_1",
+      "confidence_score": 0.5,
       "source": "model_handwritingmodel",
-      "target": "training_rationale_1",
-      "confidence_score": 0.5
+      "target": "training_rationale_1"
     },
     {
       "relation": "uses",
@@ -7901,11 +8108,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L19",
       "weight": 0.8,
-      "_src": "training_rationale_44",
-      "_tgt": "model_handwritingmodel",
+      "_src": "model_handwritingmodel",
+      "_tgt": "training_rationale_44",
+      "confidence_score": 0.5,
       "source": "model_handwritingmodel",
-      "target": "training_rationale_44",
-      "confidence_score": 0.5
+      "target": "training_rationale_44"
     },
     {
       "relation": "uses",
@@ -7913,11 +8120,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L19",
       "weight": 0.8,
-      "_src": "training_rationale_84",
-      "_tgt": "model_handwritingmodel",
+      "_src": "model_handwritingmodel",
+      "_tgt": "training_rationale_84",
+      "confidence_score": 0.5,
       "source": "model_handwritingmodel",
-      "target": "training_rationale_84",
-      "confidence_score": 0.5
+      "target": "training_rationale_84"
     },
     {
       "relation": "uses",
@@ -7925,11 +8132,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L19",
       "weight": 0.8,
-      "_src": "training_rationale_159",
-      "_tgt": "model_handwritingmodel",
+      "_src": "model_handwritingmodel",
+      "_tgt": "training_rationale_159",
+      "confidence_score": 0.5,
       "source": "model_handwritingmodel",
-      "target": "training_rationale_159",
-      "confidence_score": 0.5
+      "target": "training_rationale_159"
     },
     {
       "relation": "uses",
@@ -7937,11 +8144,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L19",
       "weight": 0.8,
-      "_src": "training_rationale_223",
-      "_tgt": "model_handwritingmodel",
+      "_src": "model_handwritingmodel",
+      "_tgt": "training_rationale_223",
+      "confidence_score": 0.5,
       "source": "model_handwritingmodel",
-      "target": "training_rationale_223",
-      "confidence_score": 0.5
+      "target": "training_rationale_223"
     },
     {
       "relation": "uses",
@@ -7949,11 +8156,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L19",
       "weight": 0.8,
-      "_src": "training_rationale_236",
-      "_tgt": "model_handwritingmodel",
+      "_src": "model_handwritingmodel",
+      "_tgt": "training_rationale_236",
+      "confidence_score": 0.5,
       "source": "model_handwritingmodel",
-      "target": "training_rationale_236",
-      "confidence_score": 0.5
+      "target": "training_rationale_236"
     },
     {
       "relation": "uses",
@@ -7961,11 +8168,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L19",
       "weight": 0.8,
-      "_src": "training_rationale_254",
-      "_tgt": "model_handwritingmodel",
+      "_src": "model_handwritingmodel",
+      "_tgt": "training_rationale_254",
+      "confidence_score": 0.5,
       "source": "model_handwritingmodel",
-      "target": "training_rationale_254",
-      "confidence_score": 0.5
+      "target": "training_rationale_254"
     },
     {
       "relation": "calls",
@@ -7974,8 +8181,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L267",
       "weight": 1.0,
-      "_src": "training_train_cli",
-      "_tgt": "model_handwritingmodel",
+      "_src": "model_handwritingmodel",
+      "_tgt": "training_train_cli",
       "source": "model_handwritingmodel",
       "target": "training_train_cli"
     },
@@ -8058,8 +8265,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L181",
       "weight": 1.0,
-      "_src": "training_handwritingtrainer_train_epoch",
-      "_tgt": "model_mdn_loss",
+      "_src": "model_mdn_loss",
+      "_tgt": "training_handwritingtrainer_train_epoch",
       "source": "model_mdn_loss",
       "target": "training_handwritingtrainer_train_epoch"
     },
@@ -8070,8 +8277,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\ml\\training.py",
       "source_location": "L215",
       "weight": 1.0,
-      "_src": "training_validate",
-      "_tgt": "model_mdn_loss",
+      "_src": "model_mdn_loss",
+      "_tgt": "training_validate",
       "source": "model_mdn_loss",
       "target": "training_validate"
     },
@@ -9303,7 +9510,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
-      "source_location": "L20",
+      "source_location": "L21",
       "weight": 1.0,
       "_src": "c_users_misal_onedrive_documents_handwritocr_backend_app_tasks_generation_task_py",
       "_tgt": "generation_task_update_progress",
@@ -9315,7 +9522,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
-      "source_location": "L47",
+      "source_location": "L48",
       "weight": 1.0,
       "_src": "c_users_misal_onedrive_documents_handwritocr_backend_app_tasks_generation_task_py",
       "_tgt": "generation_task_run_generation_sync",
@@ -9327,7 +9534,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
-      "source_location": "L156",
+      "source_location": "L185",
       "weight": 1.0,
       "_src": "c_users_misal_onedrive_documents_handwritocr_backend_app_tasks_generation_task_py",
       "_tgt": "generation_task_generate_handwriting_task",
@@ -9351,7 +9558,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
-      "source_location": "L77",
+      "source_location": "L78",
       "weight": 1.0,
       "_src": "generation_task_run_generation_sync",
       "_tgt": "generation_task_update_progress",
@@ -9363,7 +9570,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
-      "source_location": "L163",
+      "source_location": "L192",
       "weight": 1.0,
       "_src": "generation_task_generate_handwriting_task",
       "_tgt": "generation_task_update_progress",
@@ -9375,19 +9582,19 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
-      "source_location": "L28",
+      "source_location": "L29",
       "weight": 1.0,
-      "_src": "generation_task_rationale_28",
+      "_src": "generation_task_rationale_29",
       "_tgt": "generation_task_update_progress",
       "source": "generation_task_update_progress",
-      "target": "generation_task_rationale_28",
+      "target": "generation_task_rationale_29",
       "confidence_score": 1.0
     },
     {
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
-      "source_location": "L159",
+      "source_location": "L188",
       "weight": 1.0,
       "_src": "generation_task_generate_handwriting_task",
       "_tgt": "generation_task_run_generation_sync",
@@ -9399,24 +9606,24 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
-      "source_location": "L48",
+      "source_location": "L49",
       "weight": 1.0,
-      "_src": "generation_task_rationale_48",
+      "_src": "generation_task_rationale_49",
       "_tgt": "generation_task_run_generation_sync",
       "source": "generation_task_run_generation_sync",
-      "target": "generation_task_rationale_48",
+      "target": "generation_task_rationale_49",
       "confidence_score": 1.0
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
-      "source_location": "L157",
+      "source_location": "L186",
       "weight": 1.0,
-      "_src": "generation_task_rationale_157",
+      "_src": "generation_task_rationale_186",
       "_tgt": "generation_task_generate_handwriting_task",
       "source": "generation_task_generate_handwriting_task",
-      "target": "generation_task_rationale_157",
+      "target": "generation_task_rationale_186",
       "confidence_score": 1.0
     },
     {

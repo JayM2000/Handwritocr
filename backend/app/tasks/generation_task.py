@@ -1,10 +1,11 @@
 """Celery task for handwriting generation.
 
 Orchestrates the full pipeline:
-  1. Extract style from samples
-  2. Generate handwriting pages
-  3. Create PDF/PNG output
-  4. Report progress via Redis
+  1. Extract style from samples (0–15%)
+  2. Fine-tune ML model on user samples (15–40%)
+  3. Generate handwriting pages (40–70%)
+  4. Create PDF/PNG output (70–95%)
+  5. Report progress via Redis
 """
 
 from __future__ import annotations
@@ -82,12 +83,39 @@ def run_generation_sync(task_id: str, params: dict) -> Path:
     profile = extractor.extract(sample_paths, output_dir)
 
     _update_progress(
-        task_id, "processing", 25,
+        task_id, "processing", 15,
         f"Style extracted: {profile.total_chars_extracted} characters",
     )
 
-    # ── Step 2: Generate handwriting (25–70%) ──────
-    _update_progress(task_id, "processing", 30, "Generating handwriting...")
+    # ── Step 2: Fine-tune ML model if available (15–40%) ──
+    _update_progress(task_id, "processing", 20, "Checking ML model...")
+    try:
+        from pathlib import Path as _Path
+        base_ckpt = _Path("app/ml/checkpoints/best.pt")
+        if base_ckpt.exists():
+            _update_progress(task_id, "processing", 22, "Fine-tuning model on your handwriting...")
+            from app.ml.fine_tune import FineTuner
+
+            user_ckpt_dir = _Path("app/ml/checkpoints") / session_id
+            user_ckpt_dir.mkdir(parents=True, exist_ok=True)
+            user_ckpt_path = user_ckpt_dir / "user_model.pt"
+
+            tuner = FineTuner(base_checkpoint=base_ckpt)
+            tuner.fine_tune(
+                sample_image_paths=sample_paths,
+                num_iterations=80,
+                learning_rate=1e-5,
+                output_checkpoint=user_ckpt_path,
+            )
+            _update_progress(task_id, "processing", 40, "Model fine-tuned on your style!")
+        else:
+            _update_progress(task_id, "processing", 40, "Using procedural generation (no ML model)")
+    except Exception as e:
+        logger.warning(f"ML fine-tuning skipped: {e}")
+        _update_progress(task_id, "processing", 40, "Using procedural generation")
+
+    # ── Step 3: Generate handwriting (40–70%) ──────
+    _update_progress(task_id, "processing", 45, "Generating handwriting...")
 
     # Scale font size and line spacing for 300 DPI
     dpi_scale = 300 / 72  # PDF points to pixels
@@ -95,6 +123,7 @@ def run_generation_sync(task_id: str, params: dict) -> Path:
         profile=profile,
         font_size=int(font_size * dpi_scale),
         line_spacing=int(line_spacing * dpi_scale),
+        session_id=session_id,
     )
 
     pages = gen.generate_pages(text)
