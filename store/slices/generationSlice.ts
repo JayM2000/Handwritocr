@@ -119,7 +119,8 @@ export const generateHandwriting = createAsyncThunk(
 /** Poll the status endpoint when WebSocket is unavailable */
 async function pollForCompletion(
   taskId: string,
-  dispatch: ReturnType<typeof createAsyncThunk>["fulfilled"] extends (...args: infer A) => unknown ? never : (...args: unknown[]) => unknown,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  dispatch: (action: any) => void,
   resolve: (url: string) => void,
   reject: (reason: string) => void,
 ) {
@@ -130,16 +131,13 @@ async function pollForCompletion(
       const res = await fetch(`${API_BASE}/api/generate/${taskId}/status`);
       if (res.ok) {
         const data = await res.json();
-        // @ts-expect-error -- dispatch type is complex
         dispatch(setProgress(data.progress || 0));
-        // @ts-expect-error -- dispatch type is complex
         dispatch(setProgressStep(data.step || ""));
 
         if (data.status === "completed") {
           const downloadUrl = data.download_url
             ? `${API_BASE}${data.download_url}`
             : `${API_BASE}/api/download/${taskId}`;
-          // @ts-expect-error -- dispatch type is complex
           dispatch(setDownloadUrl(downloadUrl));
           resolve(downloadUrl);
           return;
