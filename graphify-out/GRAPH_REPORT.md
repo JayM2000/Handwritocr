@@ -1,12 +1,12 @@
 # Graph Report - C:\Users\misal\OneDrive\Documents\handwritocr  (2026-06-07)
 
 ## Corpus Check
-- 55 files · ~33,452 words
+- 61 files · ~39,899 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 241 nodes · 302 edges · 55 communities detected
-- Extraction: 70% EXTRACTED · 30% INFERRED · 0% AMBIGUOUS · INFERRED: 90 edges (avg confidence: 0.64)
+- 350 nodes · 541 edges · 55 communities detected
+- Extraction: 64% EXTRACTED · 36% INFERRED · 0% AMBIGUOUS · INFERRED: 194 edges (avg confidence: 0.62)
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
@@ -67,23 +67,23 @@
 - [[_COMMUNITY_Community 54|Community 54]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `StyleProfile` - 16 edges
-2. `run_generation_sync()` - 15 edges
-3. `HandwritingGenerator` - 12 edges
-4. `PDFGenerator` - 9 edges
-5. `StyleExtractor` - 9 edges
-6. `TaskStatus` - 9 edges
-7. `generate_handwriting()` - 8 edges
-8. `GlyphRenderer` - 8 edges
-9. `GenerateRequest` - 8 edges
-10. `GenerateResponse` - 8 edges
+1. `HandwritingModel` - 31 edges
+2. `StyleProfile` - 22 edges
+3. `StrokeRenderer` - 20 edges
+4. `IAMDataset` - 17 edges
+5. `HandwritingGenerator` - 16 edges
+6. `run_generation_sync()` - 16 edges
+7. `SyntheticStrokeDataset` - 15 edges
+8. `MDNParams` - 12 edges
+9. `HandwritingTrainer` - 11 edges
+10. `GlyphRenderer` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `Generate handwriting strokes for given text.          Args:             text: In` --uses--> `HandwritingModel`  [INFERRED]
+  C:\Users\misal\OneDrive\Documents\handwritocr\backend\app\ml\inference.py → C:\Users\misal\OneDrive\Documents\handwritocr\backend\app\ml\model.py
 - `_run_sync()` --calls--> `run_generation_sync()`  [INFERRED]
   C:\Users\misal\OneDrive\Documents\handwritocr\backend\app\api\endpoints\generate.py → C:\Users\misal\OneDrive\Documents\handwritocr\backend\app\tasks\generation_task.py
 - `generate_handwriting()` --calls--> `get_session_sample_paths()`  [INFERRED]
-  C:\Users\misal\OneDrive\Documents\handwritocr\backend\app\api\endpoints\generate.py → C:\Users\misal\OneDrive\Documents\handwritocr\backend\app\storage\file_storage.py
-- `generate_handwriting()` --calls--> `generate_task_id()`  [INFERRED]
   C:\Users\misal\OneDrive\Documents\handwritocr\backend\app\api\endpoints\generate.py → C:\Users\misal\OneDrive\Documents\handwritocr\backend\app\storage\file_storage.py
 - `get_task_status()` --calls--> `get_task_output_dir()`  [INFERRED]
   C:\Users\misal\OneDrive\Documents\handwritocr\backend\app\api\endpoints\generate.py → C:\Users\misal\OneDrive\Documents\handwritocr\backend\app\storage\file_storage.py
@@ -93,52 +93,52 @@
 ## Communities
 
 ### Community 0 - "Community 0"
-Cohesion: 0.16
-Nodes (26): BaseModel, Enum, generate_handwriting(), get_task_status(), Generate handwriting endpoint., Try to dispatch generation to Celery. Returns False if Celery unavailable., Run generation synchronously when Celery is unavailable., Start handwriting generation.      Submits a Celery task for async processing. I (+18 more)
+Cohesion: 0.07
+Nodes (39): generate_handwriting_task(), Celery task for handwriting generation.  Orchestrates the full pipeline:   1. Ex, Celery task wrapper for handwriting generation., Store task progress in Redis for WebSocket to read., Run the full generation pipeline synchronously.      This is used both by the Ce, run_generation_sync(), _update_progress(), _get_fallback_font() (+31 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.1
-Nodes (16): _get_fallback_font(), GlyphRenderer, Handwriting generation engine.  Takes a style profile and input text, then gener, Generate handwriting pages from input text.          Returns list of PIL Images,, Render text using a handwriting font with procedural randomness., Render text using extracted glyph images with natural placement., Load a handwriting-style font for fallback rendering., Renders text using extracted glyph images with natural variation. (+8 more)
+Cohesion: 0.08
+Nodes (33): Dataset, create_dataloader(), IAMDataset, IAM On-Line Handwriting Dataset loader.  Handles loading and preprocessing of th, Scan the data directory and pair stroke XMLs with transcriptions., Generates synthetic stroke data for testing the model pipeline.      Creates sim, Create a DataLoader with appropriate settings., PyTorch dataset for IAM On-Line Handwriting Database.      Expected directory st (+25 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.2
-Nodes (15): generate_handwriting_task(), Celery task for handwriting generation.  Orchestrates the full pipeline:   1. Ex, Celery task wrapper for handwriting generation., Store task progress in Redis for WebSocket to read., Run the full generation pipeline synchronously.      This is used both by the Ce, run_generation_sync(), _update_progress(), HandwritingGenerator (+7 more)
+Cohesion: 0.12
+Nodes (33): BaseModel, Enum, generate_task_id(), Generate a unique task ID., generate_handwriting(), get_task_status(), Generate handwriting endpoint., Try to dispatch generation to Celery. Returns False if Celery unavailable. (+25 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.1
-Nodes (19): compute_slant_angle(), compute_stroke_width(), correct_skew(), cv2_to_pil(), load_and_preprocess(), pil_to_cv2(), Low-level image processing utilities using OpenCV and Pillow.  All heavy image o, Extract individual characters from a text line using connected components. (+11 more)
+Cohesion: 0.09
+Nodes (23): parse_iam_stroke_xml(), Return a dummy sample for error cases., Parse an IAM Online stroke XML file.      Returns list of strokes, each a numpy, Convert absolute stroke points to offset format (dx, dy, pen_up).      Args:, raw_strokes_to_offsets(), Stroke-to-image renderer.  Converts stroke sequences (dx, dy, pen_up) to PIL Ima, denormalize_strokes(), indices_to_text() (+15 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.12
-Nodes (17): denormalize_strokes(), indices_to_text(), normalize_strokes(), pad_stroke_sequence(), pad_text_sequence(), Utility functions for handwriting synthesis ML pipeline.  Provides:   - Characte, Pad stroke sequence to max_len.      Returns (padded_array, original_length)., Pad text index sequence to max_len. (+9 more)
+Cohesion: 0.08
+Nodes (23): download_file(), Download generated files endpoint., Download the generated handwriting file.      Args:         task_id: The generat, cleanup_session(), cleanup_task(), create_session(), create_task_output_dir(), get_output_file() (+15 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.12
-Nodes (17): cleanup_session(), cleanup_task(), create_session(), create_task_output_dir(), generate_task_id(), get_output_file(), get_session_dir(), get_session_sample_paths() (+9 more)
+Nodes (16): generate(), get_inference_engine(), HandwritingInference, Inference engine for handwriting generation.  Takes input text and generates str, Sample a point from the MDN output.          Args:             params: MDN param, Check if model has loaded weights (not random)., Get or create a cached inference engine.      Reuses the same model instance for, Generate handwriting strokes from text using a trained model. (+8 more)
 
 ### Community 6 - "Community 6"
+Cohesion: 0.12
+Nodes (20): compute_slant_angle(), compute_stroke_width(), correct_skew(), cv2_to_pil(), load_and_preprocess(), pil_to_cv2(), Low-level image processing utilities using OpenCV and Pillow.  All heavy image o, Extract individual characters from a text line using connected components. (+12 more)
+
+### Community 7 - "Community 7"
 Cohesion: 0.17
 Nodes (11): Tests for the health endpoint., Root endpoint returns app info., Health endpoint returns ok status., Upload with no files returns 400., Generate with invalid session returns 404., Download nonexistent task returns 404., test_download_nonexistent(), test_generate_invalid_session() (+3 more)
 
-### Community 7 - "Community 7"
+### Community 8 - "Community 8"
+Cohesion: 0.22
+Nodes (6): MDNLayer, Mixture Density Network head.      Outputs parameters for a mixture of bivariate, Compute MDN parameters from LSTM output.          Args:             x: Combined, Soft attention window over the character sequence.      Uses K Gaussian attentio, Compute attention window.          Args:             lstm_out: Output from first, WindowLayer
+
+### Community 9 - "Community 9"
 Cohesion: 0.2
 Nodes (4): BaseSettings, Application settings loaded from environment variables., Configuration for the HandwritOCR backend., Settings
 
-### Community 8 - "Community 8"
-Cohesion: 0.2
-Nodes (8): download_file(), Download generated files endpoint., Download the generated handwriting file.      Args:         task_id: The generat, get_task_output_dir(), Get the output directory for a task., progress_websocket(), WebSocket endpoint for real-time generation progress updates., Stream generation progress updates to the client.      Reads task progress from
-
-### Community 9 - "Community 9"
+### Community 10 - "Community 10"
 Cohesion: 0.25
 Nodes (7): _draw_blank_paper(), _draw_grid_paper(), _draw_lined_paper(), Server-side PDF generation with notebook-style paper templates.  Uses ReportLab, Draw lined notebook paper with a red margin line., Draw grid/graph paper., Draw blank white paper.
 
-### Community 10 - "Community 10"
+### Community 11 - "Community 11"
 Cohesion: 0.33
 Nodes (3): HandwritOCR FastAPI Application.  Main entry point for the backend server., Ensure storage directories exist on startup., startup_event()
-
-### Community 11 - "Community 11"
-Cohesion: 0.6
-Nodes (4): health_check(), Health check endpoint., Check the health of the API and its dependencies., HealthResponse
 
 ### Community 12 - "Community 12"
 Cohesion: 1.0
@@ -313,7 +313,7 @@ Cohesion: 1.0
 Nodes (0): 
 
 ## Knowledge Gaps
-- **63 isolated node(s):** `Application settings loaded from environment variables.`, `Configuration for the HandwritOCR backend.`, `Parse comma-separated CORS origins.`, `Resolved storage directory path.`, `Directory for uploaded samples.` (+58 more)
+- **89 isolated node(s):** `Application settings loaded from environment variables.`, `Configuration for the HandwritOCR backend.`, `Parse comma-separated CORS origins.`, `Resolved storage directory path.`, `Directory for uploaded samples.` (+84 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **Thin community `Community 12`** (2 nodes): `layout.tsx`, `RootLayout()`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
@@ -405,17 +405,17 @@ Nodes (0):
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `run_generation_sync()` connect `Community 2` to `Community 0`, `Community 1`, `Community 5`?**
-  _High betweenness centrality (0.099) - this node is a cross-community bridge._
-- **Why does `PDFGenerator` connect `Community 2` to `Community 9`?**
-  _High betweenness centrality (0.047) - this node is a cross-community bridge._
-- **Why does `get_session_sample_paths()` connect `Community 5` to `Community 0`, `Community 2`?**
-  _High betweenness centrality (0.042) - this node is a cross-community bridge._
-- **Are the 11 inferred relationships involving `StyleProfile` (e.g. with `GlyphRenderer` and `HandwritingGenerator`) actually correct?**
-  _`StyleProfile` has 11 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 11 inferred relationships involving `run_generation_sync()` (e.g. with `_run_sync()` and `create_task_output_dir()`) actually correct?**
-  _`run_generation_sync()` has 11 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 10 inferred relationships involving `str` (e.g. with `progress_websocket()` and `download_file()`) actually correct?**
-  _`str` has 10 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 6 inferred relationships involving `HandwritingGenerator` (e.g. with `StyleProfile` and `Celery task for handwriting generation.  Orchestrates the full pipeline:   1. Ex`) actually correct?**
-  _`HandwritingGenerator` has 6 INFERRED edges - model-reasoned connections that need verification._
+- **Why does `run_generation_sync()` connect `Community 0` to `Community 2`, `Community 4`, `Community 5`, `Community 6`?**
+  _High betweenness centrality (0.128) - this node is a cross-community bridge._
+- **Why does `HandwritingModel` connect `Community 1` to `Community 8`, `Community 5`?**
+  _High betweenness centrality (0.069) - this node is a cross-community bridge._
+- **Why does `get_inference_engine()` connect `Community 5` to `Community 0`, `Community 2`?**
+  _High betweenness centrality (0.065) - this node is a cross-community bridge._
+- **Are the 25 inferred relationships involving `HandwritingModel` (e.g. with `FineTuner` and `User-specific fine-tuning of the handwriting model.  Takes a pre-trained model a`) actually correct?**
+  _`HandwritingModel` has 25 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 17 inferred relationships involving `StyleProfile` (e.g. with `GlyphRenderer` and `HandwritingGenerator`) actually correct?**
+  _`StyleProfile` has 17 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 15 inferred relationships involving `StrokeRenderer` (e.g. with `GlyphRenderer` and `HandwritingGenerator`) actually correct?**
+  _`StrokeRenderer` has 15 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 9 inferred relationships involving `IAMDataset` (e.g. with `HandwritingTrainer` and `Training pipeline for the handwriting synthesis model.  Provides:   - Handwritin`) actually correct?**
+  _`IAMDataset` has 9 INFERRED edges - model-reasoned connections that need verification._

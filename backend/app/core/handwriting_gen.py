@@ -99,6 +99,7 @@ class HandwritingGenerator:
         font_size: int = 36,
         line_spacing: int = 60,
         ink_color: tuple[int, int, int] = (20, 20, 50),
+        session_id: str | None = None,
     ):
         self.profile = profile
         self.page_width = page_width
@@ -110,21 +111,76 @@ class HandwritingGenerator:
         self.font_size = font_size
         self.line_spacing = line_spacing
         self.ink_color = ink_color
+        self.session_id = session_id
 
         self.content_width = page_width - margin_left - margin_right
         self.content_height = page_height - margin_top - margin_bottom
 
         self.glyph_renderer = GlyphRenderer(profile)
 
+    def _has_ml_model(self) -> bool:
+        """Check if an ML model checkpoint is available."""
+        try:
+            from app.ml.inference import get_inference_engine
+            engine = get_inference_engine(
+                self._get_ml_checkpoint() if self.session_id else None
+            )
+            return engine.is_loaded()
+        except Exception:
+            return False
+
+    def _get_ml_checkpoint(self) -> Path | None:
+        """Get the ML checkpoint path for this session."""
+        if self.session_id:
+            user_ckpt = Path("app/ml/checkpoints") / self.session_id / "user_model.pt"
+            if user_ckpt.exists():
+                return user_ckpt
+        # Fall back to base model
+        base = Path("app/ml/checkpoints/best.pt")
+        return base if base.exists() else None
+
     def generate_pages(self, text: str) -> list[Image.Image]:
         """Generate handwriting pages from input text.
 
+        Priority: ML model > glyph-based > font fallback.
         Returns list of PIL Images, one per page.
         """
-        if self.glyph_renderer.has_glyphs():
+        if self._has_ml_model():
+            return self._generate_with_ml(text)
+        elif self.glyph_renderer.has_glyphs():
             return self._generate_with_glyphs(text)
         else:
             return self._generate_with_font(text)
+
+    # ─── ML-based rendering (best quality) ──────────
+    def _generate_with_ml(self, text: str) -> list[Image.Image]:
+        """Render text using the trained LSTM handwriting model."""
+        from app.ml.inference import get_inference_engine
+        from app.ml.stroke_renderer import StrokeRenderer
+
+        engine = get_inference_engine(self._get_ml_checkpoint())
+        renderer = StrokeRenderer(
+            width=self.page_width,
+            height=self.page_height,
+            margin_left=self.margin_left,
+            margin_right=self.margin_right,
+            margin_top=self.margin_top,
+            margin_bottom=self.margin_bottom,
+            ink_color=self.ink_color,
+            line_spacing=self.line_spacing,
+        )
+
+        # Split text into lines and generate strokes per line
+        lines = text.split("\n")
+        line_strokes = []
+        for line in lines:
+            if line.strip():
+                strokes = engine.generate(line.strip(), bias=0.8)
+                line_strokes.append(strokes)
+            else:
+                line_strokes.append(np.zeros((1, 3), dtype=np.float32))
+
+        return renderer.render_multiline(line_strokes, scale=5.0)
 
     # ─── Font-based rendering (fallback) ────────────
     def _generate_with_font(self, text: str) -> list[Image.Image]:
