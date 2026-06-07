@@ -1,12 +1,12 @@
 # Graph Report - C:\Users\misal\OneDrive\Documents\handwritocr  (2026-06-07)
 
 ## Corpus Check
-- 28 files · ~12,956 words
+- 53 files · ~18,704 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 38 nodes · 10 edges · 28 communities detected
-- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
+- 221 nodes · 283 edges · 53 communities detected
+- Extraction: 68% EXTRACTED · 32% INFERRED · 0% AMBIGUOUS · INFERRED: 90 edges (avg confidence: 0.64)
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
@@ -38,57 +38,101 @@
 - [[_COMMUNITY_Community 25|Community 25]]
 - [[_COMMUNITY_Community 26|Community 26]]
 - [[_COMMUNITY_Community 27|Community 27]]
+- [[_COMMUNITY_Community 28|Community 28]]
+- [[_COMMUNITY_Community 29|Community 29]]
+- [[_COMMUNITY_Community 30|Community 30]]
+- [[_COMMUNITY_Community 31|Community 31]]
+- [[_COMMUNITY_Community 32|Community 32]]
+- [[_COMMUNITY_Community 33|Community 33]]
+- [[_COMMUNITY_Community 34|Community 34]]
+- [[_COMMUNITY_Community 35|Community 35]]
+- [[_COMMUNITY_Community 36|Community 36]]
+- [[_COMMUNITY_Community 37|Community 37]]
+- [[_COMMUNITY_Community 38|Community 38]]
+- [[_COMMUNITY_Community 39|Community 39]]
+- [[_COMMUNITY_Community 40|Community 40]]
+- [[_COMMUNITY_Community 41|Community 41]]
+- [[_COMMUNITY_Community 42|Community 42]]
+- [[_COMMUNITY_Community 43|Community 43]]
+- [[_COMMUNITY_Community 44|Community 44]]
+- [[_COMMUNITY_Community 45|Community 45]]
+- [[_COMMUNITY_Community 46|Community 46]]
+- [[_COMMUNITY_Community 47|Community 47]]
+- [[_COMMUNITY_Community 48|Community 48]]
+- [[_COMMUNITY_Community 49|Community 49]]
+- [[_COMMUNITY_Community 50|Community 50]]
+- [[_COMMUNITY_Community 51|Community 51]]
+- [[_COMMUNITY_Community 52|Community 52]]
 
 ## God Nodes (most connected - your core abstractions)
+1. `StyleProfile` - 16 edges
+2. `run_generation_sync()` - 15 edges
+3. `HandwritingGenerator` - 12 edges
+4. `PDFGenerator` - 9 edges
+5. `StyleExtractor` - 9 edges
+6. `TaskStatus` - 9 edges
+7. `generate_handwriting()` - 8 edges
+8. `GlyphRenderer` - 8 edges
+9. `GenerateRequest` - 8 edges
+10. `GenerateResponse` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
-- None detected - all connections are within the same source files.
+- `_run_sync()` --calls--> `run_generation_sync()`  [INFERRED]
+  C:\Users\misal\OneDrive\Documents\handwritocr\backend\app\api\endpoints\generate.py → C:\Users\misal\OneDrive\Documents\handwritocr\backend\app\tasks\generation_task.py
+- `generate_handwriting()` --calls--> `get_session_sample_paths()`  [INFERRED]
+  C:\Users\misal\OneDrive\Documents\handwritocr\backend\app\api\endpoints\generate.py → C:\Users\misal\OneDrive\Documents\handwritocr\backend\app\storage\file_storage.py
+- `generate_handwriting()` --calls--> `generate_task_id()`  [INFERRED]
+  C:\Users\misal\OneDrive\Documents\handwritocr\backend\app\api\endpoints\generate.py → C:\Users\misal\OneDrive\Documents\handwritocr\backend\app\storage\file_storage.py
+- `get_task_status()` --calls--> `get_task_output_dir()`  [INFERRED]
+  C:\Users\misal\OneDrive\Documents\handwritocr\backend\app\api\endpoints\generate.py → C:\Users\misal\OneDrive\Documents\handwritocr\backend\app\storage\file_storage.py
+- `Health check endpoint.` --uses--> `HealthResponse`  [INFERRED]
+  C:\Users\misal\OneDrive\Documents\handwritocr\backend\app\api\endpoints\health.py → C:\Users\misal\OneDrive\Documents\handwritocr\backend\app\models\schemas.py
 
 ## Communities
 
 ### Community 0 - "Community 0"
-Cohesion: 1.0
-Nodes (0): 
+Cohesion: 0.12
+Nodes (17): _get_fallback_font(), GlyphRenderer, HandwritingGenerator, Handwriting generation engine.  Takes a style profile and input text, then gener, Generate handwriting pages from input text.          Returns list of PIL Images,, Render text using a handwriting font with procedural randomness., Render text using extracted glyph images with natural placement., Load a handwriting-style font for fallback rendering. (+9 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 1.0
-Nodes (0): 
+Cohesion: 0.2
+Nodes (22): BaseModel, Enum, generate_handwriting(), get_task_status(), Generate handwriting endpoint., Try to dispatch generation to Celery. Returns False if Celery unavailable., Run generation synchronously when Celery is unavailable., Start handwriting generation.      Submits a Celery task for async processing. I (+14 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 1.0
-Nodes (0): 
+Cohesion: 0.11
+Nodes (22): cleanup_session(), cleanup_task(), create_session(), create_task_output_dir(), generate_task_id(), get_output_file(), get_session_dir(), get_session_sample_paths() (+14 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 1.0
-Nodes (0): 
+Cohesion: 0.12
+Nodes (20): compute_slant_angle(), compute_stroke_width(), correct_skew(), cv2_to_pil(), load_and_preprocess(), pil_to_cv2(), Low-level image processing utilities using OpenCV and Pillow.  All heavy image o, Extract individual characters from a text line using connected components. (+12 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 1.0
-Nodes (0): 
+Cohesion: 0.2
+Nodes (12): generate_handwriting_task(), Celery task for handwriting generation.  Orchestrates the full pipeline:   1. Ex, Celery task wrapper for handwriting generation., Store task progress in Redis for WebSocket to read., Run the full generation pipeline synchronously.      This is used both by the Ce, run_generation_sync(), _update_progress(), PDFGenerator (+4 more)
 
 ### Community 5 - "Community 5"
-Cohesion: 1.0
-Nodes (0): 
+Cohesion: 0.17
+Nodes (11): Tests for the health endpoint., Root endpoint returns app info., Health endpoint returns ok status., Upload with no files returns 400., Generate with invalid session returns 404., Download nonexistent task returns 404., test_download_nonexistent(), test_generate_invalid_session() (+3 more)
 
 ### Community 6 - "Community 6"
-Cohesion: 1.0
-Nodes (0): 
+Cohesion: 0.2
+Nodes (4): BaseSettings, Application settings loaded from environment variables., Configuration for the HandwritOCR backend., Settings
 
 ### Community 7 - "Community 7"
-Cohesion: 1.0
-Nodes (0): 
+Cohesion: 0.2
+Nodes (8): download_file(), Download generated files endpoint., Download the generated handwriting file.      Args:         task_id: The generat, get_task_output_dir(), Get the output directory for a task., progress_websocket(), WebSocket endpoint for real-time generation progress updates., Stream generation progress updates to the client.      Reads task progress from
 
 ### Community 8 - "Community 8"
-Cohesion: 1.0
-Nodes (0): 
+Cohesion: 0.25
+Nodes (7): _draw_blank_paper(), _draw_grid_paper(), _draw_lined_paper(), Server-side PDF generation with notebook-style paper templates.  Uses ReportLab, Draw lined notebook paper with a red margin line., Draw grid/graph paper., Draw blank white paper.
 
 ### Community 9 - "Community 9"
-Cohesion: 1.0
-Nodes (0): 
+Cohesion: 0.33
+Nodes (3): HandwritOCR FastAPI Application.  Main entry point for the backend server., Ensure storage directories exist on startup., startup_event()
 
 ### Community 10 - "Community 10"
-Cohesion: 1.0
-Nodes (0): 
+Cohesion: 0.6
+Nodes (4): health_check(), Health check endpoint., Check the health of the API and its dependencies., HealthResponse
 
 ### Community 11 - "Community 11"
 Cohesion: 1.0
@@ -104,11 +148,11 @@ Nodes (0):
 
 ### Community 14 - "Community 14"
 Cohesion: 1.0
-Nodes (0): 
+Nodes (1): Main API router — aggregates all endpoint routers.
 
 ### Community 15 - "Community 15"
 Cohesion: 1.0
-Nodes (0): 
+Nodes (1): Celery application configuration.
 
 ### Community 16 - "Community 16"
 Cohesion: 1.0
@@ -156,65 +200,210 @@ Nodes (0):
 
 ### Community 27 - "Community 27"
 Cohesion: 1.0
+Nodes (1): Parse comma-separated CORS origins.
+
+### Community 28 - "Community 28"
+Cohesion: 1.0
+Nodes (1): Resolved storage directory path.
+
+### Community 29 - "Community 29"
+Cohesion: 1.0
+Nodes (1): Directory for uploaded samples.
+
+### Community 30 - "Community 30"
+Cohesion: 1.0
+Nodes (1): Directory for generated outputs.
+
+### Community 31 - "Community 31"
+Cohesion: 1.0
+Nodes (0): 
+
+### Community 32 - "Community 32"
+Cohesion: 1.0
+Nodes (0): 
+
+### Community 33 - "Community 33"
+Cohesion: 1.0
+Nodes (0): 
+
+### Community 34 - "Community 34"
+Cohesion: 1.0
+Nodes (0): 
+
+### Community 35 - "Community 35"
+Cohesion: 1.0
+Nodes (0): 
+
+### Community 36 - "Community 36"
+Cohesion: 1.0
+Nodes (0): 
+
+### Community 37 - "Community 37"
+Cohesion: 1.0
+Nodes (0): 
+
+### Community 38 - "Community 38"
+Cohesion: 1.0
+Nodes (0): 
+
+### Community 39 - "Community 39"
+Cohesion: 1.0
+Nodes (0): 
+
+### Community 40 - "Community 40"
+Cohesion: 1.0
+Nodes (0): 
+
+### Community 41 - "Community 41"
+Cohesion: 1.0
+Nodes (0): 
+
+### Community 42 - "Community 42"
+Cohesion: 1.0
+Nodes (0): 
+
+### Community 43 - "Community 43"
+Cohesion: 1.0
+Nodes (0): 
+
+### Community 44 - "Community 44"
+Cohesion: 1.0
+Nodes (0): 
+
+### Community 45 - "Community 45"
+Cohesion: 1.0
+Nodes (0): 
+
+### Community 46 - "Community 46"
+Cohesion: 1.0
+Nodes (0): 
+
+### Community 47 - "Community 47"
+Cohesion: 1.0
+Nodes (0): 
+
+### Community 48 - "Community 48"
+Cohesion: 1.0
+Nodes (0): 
+
+### Community 49 - "Community 49"
+Cohesion: 1.0
+Nodes (0): 
+
+### Community 50 - "Community 50"
+Cohesion: 1.0
+Nodes (0): 
+
+### Community 51 - "Community 51"
+Cohesion: 1.0
+Nodes (0): 
+
+### Community 52 - "Community 52"
+Cohesion: 1.0
 Nodes (0): 
 
 ## Knowledge Gaps
-- **Thin community `Community 0`** (2 nodes): `layout.tsx`, `RootLayout()`
+- **54 isolated node(s):** `Application settings loaded from environment variables.`, `Configuration for the HandwritOCR backend.`, `Parse comma-separated CORS origins.`, `Resolved storage directory path.`, `Directory for uploaded samples.` (+49 more)
+  These have ≤1 connection - possible missing edges or undocumented components.
+- **Thin community `Community 11`** (2 nodes): `layout.tsx`, `RootLayout()`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 1`** (2 nodes): `page.tsx`, `Home()`
+- **Thin community `Community 12`** (2 nodes): `page.tsx`, `Home()`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 2`** (2 nodes): `page.tsx`, `StepSkeleton()`
+- **Thin community `Community 13`** (2 nodes): `page.tsx`, `StepSkeleton()`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 3`** (2 nodes): `sample-uploader.tsx`, `resizeImage()`
+- **Thin community `Community 14`** (2 nodes): `router.py`, `Main API router — aggregates all endpoint routers.`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 4`** (2 nodes): `footer.tsx`, `FooterInner()`
+- **Thin community `Community 15`** (2 nodes): `celery_app.py`, `Celery application configuration.`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 5`** (2 nodes): `cn()`, `button.tsx`
+- **Thin community `Community 16`** (2 nodes): `sample-uploader.tsx`, `resizeImage()`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 6`** (2 nodes): `glass-card.tsx`, `GlassCardInner()`
+- **Thin community `Community 17`** (2 nodes): `footer.tsx`, `FooterInner()`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 7`** (2 nodes): `input.tsx`, `Input()`
+- **Thin community `Community 18`** (2 nodes): `cn()`, `button.tsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 8`** (2 nodes): `utils.ts`, `cn()`
+- **Thin community `Community 19`** (2 nodes): `glass-card.tsx`, `GlassCardInner()`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 9`** (2 nodes): `provider.tsx`, `StoreProvider()`
+- **Thin community `Community 20`** (2 nodes): `input.tsx`, `Input()`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 10`** (1 nodes): `eslint.config.mjs`
+- **Thin community `Community 21`** (2 nodes): `utils.ts`, `cn()`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 11`** (1 nodes): `next-env.d.ts`
+- **Thin community `Community 22`** (2 nodes): `provider.tsx`, `StoreProvider()`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 12`** (1 nodes): `next.config.ts`
+- **Thin community `Community 23`** (1 nodes): `eslint.config.mjs`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 13`** (1 nodes): `postcss.config.mjs`
+- **Thin community `Community 24`** (1 nodes): `next-env.d.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 14`** (1 nodes): `download-panel.tsx`
+- **Thin community `Community 25`** (1 nodes): `next.config.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 15`** (1 nodes): `drawing-canvas.tsx`
+- **Thin community `Community 26`** (1 nodes): `postcss.config.mjs`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 16`** (1 nodes): `preview-panel.tsx`
+- **Thin community `Community 27`** (1 nodes): `Parse comma-separated CORS origins.`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 17`** (1 nodes): `text-input.tsx`
+- **Thin community `Community 28`** (1 nodes): `Resolved storage directory path.`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 18`** (1 nodes): `navbar.tsx`
+- **Thin community `Community 29`** (1 nodes): `Directory for uploaded samples.`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 19`** (1 nodes): `animated-background.tsx`
+- **Thin community `Community 30`** (1 nodes): `Directory for generated outputs.`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 20`** (1 nodes): `glass-button.tsx`
+- **Thin community `Community 31`** (1 nodes): `__init__.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 21`** (1 nodes): `step-indicator.tsx`
+- **Thin community `Community 32`** (1 nodes): `__init__.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 22`** (1 nodes): `hooks.ts`
+- **Thin community `Community 33`** (1 nodes): `__init__.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 23`** (1 nodes): `index.ts`
+- **Thin community `Community 34`** (1 nodes): `__init__.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 24`** (1 nodes): `generationSlice.ts`
+- **Thin community `Community 35`** (1 nodes): `__init__.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 25`** (1 nodes): `samplesSlice.ts`
+- **Thin community `Community 36`** (1 nodes): `__init__.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 26`** (1 nodes): `textSlice.ts`
+- **Thin community `Community 37`** (1 nodes): `__init__.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 27`** (1 nodes): `uiSlice.ts`
+- **Thin community `Community 38`** (1 nodes): `__init__.py`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 39`** (1 nodes): `download-panel.tsx`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 40`** (1 nodes): `drawing-canvas.tsx`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 41`** (1 nodes): `preview-panel.tsx`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 42`** (1 nodes): `text-input.tsx`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 43`** (1 nodes): `navbar.tsx`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 44`** (1 nodes): `animated-background.tsx`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 45`** (1 nodes): `glass-button.tsx`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 46`** (1 nodes): `step-indicator.tsx`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 47`** (1 nodes): `hooks.ts`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 48`** (1 nodes): `index.ts`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 49`** (1 nodes): `generationSlice.ts`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 50`** (1 nodes): `samplesSlice.ts`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 51`** (1 nodes): `textSlice.ts`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 52`** (1 nodes): `uiSlice.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 
 ## Suggested Questions
-_Not enough signal to generate questions. This usually means the corpus has no AMBIGUOUS edges, no bridge nodes, no INFERRED relationships, and all communities are tightly cohesive. Add more files or run with --mode deep to extract richer edges._
+_Questions this graph is uniquely positioned to answer:_
+
+- **Why does `run_generation_sync()` connect `Community 4` to `Community 0`, `Community 1`, `Community 2`, `Community 3`?**
+  _High betweenness centrality (0.118) - this node is a cross-community bridge._
+- **Why does `PDFGenerator` connect `Community 4` to `Community 8`?**
+  _High betweenness centrality (0.056) - this node is a cross-community bridge._
+- **Why does `get_session_sample_paths()` connect `Community 2` to `Community 1`, `Community 4`?**
+  _High betweenness centrality (0.049) - this node is a cross-community bridge._
+- **Are the 11 inferred relationships involving `StyleProfile` (e.g. with `GlyphRenderer` and `HandwritingGenerator`) actually correct?**
+  _`StyleProfile` has 11 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 11 inferred relationships involving `run_generation_sync()` (e.g. with `_run_sync()` and `create_task_output_dir()`) actually correct?**
+  _`run_generation_sync()` has 11 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 10 inferred relationships involving `str` (e.g. with `progress_websocket()` and `download_file()`) actually correct?**
+  _`str` has 10 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 6 inferred relationships involving `HandwritingGenerator` (e.g. with `StyleProfile` and `Celery task for handwriting generation.  Orchestrates the full pipeline:   1. Ex`) actually correct?**
+  _`HandwritingGenerator` has 6 INFERRED edges - model-reasoned connections that need verification._
