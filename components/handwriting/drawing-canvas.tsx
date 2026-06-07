@@ -25,7 +25,7 @@ function DrawingCanvasInner() {
   const [brushSize, setBrushSize] = useState(2);
   const [strokes, setStrokes] = useState<Stroke[]>([]);
   const currentStrokeRef = useRef<Point[]>([]);
-  const animFrameRef = useRef<number>();
+  const animFrameRef = useRef<number>(0);
 
   // Resize canvas to match container
   const resizeCanvas = useCallback(() => {

@@ -25,7 +25,7 @@ function TextInputInner() {
   const paperStyle = useAppSelector((state) => state.text.paperStyle);
   const fontSize = useAppSelector((state) => state.text.fontSize);
   const lineSpacing = useAppSelector((state) => state.text.lineSpacing);
-  const debounceRef = useRef<ReturnType<typeof setTimeout>>();
+  const debounceRef = useRef<ReturnType<typeof setTimeout>>(null);
 
   // Debounced text update to Redux
   const handleTextChange = useCallback(
