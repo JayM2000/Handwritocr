@@ -13,8 +13,8 @@ function DownloadPanelInner() {
   const { content, paperStyle, fontSize, lineSpacing } = useAppSelector(
     (state) => state.text
   );
-  const generationStatus = useAppSelector(
-    (state) => state.generation.generationStatus
+  const { generationStatus, downloadUrl } = useAppSelector(
+    (state) => state.generation
   );
   const [format, setFormat] = useState<ExportFormat>("pdf");
   const [isDownloading, setIsDownloading] = useState(false);
@@ -27,6 +27,27 @@ function DownloadPanelInner() {
     setIsDownloaded(false);
 
     try {
+      // ─── Server-side download (preferred) ────────
+      if (downloadUrl) {
+        const url = downloadUrl.includes("?")
+          ? `${downloadUrl}&format=${format}`
+          : `${downloadUrl}?format=${format}`;
+        const res = await fetch(url);
+        if (res.ok) {
+          const blob = await res.blob();
+          const link = document.createElement("a");
+          link.href = URL.createObjectURL(blob);
+          link.download = `handwriting.${format}`;
+          link.click();
+          URL.revokeObjectURL(link.href);
+          setIsDownloaded(true);
+          setTimeout(() => setIsDownloaded(false), 3000);
+          return;
+        }
+        // If server download fails, fall back to client-side
+      }
+
+      // ─── Client-side fallback ────────────────────
       if (format === "pdf") {
         // Dynamic import for optimization — only load jspdf when needed
         const { jsPDF } = await import("jspdf");
@@ -171,7 +192,7 @@ function DownloadPanelInner() {
     } finally {
       setIsDownloading(false);
     }
-  }, [format, content, paperStyle, fontSize, lineSpacing, generationStatus]);
+  }, [format, content, paperStyle, fontSize, lineSpacing, generationStatus, downloadUrl]);
 
   const isReady = generationStatus === "succeeded";
 

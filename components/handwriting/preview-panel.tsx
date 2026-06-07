@@ -10,33 +10,35 @@ import { Sparkles, RefreshCw, ZoomIn, ZoomOut } from "lucide-react";
 
 function PreviewPanelInner() {
   const dispatch = useAppDispatch();
-  const samples = useAppSelector((state) => state.samples.samples);
+  const sessionId = useAppSelector((state) => state.samples.sessionId);
   const { content, paperStyle, fontSize, lineSpacing } = useAppSelector(
     (state) => state.text
   );
-  const { generationStatus, progress } = useAppSelector(
+  const { generationStatus, progress, progressStep } = useAppSelector(
     (state) => state.generation
   );
   const [zoom, setZoom] = React.useState(1);
 
   const handleGenerate = useCallback(() => {
+    if (!sessionId) return;
     dispatch(
       generateHandwriting({
-        samples,
+        sessionId,
         text: content,
         paperStyle,
         fontSize,
         lineSpacing,
       })
     );
-  }, [dispatch, samples, content, paperStyle, fontSize, lineSpacing]);
+  }, [dispatch, sessionId, content, paperStyle, fontSize, lineSpacing]);
 
   const handleRegenerate = useCallback(() => {
+    if (!sessionId) return;
     dispatch(resetGeneration());
     setTimeout(() => {
       dispatch(
         generateHandwriting({
-          samples,
+          sessionId,
           text: content,
           paperStyle,
           fontSize,
@@ -44,7 +46,7 @@ function PreviewPanelInner() {
         })
       );
     }, 100);
-  }, [dispatch, samples, content, paperStyle, fontSize, lineSpacing]);
+  }, [dispatch, sessionId, content, paperStyle, fontSize, lineSpacing]);
 
   // Split text into lines based on line spacing
   const textLines = useMemo(() => {
@@ -107,7 +109,7 @@ function PreviewPanelInner() {
       {isGenerating && (
         <div className="space-y-3">
           <div className="flex items-center justify-between">
-            <p className="text-xs text-white/50">Generating handwriting...</p>
+            <p className="text-xs text-white/50">{progressStep || "Generating handwriting..."}</p>
             <span className="text-xs text-white/40 font-mono">{progress}%</span>
           </div>
           <div className="h-1 w-full rounded-full bg-white/[0.06] overflow-hidden">

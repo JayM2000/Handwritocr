@@ -1,11 +1,11 @@
 # Graph Report - C:\Users\misal\OneDrive\Documents\handwritocr  (2026-06-07)
 
 ## Corpus Check
-- 53 files · ~18,704 words
+- 53 files · ~32,915 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 221 nodes · 283 edges · 53 communities detected
+- 222 nodes · 284 edges · 53 communities detected
 - Extraction: 68% EXTRACTED · 32% INFERRED · 0% AMBIGUOUS · INFERRED: 90 edges (avg confidence: 0.64)
 - Token cost: 0 input · 0 output
 
@@ -99,16 +99,16 @@ Cohesion: 0.2
 Nodes (22): BaseModel, Enum, generate_handwriting(), get_task_status(), Generate handwriting endpoint., Try to dispatch generation to Celery. Returns False if Celery unavailable., Run generation synchronously when Celery is unavailable., Start handwriting generation.      Submits a Celery task for async processing. I (+14 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.11
-Nodes (22): cleanup_session(), cleanup_task(), create_session(), create_task_output_dir(), generate_task_id(), get_output_file(), get_session_dir(), get_session_sample_paths() (+14 more)
+Cohesion: 0.12
+Nodes (20): cleanup_session(), cleanup_task(), create_session(), generate_task_id(), get_output_file(), get_session_dir(), get_session_sample_paths(), File storage management for uploads and generated outputs. (+12 more)
 
 ### Community 3 - "Community 3"
 Cohesion: 0.12
 Nodes (20): compute_slant_angle(), compute_stroke_width(), correct_skew(), cv2_to_pil(), load_and_preprocess(), pil_to_cv2(), Low-level image processing utilities using OpenCV and Pillow.  All heavy image o, Extract individual characters from a text line using connected components. (+12 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.2
-Nodes (12): generate_handwriting_task(), Celery task for handwriting generation.  Orchestrates the full pipeline:   1. Ex, Celery task wrapper for handwriting generation., Store task progress in Redis for WebSocket to read., Run the full generation pipeline synchronously.      This is used both by the Ce, run_generation_sync(), _update_progress(), PDFGenerator (+4 more)
+Cohesion: 0.17
+Nodes (14): create_task_output_dir(), Create an output directory for a generation task., generate_handwriting_task(), Celery task for handwriting generation.  Orchestrates the full pipeline:   1. Ex, Celery task wrapper for handwriting generation., Store task progress in Redis for WebSocket to read., Run the full generation pipeline synchronously.      This is used both by the Ce, run_generation_sync() (+6 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.17
@@ -200,23 +200,23 @@ Nodes (0):
 
 ### Community 27 - "Community 27"
 Cohesion: 1.0
-Nodes (1): Parse comma-separated CORS origins.
+Nodes (0): 
 
 ### Community 28 - "Community 28"
 Cohesion: 1.0
-Nodes (1): Resolved storage directory path.
+Nodes (1): Parse comma-separated CORS origins.
 
 ### Community 29 - "Community 29"
 Cohesion: 1.0
-Nodes (1): Directory for uploaded samples.
+Nodes (1): Resolved storage directory path.
 
 ### Community 30 - "Community 30"
 Cohesion: 1.0
-Nodes (1): Directory for generated outputs.
+Nodes (1): Directory for uploaded samples.
 
 ### Community 31 - "Community 31"
 Cohesion: 1.0
-Nodes (0): 
+Nodes (1): Directory for generated outputs.
 
 ### Community 32 - "Community 32"
 Cohesion: 1.0
@@ -329,23 +329,23 @@ Nodes (0):
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `Community 22`** (2 nodes): `provider.tsx`, `StoreProvider()`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 23`** (1 nodes): `eslint.config.mjs`
+- **Thin community `Community 23`** (2 nodes): `generationSlice.ts`, `pollForCompletion()`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 24`** (1 nodes): `next-env.d.ts`
+- **Thin community `Community 24`** (1 nodes): `eslint.config.mjs`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 25`** (1 nodes): `next.config.ts`
+- **Thin community `Community 25`** (1 nodes): `next-env.d.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 26`** (1 nodes): `postcss.config.mjs`
+- **Thin community `Community 26`** (1 nodes): `next.config.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 27`** (1 nodes): `Parse comma-separated CORS origins.`
+- **Thin community `Community 27`** (1 nodes): `postcss.config.mjs`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 28`** (1 nodes): `Resolved storage directory path.`
+- **Thin community `Community 28`** (1 nodes): `Parse comma-separated CORS origins.`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 29`** (1 nodes): `Directory for uploaded samples.`
+- **Thin community `Community 29`** (1 nodes): `Resolved storage directory path.`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 30`** (1 nodes): `Directory for generated outputs.`
+- **Thin community `Community 30`** (1 nodes): `Directory for uploaded samples.`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 31`** (1 nodes): `__init__.py`
+- **Thin community `Community 31`** (1 nodes): `Directory for generated outputs.`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `Community 32`** (1 nodes): `__init__.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
@@ -361,27 +361,27 @@ Nodes (0):
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `Community 38`** (1 nodes): `__init__.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 39`** (1 nodes): `download-panel.tsx`
+- **Thin community `Community 39`** (1 nodes): `__init__.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 40`** (1 nodes): `drawing-canvas.tsx`
+- **Thin community `Community 40`** (1 nodes): `download-panel.tsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 41`** (1 nodes): `preview-panel.tsx`
+- **Thin community `Community 41`** (1 nodes): `drawing-canvas.tsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 42`** (1 nodes): `text-input.tsx`
+- **Thin community `Community 42`** (1 nodes): `preview-panel.tsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 43`** (1 nodes): `navbar.tsx`
+- **Thin community `Community 43`** (1 nodes): `text-input.tsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 44`** (1 nodes): `animated-background.tsx`
+- **Thin community `Community 44`** (1 nodes): `navbar.tsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 45`** (1 nodes): `glass-button.tsx`
+- **Thin community `Community 45`** (1 nodes): `animated-background.tsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 46`** (1 nodes): `step-indicator.tsx`
+- **Thin community `Community 46`** (1 nodes): `glass-button.tsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 47`** (1 nodes): `hooks.ts`
+- **Thin community `Community 47`** (1 nodes): `step-indicator.tsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 48`** (1 nodes): `index.ts`
+- **Thin community `Community 48`** (1 nodes): `hooks.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 49`** (1 nodes): `generationSlice.ts`
+- **Thin community `Community 49`** (1 nodes): `index.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `Community 50`** (1 nodes): `samplesSlice.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
@@ -394,9 +394,9 @@ Nodes (0):
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `run_generation_sync()` connect `Community 4` to `Community 0`, `Community 1`, `Community 2`, `Community 3`?**
-  _High betweenness centrality (0.118) - this node is a cross-community bridge._
+  _High betweenness centrality (0.116) - this node is a cross-community bridge._
 - **Why does `PDFGenerator` connect `Community 4` to `Community 8`?**
-  _High betweenness centrality (0.056) - this node is a cross-community bridge._
+  _High betweenness centrality (0.055) - this node is a cross-community bridge._
 - **Why does `get_session_sample_paths()` connect `Community 2` to `Community 1`, `Community 4`?**
   _High betweenness centrality (0.049) - this node is a cross-community bridge._
 - **Are the 11 inferred relationships involving `StyleProfile` (e.g. with `GlyphRenderer` and `HandwritingGenerator`) actually correct?**

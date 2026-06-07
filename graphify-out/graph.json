@@ -9,7 +9,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\eslint.config.mjs",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_eslint_config_mjs",
-      "community": 23,
+      "community": 24,
       "norm_label": "eslint.config.mjs"
     },
     {
@@ -18,7 +18,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\next-env.d.ts",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_next_env_d_ts",
-      "community": 24,
+      "community": 25,
       "norm_label": "next-env.d.ts"
     },
     {
@@ -27,7 +27,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\next.config.ts",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_next_config_ts",
-      "community": 25,
+      "community": 26,
       "norm_label": "next.config.ts"
     },
     {
@@ -36,7 +36,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\postcss.config.mjs",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_postcss_config_mjs",
-      "community": 26,
+      "community": 27,
       "norm_label": "postcss.config.mjs"
     },
     {
@@ -170,54 +170,54 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\config.py",
       "source_location": "L1",
-      "id": "config_rationale_1",
       "community": 6,
-      "norm_label": "application settings loaded from environment variables."
+      "norm_label": "application settings loaded from environment variables.",
+      "id": "config_rationale_1"
     },
     {
       "label": "Configuration for the HandwritOCR backend.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\config.py",
       "source_location": "L8",
-      "id": "config_rationale_8",
       "community": 6,
-      "norm_label": "configuration for the handwritocr backend."
+      "norm_label": "configuration for the handwritocr backend.",
+      "id": "config_rationale_8"
     },
     {
       "label": "Parse comma-separated CORS origins.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\config.py",
       "source_location": "L40",
-      "id": "config_rationale_40",
-      "community": 27,
-      "norm_label": "parse comma-separated cors origins."
+      "community": 28,
+      "norm_label": "parse comma-separated cors origins.",
+      "id": "config_rationale_40"
     },
     {
       "label": "Resolved storage directory path.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\config.py",
       "source_location": "L45",
-      "id": "config_rationale_45",
-      "community": 28,
-      "norm_label": "resolved storage directory path."
+      "community": 29,
+      "norm_label": "resolved storage directory path.",
+      "id": "config_rationale_45"
     },
     {
       "label": "Directory for uploaded samples.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\config.py",
       "source_location": "L52",
-      "id": "config_rationale_52",
-      "community": 29,
-      "norm_label": "directory for uploaded samples."
+      "community": 30,
+      "norm_label": "directory for uploaded samples.",
+      "id": "config_rationale_52"
     },
     {
       "label": "Directory for generated outputs.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\config.py",
       "source_location": "L59",
-      "id": "config_rationale_59",
-      "community": 30,
-      "norm_label": "directory for generated outputs."
+      "community": 31,
+      "norm_label": "directory for generated outputs.",
+      "id": "config_rationale_59"
     },
     {
       "label": "main.py",
@@ -260,18 +260,18 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\main.py",
       "source_location": "L1",
-      "id": "main_rationale_1",
       "community": 9,
-      "norm_label": "handwritocr fastapi application.  main entry point for the backend server."
+      "norm_label": "handwritocr fastapi application.  main entry point for the backend server.",
+      "id": "main_rationale_1"
     },
     {
       "label": "Ensure storage directories exist on startup.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\main.py",
       "source_location": "L50",
-      "id": "main_rationale_50",
       "community": 9,
-      "norm_label": "ensure storage directories exist on startup."
+      "norm_label": "ensure storage directories exist on startup.",
+      "id": "main_rationale_50"
     },
     {
       "label": "__init__.py",
@@ -279,7 +279,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\__init__.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_init_py",
-      "community": 31,
+      "community": 32,
       "norm_label": "__init__.py"
     },
     {
@@ -296,9 +296,9 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\router.py",
       "source_location": "L1",
-      "id": "router_rationale_1",
       "community": 14,
-      "norm_label": "main api router \u2014 aggregates all endpoint routers."
+      "norm_label": "main api router \u2014 aggregates all endpoint routers.",
+      "id": "router_rationale_1"
     },
     {
       "label": "websocket.py",
@@ -323,18 +323,18 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\websocket.py",
       "source_location": "L1",
-      "id": "websocket_rationale_1",
       "community": 7,
-      "norm_label": "websocket endpoint for real-time generation progress updates."
+      "norm_label": "websocket endpoint for real-time generation progress updates.",
+      "id": "websocket_rationale_1"
     },
     {
       "label": "Stream generation progress updates to the client.      Reads task progress from",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\websocket.py",
       "source_location": "L17",
-      "id": "websocket_rationale_17",
       "community": 7,
-      "norm_label": "stream generation progress updates to the client.      reads task progress from"
+      "norm_label": "stream generation progress updates to the client.      reads task progress from",
+      "id": "websocket_rationale_17"
     },
     {
       "label": "__init__.py",
@@ -342,7 +342,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\__init__.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_api_init_py",
-      "community": 32,
+      "community": 33,
       "norm_label": "__init__.py"
     },
     {
@@ -368,18 +368,18 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\download.py",
       "source_location": "L1",
-      "id": "download_rationale_1",
       "community": 7,
-      "norm_label": "download generated files endpoint."
+      "norm_label": "download generated files endpoint.",
+      "id": "download_rationale_1"
     },
     {
       "label": "Download the generated handwriting file.      Args:         task_id: The generat",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\download.py",
       "source_location": "L18",
-      "id": "download_rationale_18",
       "community": 7,
-      "norm_label": "download the generated handwriting file.      args:         task_id: the generat"
+      "norm_label": "download the generated handwriting file.      args:         task_id: the generat",
+      "id": "download_rationale_18"
     },
     {
       "label": "generate.py",
@@ -431,45 +431,45 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\generate.py",
       "source_location": "L1",
-      "id": "generate_rationale_1",
       "community": 1,
-      "norm_label": "generate handwriting endpoint."
+      "norm_label": "generate handwriting endpoint.",
+      "id": "generate_rationale_1"
     },
     {
       "label": "Try to dispatch generation to Celery. Returns False if Celery unavailable.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\generate.py",
       "source_location": "L25",
-      "id": "generate_rationale_25",
       "community": 1,
-      "norm_label": "try to dispatch generation to celery. returns false if celery unavailable."
+      "norm_label": "try to dispatch generation to celery. returns false if celery unavailable.",
+      "id": "generate_rationale_25"
     },
     {
       "label": "Run generation synchronously when Celery is unavailable.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\generate.py",
       "source_location": "L40",
-      "id": "generate_rationale_40",
       "community": 1,
-      "norm_label": "run generation synchronously when celery is unavailable."
+      "norm_label": "run generation synchronously when celery is unavailable.",
+      "id": "generate_rationale_40"
     },
     {
       "label": "Start handwriting generation.      Submits a Celery task for async processing. I",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\generate.py",
       "source_location": "L48",
-      "id": "generate_rationale_48",
       "community": 1,
-      "norm_label": "start handwriting generation.      submits a celery task for async processing. i"
+      "norm_label": "start handwriting generation.      submits a celery task for async processing. i",
+      "id": "generate_rationale_48"
     },
     {
       "label": "Check the status of a generation task.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\generate.py",
       "source_location": "L93",
-      "id": "generate_rationale_93",
       "community": 1,
-      "norm_label": "check the status of a generation task."
+      "norm_label": "check the status of a generation task.",
+      "id": "generate_rationale_93"
     },
     {
       "label": "health.py",
@@ -494,18 +494,18 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\health.py",
       "source_location": "L1",
-      "id": "health_rationale_1",
       "community": 10,
-      "norm_label": "health check endpoint."
+      "norm_label": "health check endpoint.",
+      "id": "health_rationale_1"
     },
     {
       "label": "Check the health of the API and its dependencies.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\health.py",
       "source_location": "L11",
-      "id": "health_rationale_11",
       "community": 10,
-      "norm_label": "check the health of the api and its dependencies."
+      "norm_label": "check the health of the api and its dependencies.",
+      "id": "health_rationale_11"
     },
     {
       "label": "samples.py",
@@ -530,18 +530,18 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\samples.py",
       "source_location": "L1",
-      "id": "samples_rationale_1",
       "community": 2,
-      "norm_label": "sample upload endpoint."
+      "norm_label": "sample upload endpoint.",
+      "id": "samples_rationale_1"
     },
     {
       "label": "Upload handwriting sample images for style extraction.      Accepts PNG, JPG, We",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\samples.py",
       "source_location": "L22",
-      "id": "samples_rationale_22",
       "community": 2,
-      "norm_label": "upload handwriting sample images for style extraction.      accepts png, jpg, we"
+      "norm_label": "upload handwriting sample images for style extraction.      accepts png, jpg, we",
+      "id": "samples_rationale_22"
     },
     {
       "label": "__init__.py",
@@ -549,7 +549,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\api\\endpoints\\__init__.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_api_endpoints_init_py",
-      "community": 33,
+      "community": 34,
       "norm_label": "__init__.py"
     },
     {
@@ -665,81 +665,81 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L1",
-      "id": "handwriting_gen_rationale_1",
       "community": 0,
-      "norm_label": "handwriting generation engine.  takes a style profile and input text, then gener"
+      "norm_label": "handwriting generation engine.  takes a style profile and input text, then gener",
+      "id": "handwriting_gen_rationale_1"
     },
     {
       "label": "Load a handwriting-style font for fallback rendering.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L40",
-      "id": "handwriting_gen_rationale_40",
       "community": 0,
-      "norm_label": "load a handwriting-style font for fallback rendering."
+      "norm_label": "load a handwriting-style font for fallback rendering.",
+      "id": "handwriting_gen_rationale_40"
     },
     {
       "label": "Renders text using extracted glyph images with natural variation.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L58",
-      "id": "handwriting_gen_rationale_58",
       "community": 0,
-      "norm_label": "renders text using extracted glyph images with natural variation."
+      "norm_label": "renders text using extracted glyph images with natural variation.",
+      "id": "handwriting_gen_rationale_58"
     },
     {
       "label": "Load extracted glyph images from the style profile directory.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L66",
-      "id": "handwriting_gen_rationale_66",
       "community": 0,
-      "norm_label": "load extracted glyph images from the style profile directory."
+      "norm_label": "load extracted glyph images from the style profile directory.",
+      "id": "handwriting_gen_rationale_66"
     },
     {
       "label": "Return a random glyph image.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L82",
-      "id": "handwriting_gen_rationale_82",
       "community": 0,
-      "norm_label": "return a random glyph image."
+      "norm_label": "return a random glyph image.",
+      "id": "handwriting_gen_rationale_82"
     },
     {
       "label": "Generates handwriting images from text + style profile.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L88",
-      "id": "handwriting_gen_rationale_88",
       "community": 0,
-      "norm_label": "generates handwriting images from text + style profile."
+      "norm_label": "generates handwriting images from text + style profile.",
+      "id": "handwriting_gen_rationale_88"
     },
     {
       "label": "Generate handwriting pages from input text.          Returns list of PIL Images,",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L120",
-      "id": "handwriting_gen_rationale_120",
       "community": 0,
-      "norm_label": "generate handwriting pages from input text.          returns list of pil images,"
+      "norm_label": "generate handwriting pages from input text.          returns list of pil images,",
+      "id": "handwriting_gen_rationale_120"
     },
     {
       "label": "Render text using a handwriting font with procedural randomness.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L131",
-      "id": "handwriting_gen_rationale_131",
       "community": 0,
-      "norm_label": "render text using a handwriting font with procedural randomness."
+      "norm_label": "render text using a handwriting font with procedural randomness.",
+      "id": "handwriting_gen_rationale_131"
     },
     {
       "label": "Render text using extracted glyph images with natural placement.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\handwriting_gen.py",
       "source_location": "L215",
-      "id": "handwriting_gen_rationale_215",
       "community": 0,
-      "norm_label": "render text using extracted glyph images with natural placement."
+      "norm_label": "render text using extracted glyph images with natural placement.",
+      "id": "handwriting_gen_rationale_215"
     },
     {
       "label": "image_utils.py",
@@ -836,90 +836,90 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L1",
-      "id": "image_utils_rationale_1",
       "community": 3,
-      "norm_label": "low-level image processing utilities using opencv and pillow.  all heavy image o"
+      "norm_label": "low-level image processing utilities using opencv and pillow.  all heavy image o",
+      "id": "image_utils_rationale_1"
     },
     {
       "label": "Load an image and preprocess for handwriting analysis.      Returns a clean bina",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L16",
-      "id": "image_utils_rationale_16",
       "community": 3,
-      "norm_label": "load an image and preprocess for handwriting analysis.      returns a clean bina"
+      "norm_label": "load an image and preprocess for handwriting analysis.      returns a clean bina",
+      "id": "image_utils_rationale_16"
     },
     {
       "label": "Detect and correct page skew.      Returns the deskewed image and the detected a",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L40",
-      "id": "image_utils_rationale_40",
       "community": 3,
-      "norm_label": "detect and correct page skew.      returns the deskewed image and the detected a"
+      "norm_label": "detect and correct page skew.      returns the deskewed image and the detected a",
+      "id": "image_utils_rationale_40"
     },
     {
       "label": "Segment text lines using horizontal projection.      Returns list of (y_start, y",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L72",
-      "id": "image_utils_rationale_72",
       "community": 3,
-      "norm_label": "segment text lines using horizontal projection.      returns list of (y_start, y"
+      "norm_label": "segment text lines using horizontal projection.      returns list of (y_start, y",
+      "id": "image_utils_rationale_72"
     },
     {
       "label": "Extract individual characters from a text line using connected components.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L101",
-      "id": "image_utils_rationale_101",
       "community": 3,
-      "norm_label": "extract individual characters from a text line using connected components."
+      "norm_label": "extract individual characters from a text line using connected components.",
+      "id": "image_utils_rationale_101"
     },
     {
       "label": "Estimate average stroke width using distance transform.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L125",
-      "id": "image_utils_rationale_125",
       "community": 3,
-      "norm_label": "estimate average stroke width using distance transform."
+      "norm_label": "estimate average stroke width using distance transform.",
+      "id": "image_utils_rationale_125"
     },
     {
       "label": "Estimate the slant angle of handwriting in degrees.      Positive = right slant,",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L134",
-      "id": "image_utils_rationale_134",
       "community": 3,
-      "norm_label": "estimate the slant angle of handwriting in degrees.      positive = right slant,"
+      "norm_label": "estimate the slant angle of handwriting in degrees.      positive = right slant,",
+      "id": "image_utils_rationale_134"
     },
     {
       "label": "Resize a character image to a target height, preserving aspect ratio.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L154",
-      "id": "image_utils_rationale_154",
       "community": 3,
-      "norm_label": "resize a character image to a target height, preserving aspect ratio."
+      "norm_label": "resize a character image to a target height, preserving aspect ratio.",
+      "id": "image_utils_rationale_154"
     },
     {
       "label": "Convert PIL Image to OpenCV numpy array.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L164",
-      "id": "image_utils_rationale_164",
       "community": 3,
-      "norm_label": "convert pil image to opencv numpy array."
+      "norm_label": "convert pil image to opencv numpy array.",
+      "id": "image_utils_rationale_164"
     },
     {
       "label": "Convert OpenCV numpy array to PIL Image.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\image_utils.py",
       "source_location": "L169",
-      "id": "image_utils_rationale_169",
       "community": 3,
-      "norm_label": "convert opencv numpy array to pil image."
+      "norm_label": "convert opencv numpy array to pil image.",
+      "id": "image_utils_rationale_169"
     },
     {
       "label": "pdf_generator.py",
@@ -989,54 +989,54 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\pdf_generator.py",
       "source_location": "L1",
-      "id": "pdf_generator_rationale_1",
       "community": 8,
-      "norm_label": "server-side pdf generation with notebook-style paper templates.  uses reportlab"
+      "norm_label": "server-side pdf generation with notebook-style paper templates.  uses reportlab",
+      "id": "pdf_generator_rationale_1"
     },
     {
       "label": "Draw lined notebook paper with a red margin line.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\pdf_generator.py",
       "source_location": "L40",
-      "id": "pdf_generator_rationale_40",
       "community": 8,
-      "norm_label": "draw lined notebook paper with a red margin line."
+      "norm_label": "draw lined notebook paper with a red margin line.",
+      "id": "pdf_generator_rationale_40"
     },
     {
       "label": "Draw grid/graph paper.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\pdf_generator.py",
       "source_location": "L70",
-      "id": "pdf_generator_rationale_70",
       "community": 8,
-      "norm_label": "draw grid/graph paper."
+      "norm_label": "draw grid/graph paper.",
+      "id": "pdf_generator_rationale_70"
     },
     {
       "label": "Draw blank white paper.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\pdf_generator.py",
       "source_location": "L97",
-      "id": "pdf_generator_rationale_97",
       "community": 8,
-      "norm_label": "draw blank white paper."
+      "norm_label": "draw blank white paper.",
+      "id": "pdf_generator_rationale_97"
     },
     {
       "label": "Generates notebook-style PDFs from handwriting page images.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\pdf_generator.py",
       "source_location": "L112",
-      "id": "pdf_generator_rationale_112",
       "community": 4,
-      "norm_label": "generates notebook-style pdfs from handwriting page images."
+      "norm_label": "generates notebook-style pdfs from handwriting page images.",
+      "id": "pdf_generator_rationale_112"
     },
     {
       "label": "Compose handwriting images onto notebook paper and save as PDF.          Args:",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\pdf_generator.py",
       "source_location": "L132",
-      "id": "pdf_generator_rationale_132",
       "community": 4,
-      "norm_label": "compose handwriting images onto notebook paper and save as pdf.          args:"
+      "norm_label": "compose handwriting images onto notebook paper and save as pdf.          args:",
+      "id": "pdf_generator_rationale_132"
     },
     {
       "label": "style_extractor.py",
@@ -1124,45 +1124,45 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\style_extractor.py",
       "source_location": "L1",
-      "id": "style_extractor_rationale_1",
       "community": 0,
-      "norm_label": "handwriting style extraction from sample images.  analyses uploaded handwriting"
+      "norm_label": "handwriting style extraction from sample images.  analyses uploaded handwriting",
+      "id": "style_extractor_rationale_1"
     },
     {
       "label": "Metrics for a single extracted character.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\style_extractor.py",
       "source_location": "L37",
-      "id": "style_extractor_rationale_37",
       "community": 0,
-      "norm_label": "metrics for a single extracted character."
+      "norm_label": "metrics for a single extracted character.",
+      "id": "style_extractor_rationale_37"
     },
     {
       "label": "Complete handwriting style profile extracted from samples.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\style_extractor.py",
       "source_location": "L47",
-      "id": "style_extractor_rationale_47",
       "community": 0,
-      "norm_label": "complete handwriting style profile extracted from samples."
+      "norm_label": "complete handwriting style profile extracted from samples.",
+      "id": "style_extractor_rationale_47"
     },
     {
       "label": "Extracts handwriting style from sample images.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\style_extractor.py",
       "source_location": "L88",
-      "id": "style_extractor_rationale_88",
       "community": 4,
-      "norm_label": "extracts handwriting style from sample images."
+      "norm_label": "extracts handwriting style from sample images.",
+      "id": "style_extractor_rationale_88"
     },
     {
       "label": "Analyse multiple handwriting samples and build a style profile.          Args:",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\style_extractor.py",
       "source_location": "L98",
-      "id": "style_extractor_rationale_98",
       "community": 3,
-      "norm_label": "analyse multiple handwriting samples and build a style profile.          args:"
+      "norm_label": "analyse multiple handwriting samples and build a style profile.          args:",
+      "id": "style_extractor_rationale_98"
     },
     {
       "label": "__init__.py",
@@ -1170,7 +1170,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\__init__.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_core_init_py",
-      "community": 34,
+      "community": 35,
       "norm_label": "__init__.py"
     },
     {
@@ -1304,27 +1304,27 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\models\\schemas.py",
       "source_location": "L1",
-      "id": "schemas_rationale_1",
       "community": 1,
-      "norm_label": "pydantic schemas for api request/response models."
+      "norm_label": "pydantic schemas for api request/response models.",
+      "id": "schemas_rationale_1"
     },
     {
       "label": "Request body for POST /api/generate.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\models\\schemas.py",
       "source_location": "L30",
-      "id": "schemas_rationale_30",
       "community": 1,
-      "norm_label": "request body for post /api/generate."
+      "norm_label": "request body for post /api/generate.",
+      "id": "schemas_rationale_30"
     },
     {
       "label": "WebSocket progress message format.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\models\\schemas.py",
       "source_location": "L78",
-      "id": "schemas_rationale_78",
       "community": 1,
-      "norm_label": "websocket progress message format."
+      "norm_label": "websocket progress message format.",
+      "id": "schemas_rationale_78"
     },
     {
       "label": "__init__.py",
@@ -1332,7 +1332,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\models\\__init__.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_models_init_py",
-      "community": 35,
+      "community": 36,
       "norm_label": "__init__.py"
     },
     {
@@ -1377,7 +1377,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L38",
       "id": "file_storage_create_task_output_dir",
-      "community": 2,
+      "community": 4,
       "norm_label": "create_task_output_dir()"
     },
     {
@@ -1430,90 +1430,90 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L1",
-      "id": "file_storage_rationale_1",
       "community": 2,
-      "norm_label": "file storage management for uploads and generated outputs."
+      "norm_label": "file storage management for uploads and generated outputs.",
+      "id": "file_storage_rationale_1"
     },
     {
       "label": "Create a new upload session and return its ID.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L13",
-      "id": "file_storage_rationale_13",
       "community": 2,
-      "norm_label": "create a new upload session and return its id."
+      "norm_label": "create a new upload session and return its id.",
+      "id": "file_storage_rationale_13"
     },
     {
       "label": "Get the upload directory for a session.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L21",
-      "id": "file_storage_rationale_21",
       "community": 2,
-      "norm_label": "get the upload directory for a session."
+      "norm_label": "get the upload directory for a session.",
+      "id": "file_storage_rationale_21"
     },
     {
       "label": "List all sample image paths in a session.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L29",
-      "id": "file_storage_rationale_29",
       "community": 2,
-      "norm_label": "list all sample image paths in a session."
+      "norm_label": "list all sample image paths in a session.",
+      "id": "file_storage_rationale_29"
     },
     {
       "label": "Create an output directory for a generation task.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L39",
-      "id": "file_storage_rationale_39",
-      "community": 2,
-      "norm_label": "create an output directory for a generation task."
+      "community": 4,
+      "norm_label": "create an output directory for a generation task.",
+      "id": "file_storage_rationale_39"
     },
     {
       "label": "Get the output directory for a task.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L46",
-      "id": "file_storage_rationale_46",
       "community": 7,
-      "norm_label": "get the output directory for a task."
+      "norm_label": "get the output directory for a task.",
+      "id": "file_storage_rationale_46"
     },
     {
       "label": "Get a specific output file for a task.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L54",
-      "id": "file_storage_rationale_54",
       "community": 2,
-      "norm_label": "get a specific output file for a task."
+      "norm_label": "get a specific output file for a task.",
+      "id": "file_storage_rationale_54"
     },
     {
       "label": "Remove a session's uploaded files.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L62",
-      "id": "file_storage_rationale_62",
       "community": 2,
-      "norm_label": "remove a session's uploaded files."
+      "norm_label": "remove a session's uploaded files.",
+      "id": "file_storage_rationale_62"
     },
     {
       "label": "Remove a task's output files.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L69",
-      "id": "file_storage_rationale_69",
       "community": 2,
-      "norm_label": "remove a task's output files."
+      "norm_label": "remove a task's output files.",
+      "id": "file_storage_rationale_69"
     },
     {
       "label": "Generate a unique task ID.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L76",
-      "id": "file_storage_rationale_76",
       "community": 2,
-      "norm_label": "generate a unique task id."
+      "norm_label": "generate a unique task id.",
+      "id": "file_storage_rationale_76"
     },
     {
       "label": "__init__.py",
@@ -1521,7 +1521,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\__init__.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_storage_init_py",
-      "community": 36,
+      "community": 37,
       "norm_label": "__init__.py"
     },
     {
@@ -1538,9 +1538,9 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\celery_app.py",
       "source_location": "L1",
-      "id": "celery_app_rationale_1",
       "community": 15,
-      "norm_label": "celery application configuration."
+      "norm_label": "celery application configuration.",
+      "id": "celery_app_rationale_1"
     },
     {
       "label": "generation_task.py",
@@ -1583,36 +1583,36 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L1",
-      "id": "generation_task_rationale_1",
       "community": 4,
-      "norm_label": "celery task for handwriting generation.  orchestrates the full pipeline:   1. ex"
+      "norm_label": "celery task for handwriting generation.  orchestrates the full pipeline:   1. ex",
+      "id": "generation_task_rationale_1"
     },
     {
       "label": "Store task progress in Redis for WebSocket to read.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L28",
-      "id": "generation_task_rationale_28",
       "community": 4,
-      "norm_label": "store task progress in redis for websocket to read."
+      "norm_label": "store task progress in redis for websocket to read.",
+      "id": "generation_task_rationale_28"
     },
     {
       "label": "Run the full generation pipeline synchronously.      This is used both by the Ce",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L48",
-      "id": "generation_task_rationale_48",
       "community": 4,
-      "norm_label": "run the full generation pipeline synchronously.      this is used both by the ce"
+      "norm_label": "run the full generation pipeline synchronously.      this is used both by the ce",
+      "id": "generation_task_rationale_48"
     },
     {
       "label": "Celery task wrapper for handwriting generation.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L157",
-      "id": "generation_task_rationale_157",
       "community": 4,
-      "norm_label": "celery task wrapper for handwriting generation."
+      "norm_label": "celery task wrapper for handwriting generation.",
+      "id": "generation_task_rationale_157"
     },
     {
       "label": "__init__.py",
@@ -1620,7 +1620,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\__init__.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_app_tasks_init_py",
-      "community": 37,
+      "community": 38,
       "norm_label": "__init__.py"
     },
     {
@@ -1682,54 +1682,54 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\tests\\test_health.py",
       "source_location": "L1",
-      "id": "test_health_rationale_1",
       "community": 5,
-      "norm_label": "tests for the health endpoint."
+      "norm_label": "tests for the health endpoint.",
+      "id": "test_health_rationale_1"
     },
     {
       "label": "Root endpoint returns app info.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\tests\\test_health.py",
       "source_location": "L10",
-      "id": "test_health_rationale_10",
       "community": 5,
-      "norm_label": "root endpoint returns app info."
+      "norm_label": "root endpoint returns app info.",
+      "id": "test_health_rationale_10"
     },
     {
       "label": "Health endpoint returns ok status.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\tests\\test_health.py",
       "source_location": "L19",
-      "id": "test_health_rationale_19",
       "community": 5,
-      "norm_label": "health endpoint returns ok status."
+      "norm_label": "health endpoint returns ok status.",
+      "id": "test_health_rationale_19"
     },
     {
       "label": "Upload with no files returns 400.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\tests\\test_health.py",
       "source_location": "L29",
-      "id": "test_health_rationale_29",
       "community": 5,
-      "norm_label": "upload with no files returns 400."
+      "norm_label": "upload with no files returns 400.",
+      "id": "test_health_rationale_29"
     },
     {
       "label": "Generate with invalid session returns 404.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\tests\\test_health.py",
       "source_location": "L35",
-      "id": "test_health_rationale_35",
       "community": 5,
-      "norm_label": "generate with invalid session returns 404."
+      "norm_label": "generate with invalid session returns 404.",
+      "id": "test_health_rationale_35"
     },
     {
       "label": "Download nonexistent task returns 404.",
       "file_type": "rationale",
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\tests\\test_health.py",
       "source_location": "L47",
-      "id": "test_health_rationale_47",
       "community": 5,
-      "norm_label": "download nonexistent task returns 404."
+      "norm_label": "download nonexistent task returns 404.",
+      "id": "test_health_rationale_47"
     },
     {
       "label": "__init__.py",
@@ -1737,7 +1737,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\tests\\__init__.py",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_backend_tests_init_py",
-      "community": 38,
+      "community": 39,
       "norm_label": "__init__.py"
     },
     {
@@ -1746,7 +1746,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\handwriting\\download-panel.tsx",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_components_handwriting_download_panel_tsx",
-      "community": 39,
+      "community": 40,
       "norm_label": "download-panel.tsx"
     },
     {
@@ -1755,7 +1755,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\handwriting\\drawing-canvas.tsx",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_components_handwriting_drawing_canvas_tsx",
-      "community": 40,
+      "community": 41,
       "norm_label": "drawing-canvas.tsx"
     },
     {
@@ -1764,7 +1764,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\handwriting\\preview-panel.tsx",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_components_handwriting_preview_panel_tsx",
-      "community": 41,
+      "community": 42,
       "norm_label": "preview-panel.tsx"
     },
     {
@@ -1791,7 +1791,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\handwriting\\text-input.tsx",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_components_handwriting_text_input_tsx",
-      "community": 42,
+      "community": 43,
       "norm_label": "text-input.tsx"
     },
     {
@@ -1818,7 +1818,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\layout\\navbar.tsx",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_components_layout_navbar_tsx",
-      "community": 43,
+      "community": 44,
       "norm_label": "navbar.tsx"
     },
     {
@@ -1827,7 +1827,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\ui\\animated-background.tsx",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_components_ui_animated_background_tsx",
-      "community": 44,
+      "community": 45,
       "norm_label": "animated-background.tsx"
     },
     {
@@ -1854,7 +1854,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\ui\\glass-button.tsx",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_components_ui_glass_button_tsx",
-      "community": 45,
+      "community": 46,
       "norm_label": "glass-button.tsx"
     },
     {
@@ -1899,7 +1899,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\components\\ui\\step-indicator.tsx",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_components_ui_step_indicator_tsx",
-      "community": 46,
+      "community": 47,
       "norm_label": "step-indicator.tsx"
     },
     {
@@ -1926,7 +1926,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\store\\hooks.ts",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_store_hooks_ts",
-      "community": 47,
+      "community": 48,
       "norm_label": "hooks.ts"
     },
     {
@@ -1935,7 +1935,7 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\store\\index.ts",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_store_index_ts",
-      "community": 48,
+      "community": 49,
       "norm_label": "index.ts"
     },
     {
@@ -1962,8 +1962,17 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\store\\slices\\generationSlice.ts",
       "source_location": "L1",
       "id": "c_users_misal_onedrive_documents_handwritocr_store_slices_generationslice_ts",
-      "community": 49,
+      "community": 23,
       "norm_label": "generationslice.ts"
+    },
+    {
+      "label": "pollForCompletion()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\store\\slices\\generationSlice.ts",
+      "source_location": "L120",
+      "id": "generationslice_pollforcompletion",
+      "community": 23,
+      "norm_label": "pollforcompletion()"
     },
     {
       "label": "samplesSlice.ts",
@@ -2566,9 +2575,9 @@
       "weight": 0.8,
       "_src": "generate_rationale_1",
       "_tgt": "schemas_generaterequest",
+      "confidence_score": 0.5,
       "source": "generate_rationale_1",
-      "target": "schemas_generaterequest",
-      "confidence_score": 0.5
+      "target": "schemas_generaterequest"
     },
     {
       "relation": "uses",
@@ -2578,9 +2587,9 @@
       "weight": 0.8,
       "_src": "generate_rationale_1",
       "_tgt": "schemas_generateresponse",
+      "confidence_score": 0.5,
       "source": "generate_rationale_1",
-      "target": "schemas_generateresponse",
-      "confidence_score": 0.5
+      "target": "schemas_generateresponse"
     },
     {
       "relation": "uses",
@@ -2590,9 +2599,9 @@
       "weight": 0.8,
       "_src": "generate_rationale_1",
       "_tgt": "schemas_taskstatus",
+      "confidence_score": 0.5,
       "source": "generate_rationale_1",
-      "target": "schemas_taskstatus",
-      "confidence_score": 0.5
+      "target": "schemas_taskstatus"
     },
     {
       "relation": "uses",
@@ -2602,9 +2611,9 @@
       "weight": 0.8,
       "_src": "generate_rationale_1",
       "_tgt": "schemas_taskstatusresponse",
+      "confidence_score": 0.5,
       "source": "generate_rationale_1",
-      "target": "schemas_taskstatusresponse",
-      "confidence_score": 0.5
+      "target": "schemas_taskstatusresponse"
     },
     {
       "relation": "uses",
@@ -2614,9 +2623,9 @@
       "weight": 0.8,
       "_src": "generate_rationale_25",
       "_tgt": "schemas_generaterequest",
+      "confidence_score": 0.5,
       "source": "generate_rationale_25",
-      "target": "schemas_generaterequest",
-      "confidence_score": 0.5
+      "target": "schemas_generaterequest"
     },
     {
       "relation": "uses",
@@ -2626,9 +2635,9 @@
       "weight": 0.8,
       "_src": "generate_rationale_25",
       "_tgt": "schemas_generateresponse",
+      "confidence_score": 0.5,
       "source": "generate_rationale_25",
-      "target": "schemas_generateresponse",
-      "confidence_score": 0.5
+      "target": "schemas_generateresponse"
     },
     {
       "relation": "uses",
@@ -2638,9 +2647,9 @@
       "weight": 0.8,
       "_src": "generate_rationale_25",
       "_tgt": "schemas_taskstatus",
+      "confidence_score": 0.5,
       "source": "generate_rationale_25",
-      "target": "schemas_taskstatus",
-      "confidence_score": 0.5
+      "target": "schemas_taskstatus"
     },
     {
       "relation": "uses",
@@ -2650,9 +2659,9 @@
       "weight": 0.8,
       "_src": "generate_rationale_25",
       "_tgt": "schemas_taskstatusresponse",
+      "confidence_score": 0.5,
       "source": "generate_rationale_25",
-      "target": "schemas_taskstatusresponse",
-      "confidence_score": 0.5
+      "target": "schemas_taskstatusresponse"
     },
     {
       "relation": "uses",
@@ -2662,9 +2671,9 @@
       "weight": 0.8,
       "_src": "generate_rationale_40",
       "_tgt": "schemas_generaterequest",
+      "confidence_score": 0.5,
       "source": "generate_rationale_40",
-      "target": "schemas_generaterequest",
-      "confidence_score": 0.5
+      "target": "schemas_generaterequest"
     },
     {
       "relation": "uses",
@@ -2674,9 +2683,9 @@
       "weight": 0.8,
       "_src": "generate_rationale_40",
       "_tgt": "schemas_generateresponse",
+      "confidence_score": 0.5,
       "source": "generate_rationale_40",
-      "target": "schemas_generateresponse",
-      "confidence_score": 0.5
+      "target": "schemas_generateresponse"
     },
     {
       "relation": "uses",
@@ -2686,9 +2695,9 @@
       "weight": 0.8,
       "_src": "generate_rationale_40",
       "_tgt": "schemas_taskstatus",
+      "confidence_score": 0.5,
       "source": "generate_rationale_40",
-      "target": "schemas_taskstatus",
-      "confidence_score": 0.5
+      "target": "schemas_taskstatus"
     },
     {
       "relation": "uses",
@@ -2698,9 +2707,9 @@
       "weight": 0.8,
       "_src": "generate_rationale_40",
       "_tgt": "schemas_taskstatusresponse",
+      "confidence_score": 0.5,
       "source": "generate_rationale_40",
-      "target": "schemas_taskstatusresponse",
-      "confidence_score": 0.5
+      "target": "schemas_taskstatusresponse"
     },
     {
       "relation": "uses",
@@ -2710,9 +2719,9 @@
       "weight": 0.8,
       "_src": "generate_rationale_48",
       "_tgt": "schemas_generaterequest",
+      "confidence_score": 0.5,
       "source": "generate_rationale_48",
-      "target": "schemas_generaterequest",
-      "confidence_score": 0.5
+      "target": "schemas_generaterequest"
     },
     {
       "relation": "uses",
@@ -2722,9 +2731,9 @@
       "weight": 0.8,
       "_src": "generate_rationale_48",
       "_tgt": "schemas_generateresponse",
+      "confidence_score": 0.5,
       "source": "generate_rationale_48",
-      "target": "schemas_generateresponse",
-      "confidence_score": 0.5
+      "target": "schemas_generateresponse"
     },
     {
       "relation": "uses",
@@ -2734,9 +2743,9 @@
       "weight": 0.8,
       "_src": "generate_rationale_48",
       "_tgt": "schemas_taskstatus",
+      "confidence_score": 0.5,
       "source": "generate_rationale_48",
-      "target": "schemas_taskstatus",
-      "confidence_score": 0.5
+      "target": "schemas_taskstatus"
     },
     {
       "relation": "uses",
@@ -2746,9 +2755,9 @@
       "weight": 0.8,
       "_src": "generate_rationale_48",
       "_tgt": "schemas_taskstatusresponse",
+      "confidence_score": 0.5,
       "source": "generate_rationale_48",
-      "target": "schemas_taskstatusresponse",
-      "confidence_score": 0.5
+      "target": "schemas_taskstatusresponse"
     },
     {
       "relation": "uses",
@@ -2758,9 +2767,9 @@
       "weight": 0.8,
       "_src": "generate_rationale_93",
       "_tgt": "schemas_generaterequest",
+      "confidence_score": 0.5,
       "source": "generate_rationale_93",
-      "target": "schemas_generaterequest",
-      "confidence_score": 0.5
+      "target": "schemas_generaterequest"
     },
     {
       "relation": "uses",
@@ -2770,9 +2779,9 @@
       "weight": 0.8,
       "_src": "generate_rationale_93",
       "_tgt": "schemas_generateresponse",
+      "confidence_score": 0.5,
       "source": "generate_rationale_93",
-      "target": "schemas_generateresponse",
-      "confidence_score": 0.5
+      "target": "schemas_generateresponse"
     },
     {
       "relation": "uses",
@@ -2782,9 +2791,9 @@
       "weight": 0.8,
       "_src": "generate_rationale_93",
       "_tgt": "schemas_taskstatus",
+      "confidence_score": 0.5,
       "source": "generate_rationale_93",
-      "target": "schemas_taskstatus",
-      "confidence_score": 0.5
+      "target": "schemas_taskstatus"
     },
     {
       "relation": "uses",
@@ -2794,9 +2803,9 @@
       "weight": 0.8,
       "_src": "generate_rationale_93",
       "_tgt": "schemas_taskstatusresponse",
+      "confidence_score": 0.5,
       "source": "generate_rationale_93",
-      "target": "schemas_taskstatusresponse",
-      "confidence_score": 0.5
+      "target": "schemas_taskstatusresponse"
     },
     {
       "relation": "contains",
@@ -2854,9 +2863,9 @@
       "weight": 0.8,
       "_src": "health_rationale_1",
       "_tgt": "schemas_healthresponse",
+      "confidence_score": 0.5,
       "source": "health_rationale_1",
-      "target": "schemas_healthresponse",
-      "confidence_score": 0.5
+      "target": "schemas_healthresponse"
     },
     {
       "relation": "uses",
@@ -2866,9 +2875,9 @@
       "weight": 0.8,
       "_src": "health_rationale_11",
       "_tgt": "schemas_healthresponse",
+      "confidence_score": 0.5,
       "source": "health_rationale_11",
-      "target": "schemas_healthresponse",
-      "confidence_score": 0.5
+      "target": "schemas_healthresponse"
     },
     {
       "relation": "contains",
@@ -2962,9 +2971,9 @@
       "weight": 0.8,
       "_src": "samples_rationale_1",
       "_tgt": "schemas_uploadresponse",
+      "confidence_score": 0.5,
       "source": "samples_rationale_1",
-      "target": "schemas_uploadresponse",
-      "confidence_score": 0.5
+      "target": "schemas_uploadresponse"
     },
     {
       "relation": "uses",
@@ -2974,9 +2983,9 @@
       "weight": 0.8,
       "_src": "samples_rationale_1",
       "_tgt": "schemas_sampleinfo",
+      "confidence_score": 0.5,
       "source": "samples_rationale_1",
-      "target": "schemas_sampleinfo",
-      "confidence_score": 0.5
+      "target": "schemas_sampleinfo"
     },
     {
       "relation": "uses",
@@ -2986,9 +2995,9 @@
       "weight": 0.8,
       "_src": "samples_rationale_22",
       "_tgt": "schemas_uploadresponse",
+      "confidence_score": 0.5,
       "source": "samples_rationale_22",
-      "target": "schemas_uploadresponse",
-      "confidence_score": 0.5
+      "target": "schemas_uploadresponse"
     },
     {
       "relation": "uses",
@@ -2998,9 +3007,9 @@
       "weight": 0.8,
       "_src": "samples_rationale_22",
       "_tgt": "schemas_sampleinfo",
+      "confidence_score": 0.5,
       "source": "samples_rationale_22",
-      "target": "schemas_sampleinfo",
-      "confidence_score": 0.5
+      "target": "schemas_sampleinfo"
     },
     {
       "relation": "imports_from",
@@ -3178,9 +3187,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_glyphrenderer",
       "_tgt": "style_extractor_styleprofile",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_glyphrenderer",
-      "target": "style_extractor_styleprofile",
-      "confidence_score": 0.5
+      "target": "style_extractor_styleprofile"
     },
     {
       "relation": "calls",
@@ -3322,9 +3331,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_handwritinggenerator",
       "_tgt": "style_extractor_styleprofile",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_handwritinggenerator",
-      "target": "style_extractor_styleprofile",
-      "confidence_score": 0.5
+      "target": "style_extractor_styleprofile"
     },
     {
       "relation": "uses",
@@ -3332,11 +3341,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L60",
       "weight": 0.8,
-      "_src": "generation_task_rationale_1",
-      "_tgt": "handwriting_gen_handwritinggenerator",
+      "_src": "handwriting_gen_handwritinggenerator",
+      "_tgt": "generation_task_rationale_1",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_handwritinggenerator",
-      "target": "generation_task_rationale_1",
-      "confidence_score": 0.5
+      "target": "generation_task_rationale_1"
     },
     {
       "relation": "uses",
@@ -3344,11 +3353,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L60",
       "weight": 0.8,
-      "_src": "generation_task_rationale_28",
-      "_tgt": "handwriting_gen_handwritinggenerator",
+      "_src": "handwriting_gen_handwritinggenerator",
+      "_tgt": "generation_task_rationale_28",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_handwritinggenerator",
-      "target": "generation_task_rationale_28",
-      "confidence_score": 0.5
+      "target": "generation_task_rationale_28"
     },
     {
       "relation": "uses",
@@ -3356,11 +3365,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L60",
       "weight": 0.8,
-      "_src": "generation_task_rationale_48",
-      "_tgt": "handwriting_gen_handwritinggenerator",
+      "_src": "handwriting_gen_handwritinggenerator",
+      "_tgt": "generation_task_rationale_48",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_handwritinggenerator",
-      "target": "generation_task_rationale_48",
-      "confidence_score": 0.5
+      "target": "generation_task_rationale_48"
     },
     {
       "relation": "uses",
@@ -3368,11 +3377,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L60",
       "weight": 0.8,
-      "_src": "generation_task_rationale_157",
-      "_tgt": "handwriting_gen_handwritinggenerator",
+      "_src": "handwriting_gen_handwritinggenerator",
+      "_tgt": "generation_task_rationale_157",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_handwritinggenerator",
-      "target": "generation_task_rationale_157",
-      "confidence_score": 0.5
+      "target": "generation_task_rationale_157"
     },
     {
       "relation": "calls",
@@ -3381,8 +3390,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L94",
       "weight": 1.0,
-      "_src": "generation_task_run_generation_sync",
-      "_tgt": "handwriting_gen_handwritinggenerator",
+      "_src": "handwriting_gen_handwritinggenerator",
+      "_tgt": "generation_task_run_generation_sync",
       "source": "handwriting_gen_handwritinggenerator",
       "target": "generation_task_run_generation_sync"
     },
@@ -3429,8 +3438,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L100",
       "weight": 1.0,
-      "_src": "generation_task_run_generation_sync",
-      "_tgt": "handwriting_gen_handwritinggenerator_generate_pages",
+      "_src": "handwriting_gen_handwritinggenerator_generate_pages",
+      "_tgt": "generation_task_run_generation_sync",
       "source": "handwriting_gen_handwritinggenerator_generate_pages",
       "target": "generation_task_run_generation_sync"
     },
@@ -3466,9 +3475,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_1",
       "_tgt": "style_extractor_styleprofile",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_1",
-      "target": "style_extractor_styleprofile",
-      "confidence_score": 0.5
+      "target": "style_extractor_styleprofile"
     },
     {
       "relation": "uses",
@@ -3478,9 +3487,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_40",
       "_tgt": "style_extractor_styleprofile",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_40",
-      "target": "style_extractor_styleprofile",
-      "confidence_score": 0.5
+      "target": "style_extractor_styleprofile"
     },
     {
       "relation": "uses",
@@ -3490,9 +3499,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_58",
       "_tgt": "style_extractor_styleprofile",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_58",
-      "target": "style_extractor_styleprofile",
-      "confidence_score": 0.5
+      "target": "style_extractor_styleprofile"
     },
     {
       "relation": "uses",
@@ -3502,9 +3511,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_66",
       "_tgt": "style_extractor_styleprofile",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_66",
-      "target": "style_extractor_styleprofile",
-      "confidence_score": 0.5
+      "target": "style_extractor_styleprofile"
     },
     {
       "relation": "uses",
@@ -3514,9 +3523,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_82",
       "_tgt": "style_extractor_styleprofile",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_82",
-      "target": "style_extractor_styleprofile",
-      "confidence_score": 0.5
+      "target": "style_extractor_styleprofile"
     },
     {
       "relation": "uses",
@@ -3526,9 +3535,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_88",
       "_tgt": "style_extractor_styleprofile",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_88",
-      "target": "style_extractor_styleprofile",
-      "confidence_score": 0.5
+      "target": "style_extractor_styleprofile"
     },
     {
       "relation": "uses",
@@ -3538,9 +3547,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_120",
       "_tgt": "style_extractor_styleprofile",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_120",
-      "target": "style_extractor_styleprofile",
-      "confidence_score": 0.5
+      "target": "style_extractor_styleprofile"
     },
     {
       "relation": "uses",
@@ -3550,9 +3559,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_131",
       "_tgt": "style_extractor_styleprofile",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_131",
-      "target": "style_extractor_styleprofile",
-      "confidence_score": 0.5
+      "target": "style_extractor_styleprofile"
     },
     {
       "relation": "uses",
@@ -3562,9 +3571,9 @@
       "weight": 0.8,
       "_src": "handwriting_gen_rationale_215",
       "_tgt": "style_extractor_styleprofile",
+      "confidence_score": 0.5,
       "source": "handwriting_gen_rationale_215",
-      "target": "style_extractor_styleprofile",
-      "confidence_score": 0.5
+      "target": "style_extractor_styleprofile"
     },
     {
       "relation": "contains",
@@ -3717,8 +3726,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\style_extractor.py",
       "source_location": "L121",
       "weight": 1.0,
-      "_src": "style_extractor_styleextractor_extract",
-      "_tgt": "image_utils_load_and_preprocess",
+      "_src": "image_utils_load_and_preprocess",
+      "_tgt": "style_extractor_styleextractor_extract",
       "source": "image_utils_load_and_preprocess",
       "target": "style_extractor_styleextractor_extract"
     },
@@ -3741,8 +3750,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\style_extractor.py",
       "source_location": "L122",
       "weight": 1.0,
-      "_src": "style_extractor_styleextractor_extract",
-      "_tgt": "image_utils_correct_skew",
+      "_src": "image_utils_correct_skew",
+      "_tgt": "style_extractor_styleextractor_extract",
       "source": "image_utils_correct_skew",
       "target": "style_extractor_styleextractor_extract"
     },
@@ -3765,8 +3774,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\style_extractor.py",
       "source_location": "L135",
       "weight": 1.0,
-      "_src": "style_extractor_styleextractor_extract",
-      "_tgt": "image_utils_segment_lines",
+      "_src": "image_utils_segment_lines",
+      "_tgt": "style_extractor_styleextractor_extract",
       "source": "image_utils_segment_lines",
       "target": "style_extractor_styleextractor_extract"
     },
@@ -3789,8 +3798,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\style_extractor.py",
       "source_location": "L146",
       "weight": 1.0,
-      "_src": "style_extractor_styleextractor_extract",
-      "_tgt": "image_utils_segment_characters",
+      "_src": "image_utils_segment_characters",
+      "_tgt": "style_extractor_styleextractor_extract",
       "source": "image_utils_segment_characters",
       "target": "style_extractor_styleextractor_extract"
     },
@@ -3813,8 +3822,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\style_extractor.py",
       "source_location": "L131",
       "weight": 1.0,
-      "_src": "style_extractor_styleextractor_extract",
-      "_tgt": "image_utils_compute_stroke_width",
+      "_src": "image_utils_compute_stroke_width",
+      "_tgt": "style_extractor_styleextractor_extract",
       "source": "image_utils_compute_stroke_width",
       "target": "style_extractor_styleextractor_extract"
     },
@@ -3837,8 +3846,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\style_extractor.py",
       "source_location": "L128",
       "weight": 1.0,
-      "_src": "style_extractor_styleextractor_extract",
-      "_tgt": "image_utils_compute_slant_angle",
+      "_src": "image_utils_compute_slant_angle",
+      "_tgt": "style_extractor_styleextractor_extract",
       "source": "image_utils_compute_slant_angle",
       "target": "style_extractor_styleextractor_extract"
     },
@@ -3861,8 +3870,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\core\\style_extractor.py",
       "source_location": "L159",
       "weight": 1.0,
-      "_src": "style_extractor_styleextractor_extract",
-      "_tgt": "image_utils_resize_char_to_height",
+      "_src": "image_utils_resize_char_to_height",
+      "_tgt": "style_extractor_styleextractor_extract",
       "source": "image_utils_resize_char_to_height",
       "target": "style_extractor_styleextractor_extract"
     },
@@ -4028,11 +4037,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L61",
       "weight": 0.8,
-      "_src": "generation_task_rationale_1",
-      "_tgt": "pdf_generator_pdfgenerator",
+      "_src": "pdf_generator_pdfgenerator",
+      "_tgt": "generation_task_rationale_1",
+      "confidence_score": 0.5,
       "source": "pdf_generator_pdfgenerator",
-      "target": "generation_task_rationale_1",
-      "confidence_score": 0.5
+      "target": "generation_task_rationale_1"
     },
     {
       "relation": "uses",
@@ -4040,11 +4049,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L61",
       "weight": 0.8,
-      "_src": "generation_task_rationale_28",
-      "_tgt": "pdf_generator_pdfgenerator",
+      "_src": "pdf_generator_pdfgenerator",
+      "_tgt": "generation_task_rationale_28",
+      "confidence_score": 0.5,
       "source": "pdf_generator_pdfgenerator",
-      "target": "generation_task_rationale_28",
-      "confidence_score": 0.5
+      "target": "generation_task_rationale_28"
     },
     {
       "relation": "uses",
@@ -4052,11 +4061,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L61",
       "weight": 0.8,
-      "_src": "generation_task_rationale_48",
-      "_tgt": "pdf_generator_pdfgenerator",
+      "_src": "pdf_generator_pdfgenerator",
+      "_tgt": "generation_task_rationale_48",
+      "confidence_score": 0.5,
       "source": "pdf_generator_pdfgenerator",
-      "target": "generation_task_rationale_48",
-      "confidence_score": 0.5
+      "target": "generation_task_rationale_48"
     },
     {
       "relation": "uses",
@@ -4064,11 +4073,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L61",
       "weight": 0.8,
-      "_src": "generation_task_rationale_157",
-      "_tgt": "pdf_generator_pdfgenerator",
+      "_src": "pdf_generator_pdfgenerator",
+      "_tgt": "generation_task_rationale_157",
+      "confidence_score": 0.5,
       "source": "pdf_generator_pdfgenerator",
-      "target": "generation_task_rationale_157",
-      "confidence_score": 0.5
+      "target": "generation_task_rationale_157"
     },
     {
       "relation": "calls",
@@ -4077,8 +4086,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L130",
       "weight": 1.0,
-      "_src": "generation_task_run_generation_sync",
-      "_tgt": "pdf_generator_pdfgenerator",
+      "_src": "pdf_generator_pdfgenerator",
+      "_tgt": "generation_task_run_generation_sync",
       "source": "pdf_generator_pdfgenerator",
       "target": "generation_task_run_generation_sync"
     },
@@ -4125,8 +4134,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L135",
       "weight": 1.0,
-      "_src": "generation_task_run_generation_sync",
-      "_tgt": "pdf_generator_pdfgenerator_generate",
+      "_src": "pdf_generator_pdfgenerator_generate",
+      "_tgt": "generation_task_run_generation_sync",
       "source": "pdf_generator_pdfgenerator_generate",
       "target": "generation_task_run_generation_sync"
     },
@@ -4281,8 +4290,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L117",
       "weight": 1.0,
-      "_src": "generation_task_run_generation_sync",
-      "_tgt": "style_extractor_styleprofile_save",
+      "_src": "style_extractor_styleprofile_save",
+      "_tgt": "generation_task_run_generation_sync",
       "source": "style_extractor_styleprofile_save",
       "target": "generation_task_run_generation_sync"
     },
@@ -4328,11 +4337,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L59",
       "weight": 0.8,
-      "_src": "generation_task_rationale_1",
-      "_tgt": "style_extractor_styleextractor",
+      "_src": "style_extractor_styleextractor",
+      "_tgt": "generation_task_rationale_1",
+      "confidence_score": 0.5,
       "source": "style_extractor_styleextractor",
-      "target": "generation_task_rationale_1",
-      "confidence_score": 0.5
+      "target": "generation_task_rationale_1"
     },
     {
       "relation": "uses",
@@ -4340,11 +4349,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L59",
       "weight": 0.8,
-      "_src": "generation_task_rationale_28",
-      "_tgt": "style_extractor_styleextractor",
+      "_src": "style_extractor_styleextractor",
+      "_tgt": "generation_task_rationale_28",
+      "confidence_score": 0.5,
       "source": "style_extractor_styleextractor",
-      "target": "generation_task_rationale_28",
-      "confidence_score": 0.5
+      "target": "generation_task_rationale_28"
     },
     {
       "relation": "uses",
@@ -4352,11 +4361,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L59",
       "weight": 0.8,
-      "_src": "generation_task_rationale_48",
-      "_tgt": "style_extractor_styleextractor",
+      "_src": "style_extractor_styleextractor",
+      "_tgt": "generation_task_rationale_48",
+      "confidence_score": 0.5,
       "source": "style_extractor_styleextractor",
-      "target": "generation_task_rationale_48",
-      "confidence_score": 0.5
+      "target": "generation_task_rationale_48"
     },
     {
       "relation": "uses",
@@ -4364,11 +4373,11 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L59",
       "weight": 0.8,
-      "_src": "generation_task_rationale_157",
-      "_tgt": "style_extractor_styleextractor",
+      "_src": "style_extractor_styleextractor",
+      "_tgt": "generation_task_rationale_157",
+      "confidence_score": 0.5,
       "source": "style_extractor_styleextractor",
-      "target": "generation_task_rationale_157",
-      "confidence_score": 0.5
+      "target": "generation_task_rationale_157"
     },
     {
       "relation": "calls",
@@ -4377,8 +4386,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L81",
       "weight": 1.0,
-      "_src": "generation_task_run_generation_sync",
-      "_tgt": "style_extractor_styleextractor",
+      "_src": "style_extractor_styleextractor",
+      "_tgt": "generation_task_run_generation_sync",
       "source": "style_extractor_styleextractor",
       "target": "generation_task_run_generation_sync"
     },
@@ -4413,8 +4422,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L82",
       "weight": 1.0,
-      "_src": "generation_task_run_generation_sync",
-      "_tgt": "style_extractor_styleextractor_extract",
+      "_src": "style_extractor_styleextractor_extract",
+      "_tgt": "generation_task_run_generation_sync",
       "source": "style_extractor_styleextractor_extract",
       "target": "generation_task_run_generation_sync"
     },
@@ -4617,8 +4626,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\storage\\file_storage.py",
       "source_location": "L33",
       "weight": 1.0,
-      "_src": "file_storage_get_session_sample_paths",
-      "_tgt": "str",
+      "_src": "str",
+      "_tgt": "file_storage_get_session_sample_paths",
       "source": "str",
       "target": "file_storage_get_session_sample_paths"
     },
@@ -4629,8 +4638,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L117",
       "weight": 1.0,
-      "_src": "generation_task_run_generation_sync",
-      "_tgt": "str",
+      "_src": "str",
+      "_tgt": "generation_task_run_generation_sync",
       "source": "str",
       "target": "generation_task_run_generation_sync"
     },
@@ -4641,8 +4650,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L160",
       "weight": 1.0,
-      "_src": "generation_task_generate_handwriting_task",
-      "_tgt": "str",
+      "_src": "str",
+      "_tgt": "generation_task_generate_handwriting_task",
       "source": "str",
       "target": "generation_task_generate_handwriting_task"
     },
@@ -4953,8 +4962,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L78",
       "weight": 1.0,
-      "_src": "generation_task_run_generation_sync",
-      "_tgt": "file_storage_get_session_sample_paths",
+      "_src": "file_storage_get_session_sample_paths",
+      "_tgt": "generation_task_run_generation_sync",
       "source": "file_storage_get_session_sample_paths",
       "target": "generation_task_run_generation_sync"
     },
@@ -4977,8 +4986,8 @@
       "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\backend\\app\\tasks\\generation_task.py",
       "source_location": "L74",
       "weight": 1.0,
-      "_src": "generation_task_run_generation_sync",
-      "_tgt": "file_storage_create_task_output_dir",
+      "_src": "file_storage_create_task_output_dir",
+      "_tgt": "generation_task_run_generation_sync",
       "source": "file_storage_create_task_output_dir",
       "target": "generation_task_run_generation_sync"
     },
@@ -5388,6 +5397,18 @@
       "_tgt": "provider_storeprovider",
       "source": "c_users_misal_onedrive_documents_handwritocr_store_provider_tsx",
       "target": "provider_storeprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\misal\\OneDrive\\Documents\\handwritocr\\store\\slices\\generationSlice.ts",
+      "source_location": "L120",
+      "weight": 1.0,
+      "_src": "c_users_misal_onedrive_documents_handwritocr_store_slices_generationslice_ts",
+      "_tgt": "generationslice_pollforcompletion",
+      "source": "c_users_misal_onedrive_documents_handwritocr_store_slices_generationslice_ts",
+      "target": "generationslice_pollforcompletion",
       "confidence_score": 1.0
     }
   ],
